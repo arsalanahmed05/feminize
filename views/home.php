@@ -87,7 +87,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h1><ruby>
-                        <a href="" class="typewrite" data-period="2000" data-type='[ "Web Designs", "Web Development", "Logo Design", "UI/UX Designer" ]'>
+                        <a href="" class="typewrite" data-period="2000" data-type='[ "Web Designs", "Web Development", "Logo Design", "Content Writing" ]'>
                             <span class="wrap"></span>
                         </a>
                     </ruby>
@@ -102,7 +102,7 @@
             <div id="main-row" class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h5 class="sub-heading"><i class="fa-solid fa-globe"></i><span>About us</span></h5>
+                         <span>About us</span></h5>
                         <h2>Your <ruby>experience</ruby> is <ruby>everything</ruby></h2>
                         <p>We are committed to ensuring every interaction leaves a lasting impression. From start to finish, our focus is on delivering excellence tailored to your needs, making every moment seamless and memorable.</p>
                         <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing guidance, or simply being there when you need us, we're here to make your journey exceptional.</p>
@@ -299,7 +299,7 @@
             <div class="row">
                 <div class="col-md-5 left-section">
                     <div class="left-sec-content-wrapper">
-                        <h6 class="sub-heading"><i class="fa-solid fa-globe"></i><span>Our Steps</span></h6>
+                        <h6 class="sub-heading"><span>Our Steps</span></h6>
                         <h2>Digital<ruby> marketing</ruby> <ruby>services</ruby> that<br> help you <ruby>grow</ruby>.</h2>
                         <p>We all know that nothing moves until someone makes a decision.<br> The first action is always in
                             making the decision to proceed. which<br> most people overlook, we don’t do it intentionally or
@@ -373,7 +373,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="headingstyle1 text-center">
-                        <h6 class="sub-heading"><i class="fa-solid fa-globe"></i><span>our portfolio</span></h6>
+                        <h6 class="sub-heading"><span>our portfolio</span></h6>
                         <h2>Take a look at <ruby>our portfolio</ruby> to have<br> a taste of <ruby>true
                                 creativity</ruby></h2>
                     </div>
@@ -481,8 +481,7 @@
                             </div>
                         </li>
                     </ul>
-
-                    <ul class="portfolio-slider">
+                    <ul class="portfolio-slider-reverse">
                         <li>
                             <div class="portfolio-item">
                                 <a data-fancybox="videoanimation" href="/assets/images/port1.png">
@@ -729,17 +728,26 @@
                 </div>
                 <ul class="nav nav-tabs" id="myTabs" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="Monthly-tab" data-bs-toggle="tab" href="#Monthly" role="tab" aria-controls="Monthly" aria-selected="true">Monthly</a>
+                        <a class="nav-link active" id="WebDevelopment-tab" data-bs-toggle="tab" href="#WebDevelopment" role="tab" aria-controls="WebDevelopment" aria-selected="true">Web Development</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="Yearly-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="Yearly" aria-selected="false">Yearly</a>
+                        <a class="nav-link" id="logodesigning-tab" data-bs-toggle="tab" href="#logodesigning" role="tab" aria-controls="logodesigning" aria-selected="false">Logo Designing</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="SEO-tab" data-bs-toggle="tab" href="#SEO" role="tab" aria-controls="SEO" aria-selected="false">SEO</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="SSM-tab" data-bs-toggle="tab" href="#SSM" role="tab" aria-controls="SSM" aria-selected="false">SSM</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contentwriting-tab" data-bs-toggle="tab" href="#contentwriting" role="tab" aria-controls="contentwriting" aria-selected="false">Content Writing</a>
                     </li>
                 </ul>
 
                 <!-- Tabs Content -->
                 <div class="tab-content mt-3" id="myTabContent">
                     <!-- Tab 1 Content -->
-                    <div class="tab-pane fade show active" id="" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="tab-pane fade show active" id="WebDevelopment" role="tabpanel" aria-labelledby="WebDevelopment-tab">
                         <div class="plan-monthly-slider">
                             <div class="plan-item">
                                 <div class="plan-title">
@@ -864,7 +872,259 @@
                     </div>
 
                     <!-- Tab 2 Content -->
-                    <div class="tab-pane fade" id="Yearly" role="tabpanel" aria-labelledby="Yearly-tab">
+                    <div class="tab-pane fade" id="logodesigning" role="tabpanel" aria-labelledby="logodesigning-tab">
+                        <div class="plan-monthly-slider">
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Logo Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Logo Design Package</li>
+                                    <li>2 rounds of revisions</li>
+                                    <li>Branding color palette creation</li>
+                                    <li>Delivery in various file formats</li>
+                                </ul>
+                                <h6>$600<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Basic Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>custom homepage (5 Pages)</li>
+                                    <li>Mobile-responsive layout</li>
+                                    <li>Basic SEO optimization</li>
+                                    <li>Contact form integration</li>
+                                    <li>1 round of revisions</li>
+                                </ul>
+                                <h6>$1,200<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Premium Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>custom homepage (10 Pages)</li>
+                                    <li>Mobile & tablet responsiveness</li>
+                                    <li>Advanced SEO</li>
+                                    <li>Custom animations and transitions</li>
+                                    <li>Custom animations and transitions</li>
+                                    <li>Social media integration</li>
+                                </ul>
+                                <h6>$2,500<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Starter Development <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Full-stack development</li>
+                                    <li>CMS setup and customization</li>
+                                    <li>E-commerce integration</li>
+                                    <li>Performance optimization</li>
+                                    <li>Performance optimization and revisions</li>
+                                </ul>
+                                <h6>$2,500<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Basic Maintenance <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Monthly content updates</li>
+                                    <li>Basic security monitoring</li>
+                                    <li>Plugin updates (for CMS)</li>
+                                    <li>Backup setup and maintenance</li>
+                                </ul>
+                                <h6>$400<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="SEO" role="tabpanel" aria-labelledby="SEO">
+                        <div class="plan-monthly-slider">
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Logo Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Logo Design Package</li>
+                                    <li>2 rounds of revisions</li>
+                                    <li>Branding color palette creation</li>
+                                    <li>Delivery in various file formats</li>
+                                </ul>
+                                <h6>$600<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Basic Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>custom homepage (5 Pages)</li>
+                                    <li>Mobile-responsive layout</li>
+                                    <li>Basic SEO optimization</li>
+                                    <li>Contact form integration</li>
+                                    <li>1 round of revisions</li>
+                                </ul>
+                                <h6>$1,200<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Premium Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>custom homepage (10 Pages)</li>
+                                    <li>Mobile & tablet responsiveness</li>
+                                    <li>Advanced SEO</li>
+                                    <li>Custom animations and transitions</li>
+                                    <li>Custom animations and transitions</li>
+                                    <li>Social media integration</li>
+                                </ul>
+                                <h6>$2,500<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Starter Development <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Full-stack development</li>
+                                    <li>CMS setup and customization</li>
+                                    <li>E-commerce integration</li>
+                                    <li>Performance optimization</li>
+                                    <li>Performance optimization and revisions</li>
+                                </ul>
+                                <h6>$2,500<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Basic Maintenance <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Monthly content updates</li>
+                                    <li>Basic security monitoring</li>
+                                    <li>Plugin updates (for CMS)</li>
+                                    <li>Backup setup and maintenance</li>
+                                </ul>
+                                <h6>$400<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="SSM" role="tabpanel" aria-labelledby="SSM-tab">
+                        <div class="plan-monthly-slider">
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Logo Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Logo Design Package</li>
+                                    <li>2 rounds of revisions</li>
+                                    <li>Branding color palette creation</li>
+                                    <li>Delivery in various file formats</li>
+                                </ul>
+                                <h6>$600<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Basic Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>custom homepage (5 Pages)</li>
+                                    <li>Mobile-responsive layout</li>
+                                    <li>Basic SEO optimization</li>
+                                    <li>Contact form integration</li>
+                                    <li>1 round of revisions</li>
+                                </ul>
+                                <h6>$1,200<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Premium Design <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>custom homepage (10 Pages)</li>
+                                    <li>Mobile & tablet responsiveness</li>
+                                    <li>Advanced SEO</li>
+                                    <li>Custom animations and transitions</li>
+                                    <li>Custom animations and transitions</li>
+                                    <li>Social media integration</li>
+                                </ul>
+                                <h6>$2,500<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Starter Development <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Full-stack development</li>
+                                    <li>CMS setup and customization</li>
+                                    <li>E-commerce integration</li>
+                                    <li>Performance optimization</li>
+                                    <li>Performance optimization and revisions</li>
+                                </ul>
+                                <h6>$2,500<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                            <div class="plan-item">
+                                <div class="plan-title">
+                                    <h4>Basic Maintenance <br>Package</h4>
+                                </div>
+                                <ul class="plan-list">
+                                    <li>Monthly content updates</li>
+                                    <li>Basic security monitoring</li>
+                                    <li>Plugin updates (for CMS)</li>
+                                    <li>Backup setup and maintenance</li>
+                                </ul>
+                                <h6>$400<span>/Month</span></h6>
+                                <div class="addplan">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#planModal1">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="contentwriting" role="tabpanel" aria-labelledby="contentwriting-tab">
                         <div class="plan-monthly-slider">
                             <div class="plan-item">
                                 <div class="plan-title">
@@ -956,12 +1216,54 @@
 
 
 
+    <section id="parallex-banner">
+        <video autoplay loop muted playsinline id="home-video">
+            <source src="/assets/images/parallex-banner.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="row">
+                <div id="inner-row-top" class="row">
+                    <div class="col-md-6">
+                        <div class="text-wrapper">
+                            <h2><ruby>Empowering Brands</ruby> with Impactful <ruby>Design</ruby></h2>
+                            <p>At Feminize Digitals, we believe that every brand deserves a digital identity that tells its story. We don’t just design websites—we empower businesses to thrive online. By combining creativity, strategy, and technology, we create web experiences that not only look stunning but also drive engagement and growth.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="stack">
+                            <div class="brand-goal">
+                                <h4>Purposeful Design</h4>
+                                <p>We design with intent, ensuring every design decision supports your brand’s story and goals.</p>
+                            </div>
+                            <div class="brand-goal">
+                                <h4>Results-Oriented</h4>
+                                <p>We focus on creating websites that deliver tangible results, improving user experience and driving business growth.</p>
+                            </div>
+                            <div class="brand-goal">
+                                <h4>Sustainability</h4>
+                                <p>We’re committed to building long-lasting solutions that adapt to the ever-changing digital landscape.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="inner-row-top" class="row">
+                    <div class="section-note">
+                        <h5>Our Commitment:</h5>
+                        <p>Our commitment goes beyond just designing websites—we’re dedicated to creating digital experiences that help brands reach their full potential, inspire their audience, and stand the test of time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <section id="faqs">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
                     <div class="section-title">
-                        <h5 class="sub-heading"><i class="fa-solid fa-globe"></i><span>FAQs</span></h5>
+                         <span>FAQs</span></h5>
                         <h2>Navigate <ruby>Digital Growth</ruby><br> with Answers</h2>
                     </div>
                     <div class="accordion" id="accordionExample">

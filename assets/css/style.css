@@ -13,6 +13,7 @@ h4 {
     font-family: "Russo One" !important;
     color: #fff;
     text-transform: capitalize;
+
 }
 .dropdown-logo {
     width: 30%;
@@ -678,8 +679,9 @@ button.btn-close {
 }
 
 ul.dropdown-menu.show {
-    background: #010204;
+    background: #050cd5;
     color: #fff;
+    transition: 0.5s;
 }
 
 
@@ -920,7 +922,6 @@ ul.dropdown-menu.show {
       transform: translateX(-100%);
     }
   }
-
 
 .portfolio {
     position: relative;
@@ -1397,11 +1398,11 @@ button.accordion-button,
     border-radius: 32px;
     margin: 0px 14px;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 500;
-    padding: 8px 30px;
-    min-width: 240px;
+    padding: 8px 20px;
+    min-width: 220px;
     text-align: center;
     transition: 0.5s;
 }
@@ -2420,13 +2421,20 @@ a.typewrite span {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    transition: 0.5s;
 }
-
+#services-banner .slick-arrow:hover {
+    background: #000dff;
+}
 #services-banner .slick-arrow::before {
     font-family: 'FontAwesome';
     color: #000116;
     opacity: 1;
     font-size: 34px;
+    transition: 0.5s;
+}
+#services-banner .slick-arrow:hover:before {
+    color: #fff;
 }
 #services-banner .slick-next {
     position: absolute;
@@ -2679,5 +2687,65 @@ a.typewrite span {
     100% {
         transform: translateX(0px);
     }
+}
+
+
+
+
+/* Parallex Section */
+
+
+.stack {
+    position: relative;
+  }
+  
+  .brand-goal:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    background: #000116;
+}
+
+.brand-goal {
+    border-radius: 24px;
+    transition: transform 0.6s;
+    user-select: none;
+    border: 2px dashed #fff;
+    padding: 20px 20px;
+    margin: 30px 0px;
+    background: transparent;
+}
+.section-note {
+    padding: 20px 30px;
+    border: 2px dashed #ffffff;
+    border-radius: 24px;
+}
+#parallex-banner video#home-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -9 ; 
+  }
+  
+  #parallex-banner {
+    padding: 120px 0px 80px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+#parallex-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000116;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -8;
+    opacity: 0.7;
 }
 

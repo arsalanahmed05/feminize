@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
                     breakpoint: 1024,
@@ -225,7 +225,7 @@ jQuery(document).ready(function($) {
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
                     breakpoint: 1024,
@@ -255,8 +255,8 @@ jQuery(document).ready(function($) {
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: false,
-            autoplaySpeed: 2000,
+            autoplay: true,
+            autoplaySpeed: 1500,
             responsive: [{
                     breakpoint: 1024,
                     settings: {
@@ -621,7 +621,6 @@ OTENZA.goToTop();
 </script> -->
 
 
-
 <script>
     $(document).ready(function() {
         $('.portfolio-slider').slick({
@@ -669,6 +668,55 @@ OTENZA.goToTop();
 </script>
 
 
+
+<script>
+    $(document).ready(function() {
+        $('.portfolio-slider-reverse').slick({
+            slidesToShow: 4, // Show 3 slides on desktop
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true, // Enable infinite loop
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 4000, // Duration of smoothness for sliding (ms)
+            cssEase: 'linear', // Ensure smooth continuous movement
+            centerMode: true, // Center the active slide
+            centerPadding: '0', // No padding around the active slide
+            arrows: false,
+            prevArrow: '<button type="button" class="slick-prev">❮</button>',
+            nextArrow: '<button type="button" class="slick-next">❯</button>',
+            responsive: [{
+                    breakpoint: 1025, // Tablet size and above
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for tablets
+                    }
+                },
+                {
+                    breakpoint: 768, // Mobile size
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for mobile
+                    }
+                },
+                {
+                    breakpoint: 480, // Extra small mobile devices
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false, // Disable center mode for small screens
+                    }
+                }
+            ]
+        });
+    });
+</script>
+
+
+
 <script>
     $(document).ready(function() {
         $('.trusted-slider').slick({
@@ -678,7 +726,7 @@ OTENZA.goToTop();
             infinite: true, // Enable infinite loop
             autoplay: true,
             autoplaySpeed: 0,
-            speed: 7000, // Duration of smoothness for sliding (ms)
+            speed: 5000, // Duration of smoothness for sliding (ms)
             cssEase: 'linear', // Ensure smooth continuous movement
             centerMode: true, // Center the active slide
             centerPadding: '0', // No padding around the active slide
@@ -880,3 +928,21 @@ OTENZA.goToTop();
         document.body.appendChild(css);
     };
 </script>
+
+
+<script>
+    window.addEventListener('scroll', function () {
+  const video = document.querySelector('.video-background video');
+  const section = document.querySelector('.parallax-section');
+  const scrollPosition = window.pageYOffset;
+
+  // Adjust the speed of the background video based on scroll position
+  const scrollSpeed = 0.5; // Adjust this value for slower or faster parallax
+  video.style.transform = `translateY(${scrollPosition * scrollSpeed}px)`;
+});
+</script>
+
+
+
+
+

@@ -239,7 +239,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="headingstyle1 text-center">
-                        <h6 class="sub-heading"><i class="fa-solid fa-globe"></i><span>our portfolio</span></h6>
+                        <h6 class="sub-heading"><span>our portfolio</span></h6>
                         <h2>Take a look at <ruby>our portfolio</ruby> to have<br> a taste of <ruby>true
                                 creativity</ruby></h2>
                     </div>
@@ -348,7 +348,7 @@
                         </li>
                     </ul>
 
-                    <ul class="portfolio-slider">
+                    <ul class="portfolio-slider-reverse">
                         <li>
                             <div class="portfolio-item">
                                 <a data-fancybox="videoanimation" href="/assets/images/port1.png">
