@@ -4,7 +4,7 @@
 
 <body>
 
-    <div id="cursor">
+    <div id="cursor">s
         <div class="cursor__circle"></div>
     </div>
 
@@ -102,7 +102,7 @@
             <div id="main-row" class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                         <span>About us</span></h5>
+                        <span>About us</span></h5>
                         <h2>Your <ruby>experience</ruby> is <ruby>everything</ruby></h2>
                         <p>We are committed to ensuring every interaction leaves a lasting impression. From start to finish, our focus is on delivering excellence tailored to your needs, making every moment seamless and memorable.</p>
                         <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing guidance, or simply being there when you need us, we're here to make your journey exceptional.</p>
@@ -364,6 +364,16 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="service-tabs">
+        <div class="container">
+            <div id="" class="row">
+
             </div>
         </div>
     </section>
@@ -1216,9 +1226,9 @@
 
 
 
-    <section id="parallex-banner">
+    <section id="quality-section">
         <video autoplay loop muted playsinline id="home-video">
-            <source src="/assets/images/parallex-banner.mp4" type="video/mp4">
+            <source src="/assets/images/quality-section.mp4" type="video/mp4">
         </video>
         <div class="container">
             <div class="row">
@@ -1228,20 +1238,58 @@
                             <h2><ruby>Empowering Brands</ruby> with Impactful <ruby>Design</ruby></h2>
                             <p>At Feminize Digitals, we believe that every brand deserves a digital identity that tells its story. We don’t just design websites—we empower businesses to thrive online. By combining creativity, strategy, and technology, we create web experiences that not only look stunning but also drive engagement and growth.</p>
                         </div>
+                        <div class="brand-slider">
+                            <div class="brand-item">
+                                <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partner-3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partner-4.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partner-6.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partner-7.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partner-8.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partner-10.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="brand-item">
+                                <img src="/assets/images/Partner-11.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="stack">
-                            <div class="brand-goal">
-                                <h4>Purposeful Design</h4>
-                                <p>We design with intent, ensuring every design decision supports your brand’s story and goals.</p>
+                            <div class="brand-goal d-flex">
+                                <img src="/assets//images/target (2).png" alt="" class="img-fluid">
+                                <div class="goal-detail">
+                                    <h4>Purposeful Design</h4>
+                                    <p>We design with intent, ensuring every design decision supports your brand’s story and goals.</p>
+                                </div>
                             </div>
-                            <div class="brand-goal">
-                                <h4>Results-Oriented</h4>
-                                <p>We focus on creating websites that deliver tangible results, improving user experience and driving business growth.</p>
+                            <div class="brand-goal d-flex">
+                                <img src="/assets/images/analysis.png" alt="" class="img-fluid">
+                                <div class="goal-detail">
+                                    <h4>Results-Oriented</h4>
+                                    <p>We focus on creating websites that deliver tangible results, improving user experience and driving business growth.</p>
+                                </div>
                             </div>
-                            <div class="brand-goal">
-                                <h4>Sustainability</h4>
-                                <p>We’re committed to building long-lasting solutions that adapt to the ever-changing digital landscape.</p>
+                            <div class="brand-goal d-flex">
+                                <img src="/assets/images/sustainable-development.png" alt="" class="img-fluid">
+                                <div class="goal-detail">
+                                    <h4>Sustainability</h4>
+                                    <p>We’re committed to building long-lasting solutions that adapt to the ever-changing digital landscape.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1258,12 +1306,16 @@
 
 
 
+
+
+
+
     <section id="faqs">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
                     <div class="section-title">
-                         <span>FAQs</span></h5>
+                        <span>FAQs</span></h5>
                         <h2>Navigate <ruby>Digital Growth</ruby><br> with Answers</h2>
                     </div>
                     <div class="accordion" id="accordionExample">

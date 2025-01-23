@@ -3,7 +3,7 @@
         <div id="main-row" class="row">
             <div id="top-row" class="row">
                 <div class="col-sm-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Magnam, hic?</p>
+                    <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
                 </div>
                 <div class="col-sm-4">
                     <a href="#"><img src="/assets/images/Feminize-digital.png" alt=""></a>
@@ -165,25 +165,27 @@
 
 
 <script>
-jQuery(document).ready(function($) {
-    $('.count').each(function() {
-        var $this = $(this);
-        var countTo = $this.attr('data-count');
-        
-        $({ countNum: $this.text() }).animate({
-            countNum: countTo
-        }, {
-            duration: 4000,
-            easing: 'swing',
-            step: function() {
-                $this.text(Math.ceil(this.countNum).toLocaleString());
-            },
-            complete: function() {
-                $this.text(this.countNum.toLocaleString());
-            }
+    jQuery(document).ready(function($) {
+        $('.count').each(function() {
+            var $this = $(this);
+            var countTo = $this.attr('data-count');
+
+            $({
+                countNum: $this.text()
+            }).animate({
+                countNum: countTo
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function() {
+                    $this.text(Math.ceil(this.countNum).toLocaleString());
+                },
+                complete: function() {
+                    $this.text(this.countNum.toLocaleString());
+                }
+            });
         });
     });
-});
 </script>
 
 
@@ -413,6 +415,40 @@ jQuery(document).ready(function($) {
                     duration: 0.9
                 });
             }
+        });
+    });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.brand-slider').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // Add more breakpoints and settings as needed
+            ]
         });
     });
 </script>
@@ -717,6 +753,8 @@ OTENZA.goToTop();
 
 
 
+
+
 <script>
     $(document).ready(function() {
         $('.trusted-slider').slick({
@@ -886,39 +924,41 @@ OTENZA.goToTop();
         var fullTxt = this.toRotate[i];
 
         if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
         } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
 
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
         var that = this;
         var delta = 200 - Math.random() * 100;
 
-        if (this.isDeleting) { delta /= 2; }
+        if (this.isDeleting) {
+            delta /= 2;
+        }
 
         if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
+            delta = this.period;
+            this.isDeleting = true;
         } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
         }
 
         setTimeout(function() {
-        that.tick();
+            that.tick();
         }, delta);
     };
 
     window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
+        for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
             var period = elements[i].getAttribute('data-period');
             if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
+                new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
         // INJECT CSS
@@ -931,18 +971,14 @@ OTENZA.goToTop();
 
 
 <script>
-    window.addEventListener('scroll', function () {
-  const video = document.querySelector('.video-background video');
-  const section = document.querySelector('.parallax-section');
-  const scrollPosition = window.pageYOffset;
+    window.addEventListener('scroll', function() {
+        const video = document.querySelector('.video-background video');
+        const section = document.querySelector('.parallax-section');
+        const scrollPosition = window.pageYOffset;
 
-  // Adjust the speed of the background video based on scroll position
-  const scrollSpeed = 0.5; // Adjust this value for slower or faster parallax
-  video.style.transform = `translateY(${scrollPosition * scrollSpeed}px)`;
-});
+        // Adjust the speed of the background video based on scroll position
+        const scrollSpeed = 0.5; // Adjust this value for slower or faster parallax
+        video.style.transform = `translateY(${scrollPosition * scrollSpeed}px)`;
+    });
 </script>
-
-
-
-
 
