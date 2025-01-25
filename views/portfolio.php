@@ -8,6 +8,9 @@
 
 
     <section id="home-banner">
+    <video autoplay loop muted playsinline id="services-video">
+            <source src="/assets/images/home-banner.mp4 " type="video/mp4">
+        </video>
         <div class="container-fluid">
             <div class="row">
                 <div class="text-wrapper text-center">

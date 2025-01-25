@@ -4,90 +4,88 @@
 
 <body>
 
-    <div id="cursor">s
+    <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
+
+    
 
 
     <section id="services-banner">
         <video autoplay loop muted playsinline id="services-video">
             <source src="/assets/images/service-banner-bg.mp4" type="video/mp4">
         </video>
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
                 <div class="service-banner-slider">
                     <div class="slide-item">
                         <div id="slide-item-row" class="row">
-                            <div class="col-md-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-1.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-wrapper">
+                            <div class="col-md-12">
+                            <div class="text-wrapper">
                                     <h6 class="sub-heading">Redefine Success</h6>
                                     <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                     <p>Seamless technology solutions that enhance and empower your brand for lasting
                                         success and growth.</p>
-                                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="#"><button class="quote-btn bton"><i
+                                                class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                </div>
+                                <div class="img-bg">
+                                    <img src="/assets/images/servoce-slide-1.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div id="slide-item-row" class="row">
-                            <div class="col-md-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-2.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-12">
                                 <div class="text-wrapper">
                                     <h6 class="sub-heading">Innovate Digitally</h6>
                                     <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
                                     <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
                                         on your brand.</p>
-                                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="#"><button class="quote-btn bton"><i
+                                                class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                </div>
+                                <div class="img-bg">
+                                    <img src="/assets/images/servoce-slide-2.png" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="slide-item">
                         <div id="slide-item-row" class="row">
-                            <div class="col-md-6">
-                                <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-3.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-wrapper">
+                            <div class="col-lg-12">
+                            <div class="text-wrapper">
                                     <h6 class="sub-heading">Your Growth Partner</h6>
                                     <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
                                     <p>Turn innovative ideas into powerful success stories that drive growth and create
                                         lasting impact.</p>
-                                    <a href="/about-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>view more</button></a>
+                                    <a href="/about-us/"><button class="quote-btn bton"><i
+                                                class="fa-brands fa-rocketchat"></i>view more</button></a>
                                 </div>
+                                <div class="img-bg">
+                                    <img src="/assets/images/servoce-slide-3.png" alt="" class="img-fluid">
+                                </div>  
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="motion-img">
+            </div>
+            <!-- <div class="motion-img">
                     <img src="/assets/images/logoalphabets/1.png" alt="" class="img-fluid bn1">
                     <img src="/assets/images/logoalphabets/2.png" alt="" class="img-fluid bn2">
                     <img src="/assets/images/logoalphabets/3.png" alt="" class="img-fluid bn3">
                     <img src="/assets/images/logoalphabets/4.png" alt="" class="img-fluid bn4">
                     <img src="/assets/images/logoalphabets/5.png" alt="" class="img-fluid bn5">
                     <img src="/assets/images/logoalphabets/6.png" alt="" class="img-fluid bn6">
-                </div>
-            </div>
+                </div>   -->
         </div>
     </section>
 
     <section id="banner-text">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <h1><ruby>
-                        <a href="" class="typewrite" data-period="2000" data-type='[ "Web Designs", "Web Development", "Logo Design", "Content Writing" ]'>
+                        <a href="" class="typewrite" data-period="2000"
+                            data-type='[ "Web Designs", "Web Development", "Logo Design", "Content Writing" ]'>
                             <span class="wrap"></span>
                         </a>
                     </ruby>
@@ -102,13 +100,18 @@
             <div id="main-row" class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <span>About us</span></h5>
+                        <span data-aos="fade-up">About us</span></h5>
                         <h2>Your <ruby>experience</ruby> is <ruby>everything</ruby></h2>
-                        <p>We are committed to ensuring every interaction leaves a lasting impression. From start to finish, our focus is on delivering excellence tailored to your needs, making every moment seamless and memorable.</p>
-                        <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing guidance, or simply being there when you need us, we're here to make your journey exceptional.</p>
+                        <p>We are committed to ensuring every interaction leaves a lasting impression. From start to
+                            finish, our focus is on delivering excellence tailored to your needs, making every moment
+                            seamless and memorable.</p>
+                        <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing
+                            guidance, or simply being there when you need us, we're here to make your journey
+                            exceptional.</p>
                     </div>
                     <div class="link-btns d-flex">
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                                quote</button></a>
                     </div>
 
                     <div id="inner-row-bottom" class="row">
@@ -300,11 +303,15 @@
                 <div class="col-md-5 left-section">
                     <div class="left-sec-content-wrapper">
                         <h6 class="sub-heading"><span>Our Steps</span></h6>
-                        <h2>Digital<ruby> marketing</ruby> <ruby>services</ruby> that<br> help you <ruby>grow</ruby>.</h2>
-                        <p>We all know that nothing moves until someone makes a decision.<br> The first action is always in
-                            making the decision to proceed. which<br> most people overlook, we don’t do it intentionally or
+                        <h2>Digital<ruby> marketing</ruby> <ruby>services</ruby> that<br> help you <ruby>grow</ruby>.
+                        </h2>
+                        <p>We all know that nothing moves until someone makes a decision.<br> The first action is always
+                            in
+                            making the decision to proceed. which<br> most people overlook, we don’t do it intentionally
+                            or
                             with malice.</p>
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                                quote</button></a>
                     </div>
 
                 </div>
@@ -370,13 +377,13 @@
 
 
 
-    <section id="service-tabs">
+    <!-- <section id="service-tabs">
         <div class="container">
             <div id="" class="row">
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="portfolio-section">
         <div class="container">
@@ -738,26 +745,32 @@
                 </div>
                 <ul class="nav nav-tabs" id="myTabs" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="WebDevelopment-tab" data-bs-toggle="tab" href="#WebDevelopment" role="tab" aria-controls="WebDevelopment" aria-selected="true">Web Development</a>
+                        <a class="nav-link active" id="WebDevelopment-tab" data-bs-toggle="tab" href="#WebDevelopment"
+                            role="tab" aria-controls="WebDevelopment" aria-selected="true">Web Development</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="logodesigning-tab" data-bs-toggle="tab" href="#logodesigning" role="tab" aria-controls="logodesigning" aria-selected="false">Logo Designing</a>
+                        <a class="nav-link" id="logodesigning-tab" data-bs-toggle="tab" href="#logodesigning" role="tab"
+                            aria-controls="logodesigning" aria-selected="false">Logo Designing</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="SEO-tab" data-bs-toggle="tab" href="#SEO" role="tab" aria-controls="SEO" aria-selected="false">SEO</a>
+                        <a class="nav-link" id="SEO-tab" data-bs-toggle="tab" href="#SEO" role="tab" aria-controls="SEO"
+                            aria-selected="false">SEO</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="SSM-tab" data-bs-toggle="tab" href="#SSM" role="tab" aria-controls="SSM" aria-selected="false">SSM</a>
+                        <a class="nav-link" id="SSM-tab" data-bs-toggle="tab" href="#SSM" role="tab" aria-controls="SSM"
+                            aria-selected="false">SSM</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="contentwriting-tab" data-bs-toggle="tab" href="#contentwriting" role="tab" aria-controls="contentwriting" aria-selected="false">Content Writing</a>
+                        <a class="nav-link" id="contentwriting-tab" data-bs-toggle="tab" href="#contentwriting"
+                            role="tab" aria-controls="contentwriting" aria-selected="false">Content Writing</a>
                     </li>
                 </ul>
 
                 <!-- Tabs Content -->
                 <div class="tab-content mt-3" id="myTabContent">
                     <!-- Tab 1 Content -->
-                    <div class="tab-pane fade show active" id="WebDevelopment" role="tabpanel" aria-labelledby="WebDevelopment-tab">
+                    <div class="tab-pane fade show active" id="WebDevelopment" role="tabpanel"
+                        aria-labelledby="WebDevelopment-tab">
                         <div class="plan-monthly-slider">
                             <div class="plan-item">
                                 <div class="plan-title">
@@ -1236,7 +1249,10 @@
                     <div class="col-md-6">
                         <div class="text-wrapper">
                             <h2><ruby>Empowering Brands</ruby> with Impactful <ruby>Design</ruby></h2>
-                            <p>At Feminize Digitals, we believe that every brand deserves a digital identity that tells its story. We don’t just design websites—we empower businesses to thrive online. By combining creativity, strategy, and technology, we create web experiences that not only look stunning but also drive engagement and growth.</p>
+                            <p>At Feminize Digitals, we believe that every brand deserves a digital identity that tells
+                                its story. We don’t just design websites—we empower businesses to thrive online. By
+                                combining creativity, strategy, and technology, we create web experiences that not only
+                                look stunning but also drive engagement and growth.</p>
                         </div>
                         <div class="brand-slider">
                             <div class="brand-item">
@@ -1274,21 +1290,24 @@
                                 <img src="/assets//images/target (2).png" alt="" class="img-fluid">
                                 <div class="goal-detail">
                                     <h4>Purposeful Design</h4>
-                                    <p>We design with intent, ensuring every design decision supports your brand’s story and goals.</p>
+                                    <p>We design with intent, ensuring every design decision supports your brand’s story
+                                        and goals.</p>
                                 </div>
                             </div>
                             <div class="brand-goal d-flex">
                                 <img src="/assets/images/analysis.png" alt="" class="img-fluid">
                                 <div class="goal-detail">
                                     <h4>Results-Oriented</h4>
-                                    <p>We focus on creating websites that deliver tangible results, improving user experience and driving business growth.</p>
+                                    <p>We focus on creating websites that deliver tangible results, improving user
+                                        experience and driving business growth.</p>
                                 </div>
                             </div>
                             <div class="brand-goal d-flex">
                                 <img src="/assets/images/sustainable-development.png" alt="" class="img-fluid">
                                 <div class="goal-detail">
                                     <h4>Sustainability</h4>
-                                    <p>We’re committed to building long-lasting solutions that adapt to the ever-changing digital landscape.</p>
+                                    <p>We’re committed to building long-lasting solutions that adapt to the
+                                        ever-changing digital landscape.</p>
                                 </div>
                             </div>
                         </div>
@@ -1297,7 +1316,9 @@
                 <div id="inner-row-top" class="row">
                     <div class="section-note">
                         <h5>Our Commitment:</h5>
-                        <p>Our commitment goes beyond just designing websites—we’re dedicated to creating digital experiences that help brands reach their full potential, inspire their audience, and stand the test of time.</p>
+                        <p>Our commitment goes beyond just designing websites—we’re dedicated to creating digital
+                            experiences that help brands reach their full potential, inspire their audience, and stand
+                            the test of time.</p>
                     </div>
                 </div>
             </div>
@@ -1407,19 +1428,17 @@
         </div>
     </section>
 
-
     <?php include_once("views/testimonials-section.php"); ?>
 
-
-
     <?php include_once("views/contact-section.php"); ?>
-
 
     <?php include_once("includes/footer.php") ?>
 
     <div class="back-to-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
         </svg>
     </div>
     <!-- JAVASCRIPT -->
@@ -1429,11 +1448,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <script>
-        $(function() {
+        $(function () {
             var e = "";
 
             // Filtering functionality
-            $(".fil-cat").click(function() {
+            $(".fil-cat").click(function () {
                 $(".portfolio_list ul li").removeClass("active");
                 $(this).addClass("active");
 
@@ -1442,7 +1461,7 @@
 
                 $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
 
-                setTimeout(function() {
+                setTimeout(function () {
                     $("." + e).fadeIn().addClass("scale-anm");
                     $("#portfolio").fadeTo(800, 1);
                 }, 300);
@@ -1470,7 +1489,16 @@
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+<!-- AOS Initialization -->
+<script>
+  AOS.init({
+    duration: 1000,  // Animation duration in milliseconds
+    once: true,      // Animation should run only once
+    easing: 'ease-in-out',  // Optional: Easing for smooth transition
+  });
+</script>
 
 
 
