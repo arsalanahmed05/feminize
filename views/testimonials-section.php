@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="section-title text-center">
-                 <span>our testimonials</span></h5>
+                 <h5><span>our testimonials</span></h5>
                 <h2>Over <ruby>500 clients</ruby> and <ruby>5,000 projects</ruby><br> across the globe.</h2>
             </div>
             <div class="testimonials-slider">

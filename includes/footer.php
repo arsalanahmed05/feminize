@@ -30,13 +30,22 @@
                     <h3>Quick links</h3>
                     <ul class="footer-menu">
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>home</a>
+                            <a href="/"><i class="fa-solid fa-chevron-right"></i>home</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>about</a>
+                            <a href="/about-us/"><i class="fa-solid fa-chevron-right"></i>About Us</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-chevron-right"></i>contact</a>
+                            <a href="/portfolio/"><i class="fa-solid fa-chevron-right"></i>Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="/testimonials/"><i class="fa-solid fa-chevron-right"></i>Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="/packages/"><i class="fa-solid fa-chevron-right"></i>Packages</a>
+                        </li>
+                         <li>
+                            <a href="/contact-us/"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -54,6 +63,16 @@
                 <div class="col-sm-3">
                     <h3>Services</h3>
                     <ul class="footer-menu">
+                        
+                        <li>
+                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i>content writing</a>
+                        </li>
+                        <li>
+                            <a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i>Email Marketing</a>
+                        </li>
+                        <li>
+                            <a href="/graphics-designing/"><i class="fa-solid fa-chevron-right"></i>Graphics Designing </a>
+                        </li>
                         <li>
                             <a href="/webdevelopment/"><i class="fa-solid fa-chevron-right"></i>Web Develpoment</a>
                         </li>
@@ -64,11 +83,11 @@
                             <a href="/social-media/"><i class="fa-solid fa-chevron-right"></i>social media marketing</a>
                         </li>
                         <li>
-                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i>content writing</a>
+                            <a href="/searchengine/"><i class="fa-solid fa-chevron-right"></i>Search Engine Optimization</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3">
                     <h3>Where to find us!</h3>
                     <ul class="footer-left-menu">
                         <li class="contact-item">
@@ -81,14 +100,14 @@
                         </li>
                         <li class="contact-item">
                             <a href="#"><i
-                                    class="fa-solid fa-envelope-open-text"></i>example@gmail.com</a>
+                                    class="fa-solid fa-envelope-open-text"></i>info@feminizedigitals.com</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div id="bottom-row" class="row">
                 <div class="copright text-center">
-                    <a href="#"><i class="fa-regular fa-copyright"></i><strong>2025FeminizeDigitalAllRightReserved</strong></a>
+                    <p><i class="fa-regular fa-copyright"></i> Copyrights 2025 <strong>Feminize Digitals </strong> All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -168,25 +187,33 @@
     jQuery(document).ready(function($) {
         $('.count').each(function() {
             var $this = $(this);
-            var countTo = $this.attr('data-count');
+            var countTo = $this.attr('data-count'); // Read the data-count attribute
+            
+            // Extract `+` sign if it exists
+            var isPlus = countTo.includes('+');
+            var cleanNumber = parseInt(countTo.replace('+', '')); // Remove `+` for calculation
 
-            $({
-                countNum: $this.text()
-            }).animate({
-                countNum: countTo
-            }, {
-                duration: 4000,
-                easing: 'swing',
-                step: function() {
-                    $this.text(Math.ceil(this.countNum).toLocaleString());
-                },
-                complete: function() {
-                    $this.text(this.countNum.toLocaleString());
+            $this.text(isPlus ? '+' : ''); // Initialize with `+` if it exists
+
+            $({ countNum: 0 }).animate(
+                { countNum: cleanNumber },
+                {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function() {
+                        // Update the text with the animated number and the `+` sign if required
+                        $this.text((isPlus ? '+' : '') + Math.ceil(this.countNum).toLocaleString());
+                    },
+                    complete: function() {
+                        // On complete, ensure the final number is shown
+                        $this.text((isPlus ? '+' : '') + cleanNumber.toLocaleString());
+                    },
                 }
-            });
+            );
         });
     });
 </script>
+
 
 
 
@@ -200,7 +227,7 @@
             autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
-                    breakpoint: 1024,
+                    breakpoint: 1025,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1,
@@ -221,7 +248,7 @@
     });
 </script>
 
-<script>
+<!-- <script>
     $(document).ready(function() {
         $('.plan-monthly-slider').slick({
             infinite: true,
@@ -249,7 +276,7 @@
             ]
         });
     });
-</script>
+</script> -->
 
 <script>
     $(document).ready(function() {
@@ -981,4 +1008,24 @@ OTENZA.goToTop();
         video.style.transform = `translateY(${scrollPosition * scrollSpeed}px)`;
     });
 </script>
+
+
+
+<script>
+        function openCity(evt, cityName) {
+            // Remove active class from all tab buttons
+            const tablinks = document.querySelectorAll(".tablinks");
+            tablinks.forEach((tab) => tab.classList.remove("active"));
+
+            // Remove active class from all tab contents
+            const tabcontents = document.querySelectorAll(".tabcontent");
+            tabcontents.forEach((content) => content.classList.remove("active"));
+
+            // Add active class to the clicked tab button
+            evt.currentTarget.classList.add("active");
+
+            // Add active class to the corresponding tab content
+            document.getElementById(cityName).classList.add("active");
+        }
+    </script>
 

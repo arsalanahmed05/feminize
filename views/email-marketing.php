@@ -27,7 +27,7 @@
                                     <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                     <p>Seamless technology solutions that enhance and empower your brand for lasting
                                         success and growth.</p>
-                                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                                     <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
                                     <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
                                         on your brand.</p>
-                                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                                     <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
                                     <p>Turn innovative ideas into powerful success stories that drive growth and create
                                         lasting impact.</p>
-                                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
                                 </div>
                             </div>
                         </div>

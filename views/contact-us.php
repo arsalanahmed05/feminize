@@ -36,5 +36,6 @@
     </section>
 
     <?php include_once("views/contact-section.php"); ?>
+    <?php include_once("includes/footer.php") ?>
 
 </body>

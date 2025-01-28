@@ -48,7 +48,7 @@
                                 <a class="nav-link" href="/contact-us/">Contact Us</a>
                             </li>
                         </ul>
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                        <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
                     </div>
                 </div>
             </nav>

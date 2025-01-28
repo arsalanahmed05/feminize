@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="key-points-parent">
-                        <img src="/assets/images/target.png" alt="Image 3" class="img-fluid aks">
+                        <img src="/assets/images/target.png" alt="Image 3" class="img-fluid aks"/>
                         <h3>Client <ruby>Focused</ruby></h3>
                         <p>Your goals are our priority. We work closely with you to create solutions that align with your unique needs.</p>
                     </div>
@@ -61,7 +61,6 @@
     <?php include_once("views/testimonials-section.php"); ?>
 
 
-    <?php include_once("views/contact-section.php"); ?>
 
 
 
