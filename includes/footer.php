@@ -828,6 +828,32 @@ OTENZA.goToTop();
     });
 </script>
 
+
+<script>
+  function openCity(evt, cityName) {
+    // Hide all tab content
+    const tabcontent = document.getElementsByClassName("tabcontent");
+    for (let i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Remove "active" class from all tab links
+    const tablinks = document.getElementsByClassName("tablinks");
+    for (let i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the selected tab content and add "active" class to the clicked tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  // Set the default active tab on page load
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector(".tablinks.active").click();
+  });
+</script>
+
 <script>
     $(document).ready(function() {
         $('.service-feature-slider.left').slick({

@@ -233,6 +233,100 @@
     </section>
 
 
+    <section id="category-plan">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="tab">
+                        <button class="tablinks active" onclick="openCity(event, 'Starter')">Starter Package</button>
+                        <button class="tablinks" onclick="openCity(event, 'Basic')">Basic Package</button>
+                        <button class="tablinks" onclick="openCity(event, 'Premium')">Premium Package</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="Starter" class="tabcontent" style="display: block;">
+                        <div class="plan-item">
+                            <div class="plan-title">
+                                <h4>Starter <br>Package</h4>
+
+                            </div>
+                            <ul class="plan-list">
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                            </ul>
+                            <h6>$600/<span>Month</span></h6>
+                            <div class="addplan">
+                                <a href="#" class="view-more" data-plan="logo-design">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Basic" class="tabcontent">
+                        <div class="plan-item">
+                            <div class="plan-title">
+                                <h4>Basic <br>Package</h4>
+
+                            </div>
+                            <ul class="plan-list">
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                            </ul>
+                            <h6>$600/<span>Month</span></h6>
+                            <div class="addplan">
+                                <a href="#" class="view-more" data-plan="logo-design">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Premium" class="tabcontent">
+                        <div class="plan-item">
+                            <div class="plan-title">
+                                <h4>Premium <br>Package</h4>
+
+                            </div>
+                            <ul class="plan-list">
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                                <li>Logo Design Package</li>
+                                <li>2 rounds of revisions</li>
+                                <li>Branding color palette creation</li>
+                                <li>Delivery in various file formats</li>
+                            </ul>
+                            <h6>$600/<span>Month</span></h6>
+                            <div class="addplan">
+                                <a href="#" class="view-more" data-plan="logo-design">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="portfolio-section">
         <div class="container">
