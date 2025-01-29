@@ -242,7 +242,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div id="Starter" class="tabcontent" style="display: block;">
+                    <div id="Starter" class="tabcontent" >
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h4>Starter <br>Package</h4>

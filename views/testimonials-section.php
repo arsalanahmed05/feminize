@@ -107,7 +107,7 @@
                     </p>
                     <h4><ruby>Anne Smith</ruby></h4>
                     <h5>Director</h5>
-                    <img src="/assets/images/client4.jpg" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client5.jpg" alt="" class="img-fluid client-img">
                 </div>
                 <div class="slide-item">
                     <ul class="star-list">

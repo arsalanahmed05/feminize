@@ -87,7 +87,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <h3>Where to find us!</h3>
                     <ul class="footer-left-menu">
                         <li class="contact-item">
@@ -227,7 +227,7 @@
             autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
-                    breakpoint: 1025,
+                    breakpoint: 1030,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1,
