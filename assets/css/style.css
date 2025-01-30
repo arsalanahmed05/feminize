@@ -703,7 +703,9 @@ button.btn-close {
     color: #050cd5;
 
 }
-
+#steps .step-main span {
+    font-family: 'Poppins';
+}
 ul.dropdown-menu.show {
     background: #050cd5;
     color: #fff;
@@ -1729,7 +1731,7 @@ ul.dropdown-menu.show {
 }
 
 .process-item img {
-    filter: invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .col-md-5.left-section {

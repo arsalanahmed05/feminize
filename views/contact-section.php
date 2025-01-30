@@ -12,7 +12,7 @@
             <div class="col-md-5">
                 <div class="form">
                     <div class="text-warpper">
-                        <h2>Book a <span>Appointment</span></h2>
+                        <h2>Book an  <span>Appointment</span></h2>
                         <p>We’re here to help! If you have any questions or would like to discuss how our SEO and
                             digital marketing services can benefit your business,</p>
                     </div>

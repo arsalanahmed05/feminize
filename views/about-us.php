@@ -281,7 +281,7 @@
                         <div class="step-main">
                             <div class="step-content">
                                 <h4>Step 4</h4>
-                                <span>Strat <br>Project</span>
+                                <span>Start<br>Project</span>
                             </div>
                         </div>
                     </div>

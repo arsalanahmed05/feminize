@@ -89,7 +89,7 @@
                     <h6 class="sub-heading">Social media marketing</h6>
                     <h1>Engaging <ruby>Strategies</ruby> for <br>Social <ruby>Success</ruby></h1>
                     <p>From content creation to ad campaigns, we help you leverage<br> social media to achieve measurable success.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
                             quote</button></a>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">

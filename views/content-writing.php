@@ -89,7 +89,7 @@
                     <h6 class="sub-heading">content writing</h6>
                     <h1>Crafting <ruby>Stories</ruby> That<br> Inspire <ruby>Action</ruby></h1>
                     <p>Our expert content writing services deliver clear, concise, and engaging<br> content that helps achieve your business goals.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
                             quote</button></a>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">

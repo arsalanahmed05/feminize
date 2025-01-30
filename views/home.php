@@ -31,7 +31,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="img-bg">
-                                <img src="/assets/images/homban.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/home-idea4.webp" alt="" class="img-fluid">
 
                             </div>
                         </div>
@@ -224,76 +224,76 @@
                         <div class="col-lg-6">
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-1.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps1.png" alt=""> 
                                     <h3><ruby>content </ruby><br>writing</h3>
                                     <p>Crafting compelling content that resonates with your audience, boosts engagement, and drives results for your brand’s success.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-1.png" alt="">
+                                    <a href="/content-writing/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps1.png" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-2.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps2.png" alt="">
                                     <h3><ruby>Email </ruby><br>Marketing</h3>
                                     <p>Unlock the power of email marketing with tailored campaigns that build relationships and drive conversions straight to your inbox.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-2.png" alt="">
+                                    <a href="/email-marketing/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps2.png" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-3.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps3.png" alt="">
                                     <h3><ruby>Graphic </ruby><br>Designing</h3>
                                     <p>Bringing your vision to life with innovative graphic designs that capture attention and communicate your brand’s unique story.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-3.png" alt="">
+                                    <a href="/graphic-designing/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps3.png" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-6.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps4.png" alt="">
                                     <h3><ruby>PPC </ruby><br>Marketing</h3>
                                     <p>Maximize your ROI (Return On Investment) with targeted Pay-Per-Click marketing campaigns that drive instant traffic and deliver measurable results for your business.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-6.png" alt="">
+                                    <a href="/pay-per-click/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps4.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-4.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps5.png" alt="">
                                     <h3><ruby>Search Engine </ruby><br>Optimization</h3>
                                     <p>Boost your online presence with strategic SEO, driving organic traffic and improving your website’s visibility on search engines.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-4.png" alt="">
+                                    <a href="/search-engine/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps5.png" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-5.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps6.png" alt="">
                                     <h3><ruby>Social Media </ruby><br>Marketing</h3>
                                     <p>Elevate your brand with targeted social media marketing that engages your audience and builds lasting connections across platforms.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-5.png" alt="">
+                                    <a href="/social-media/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps6.png" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-6.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps7.png" alt="">
                                     <h3><ruby>Web </ruby><br>Designing</h3>
                                     <p>Create a seamless online experience with stunning web design that reflects your brand and captivates visitors from the start.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-6.png" alt="">
+                                    <a href="/web-designing/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps7.png" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/process-6.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps8.png" alt="">
                                     <h3><ruby>Web </ruby><br>Development</h3>
                                     <p>Transform your ideas into stunning websites with our expert web development services, designed to engage and convert visitors.</p>
-                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/process-6.png" alt="">
+                                    <a href="/web-development/"><i class="fa-solid fa-arrow-right"></i></a>
+                                    <img class="img-fluid bottom" src="/assets/images/ps8.png" alt="">
                                 </div>
                             </div>
                         </div>

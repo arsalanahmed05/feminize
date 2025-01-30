@@ -86,10 +86,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Web Development</h6>
-                    <h1>Transforming <ruby>Ideas</ruby> into <br> Stunning <ruby>Websites</ruby></h1>
-                    <p>We design cutting-edge websites that don’t just look great but also help your<br> business grow by engaging your audience effectively.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                    <h6 class="sub-heading">search engine optimization</h6>
+                    <h1>SEO <ruby>Strategies</ruby> That <br>Deliver <ruby>Results</ruby></h1>
+                    <p>We use proven SEO techniques to ensure your website ranks higher and attracts<br> the right audience, leading to increased sales.</p>
+                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
                             quote</button></a>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
@@ -132,6 +132,8 @@
             </div>
         </div>
     </section>
+
+
 
     <section id="business-feature">
         <div class="container">
@@ -199,13 +201,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Dynamic Website <br><ruby>Solutions</ruby></h2>
-                        <p>We create dynamic websites that are not only visually stunning but also optimized for performance. Whether you need a sleek portfolio, a powerful e-commerce platform, or a corporate website, our designs are tailored to captivate your audience and deliver measurable results. Every website we build is responsive, fast, and aligned with your business goals.</p>
+                        <h2>Creative Website <br><ruby>Design</ruby></h2>
+                        <p>Our web design services focus on crafting visually stunning and user-centric layouts that captivate your audience. From intuitive navigation to striking visuals, we ensure your website leaves a lasting impression. Whether you’re looking to refresh your current site or build a new one, our designs are tailored to reflect your brand's unique identity and values.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/responsive-vector.png" alt="" class="img-fluid">
+                        <img src="/assets/images/dashbord-web.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -217,19 +219,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/secure&scable.png" alt="" class="img-fluid">
+                        <img src="/assets/images/desinger-work.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Scalable & Secure <br><ruby>Development</ruby></h2>
-                        <p>We focus on building scalable, secure, and high-performing websites that grow with your business. Leveraging the latest technologies and coding standards, our web development services ensure seamless performance, robust security, and easy maintenance. Let us transform your vision into a digital reality.</p>
+                        <h2>Performance-Driven <br><ruby>Design</ruby></h2>
+                        <p>Our web designs are crafted not just to look good but to perform exceptionally. We focus on speed, responsiveness, and usability, ensuring every design element contributes to your business goals. Transform your website into a powerful tool for growth and engagement.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <section id="category-plan">
         <div class="container">
@@ -242,7 +243,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div id="Starter" class="tabcontent" >
+                    <div id="Starter" class="tabcontent" style="display: block;">
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h4>Starter <br>Package</h4>
@@ -1185,7 +1186,6 @@
         </div>
 
     </section>
-
 
 
     <section id="service-features">

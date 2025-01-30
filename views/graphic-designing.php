@@ -89,7 +89,7 @@
                     <h6 class="sub-heading">graphics design</h6>
                     <h1><ruby>Captivating</ruby> Designs That<br> Inspire <ruby>Action</ruby></h1>
                     <p>We create designs that not only look great but also engage <br> and inspire your audience to take action.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
                             quote</button></a>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">

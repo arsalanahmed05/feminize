@@ -89,7 +89,7 @@
                     <h6 class="sub-heading">email marketing</h6>
                     <h1>Personalized <ruby>Campaigns</ruby> for <br>Maximum <ruby>Impact</ruby></h1>
                     <p>Let us create highly targeted email campaigns that not only engage but also <br>drive revenue and customer retention.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
+                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
                             quote</button></a>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
