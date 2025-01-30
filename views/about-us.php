@@ -35,21 +35,21 @@
                 <div class="col-sm-4">
                     <div class="key-points-parent">
                         <img src="/assets/images/jigsaw.png" alt="Image 1" class="img-fluid aks">
-                        <h3>Creative <ruby>Solutions</ruby></h3>
+                        <h3>Creative <br><ruby>Solutions</ruby></h3>
                         <p>We deliver innovative and tailored strategies that bring your digital vision to life, ensuring your brand stands out online.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="key-points-parent">
                         <img src="/assets/images/gear.png" alt="Image 2" class="img-fluid aks">
-                        <h3>Expert <ruby>Execution</ruby></h3>
+                        <h3>Expert <br><ruby>Execution</ruby></h3>
                         <p>Our team combines industry expertise with cutting-edge tools to provide seamless and impactful results.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="key-points-parent">
                         <img src="/assets/images/target.png" alt="Image 3" class="img-fluid aks">
-                        <h3>Client <ruby>Focused</ruby></h3>
+                        <h3>Client <br><ruby>Focused</ruby></h3>
                         <p>Your goals are our priority. We work closely with you to create solutions that align with your unique needs.</p>
                     </div>
                 </div>
@@ -175,17 +175,19 @@
     <section id="solutions">
         <div class="container">
             <div class="row" id="main-row">
-                <div class="col-md-6">
-                    <div class="solutions-heading">
-                        <h6 class="sub-heading"><span>What we do</span></h6>
-                        <h2>Check our <ruby>scientific</ruby> <br>Digital <ruby>solutions</ruby></h2>
+                <div id="inner-row-top" class="row">
+                    <div class="col-md-6">
+                        <div class="solutions-heading">
+                            <h6 class="sub-heading"><span>What we do</span></h6>
+                            <h2>Check our <ruby>scientific</ruby> <br>Digital <ruby>solutions</ruby></h2>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="melancholy-content">
-                        <p>Everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression. ladies she basket season age her uneasy saw. Discourse unwilling am no described.</p>
+                    <div class="col-md-6">
+                        <div class="melancholy-content">
+                            <p>Everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression. ladies she basket season age her uneasy saw. Discourse unwilling am no described.</p>
+                        </div>
+                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
                     </div>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
                 </div>
                 <div class="row" id="inner-row">
                     <div class="col-md-6">

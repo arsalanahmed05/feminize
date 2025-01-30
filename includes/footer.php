@@ -44,7 +44,7 @@
                         <li>
                             <a href="/packages/"><i class="fa-solid fa-chevron-right"></i>Packages</a>
                         </li>
-                         <li>
+                        <li>
                             <a href="/contact-us/"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>
                         </li>
                     </ul>
@@ -63,27 +63,26 @@
                 <div class="col-sm-3">
                     <h3>Services</h3>
                     <ul class="footer-menu">
-                        
                         <li>
-                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i>content writing</a>
+                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a>
                         </li>
                         <li>
-                            <a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i>Email Marketing</a>
+                            <a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a>
                         </li>
                         <li>
-                            <a href="/graphics-designing/"><i class="fa-solid fa-chevron-right"></i>Graphics Designing </a>
+                            <a href="/graphics-designing/"><i class="fa-solid fa-chevron-right"></i> Graphics Designing</a>
                         </li>
                         <li>
-                            <a href="/webdevelopment/"><i class="fa-solid fa-chevron-right"></i>Web Develpoment</a>
+                            <a href="/searchengine/"><i class="fa-solid fa-chevron-right"></i> Search Engine Optimization</a>
                         </li>
                         <li>
-                            <a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i>Web designing</a>
+                            <a href="/social-media/"><i class="fa-solid fa-chevron-right"></i> Social Media Marketing</a>
                         </li>
                         <li>
-                            <a href="/social-media/"><i class="fa-solid fa-chevron-right"></i>social media marketing</a>
+                            <a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i> Web Designing</a>
                         </li>
                         <li>
-                            <a href="/searchengine/"><i class="fa-solid fa-chevron-right"></i>Search Engine Optimization</a>
+                            <a href="/webdevelopment/"><i class="fa-solid fa-chevron-right"></i> Web Development</a>
                         </li>
                     </ul>
                 </div>
@@ -140,11 +139,10 @@
         </div>
     </div>
 </div>
-  
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 
 <script>
     // Register GSAP plugin
@@ -188,28 +186,29 @@
         $('.count').each(function() {
             var $this = $(this);
             var countTo = $this.attr('data-count'); // Read the data-count attribute
-            
+
             // Extract `+` sign if it exists
             var isPlus = countTo.includes('+');
             var cleanNumber = parseInt(countTo.replace('+', '')); // Remove `+` for calculation
 
             $this.text(isPlus ? '+' : ''); // Initialize with `+` if it exists
 
-            $({ countNum: 0 }).animate(
-                { countNum: cleanNumber },
-                {
-                    duration: 4000,
-                    easing: 'swing',
-                    step: function() {
-                        // Update the text with the animated number and the `+` sign if required
-                        $this.text((isPlus ? '+' : '') + Math.ceil(this.countNum).toLocaleString());
-                    },
-                    complete: function() {
-                        // On complete, ensure the final number is shown
-                        $this.text((isPlus ? '+' : '') + cleanNumber.toLocaleString());
-                    },
-                }
-            );
+            $({
+                countNum: 0
+            }).animate({
+                countNum: cleanNumber
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function() {
+                    // Update the text with the animated number and the `+` sign if required
+                    $this.text((isPlus ? '+' : '') + Math.ceil(this.countNum).toLocaleString());
+                },
+                complete: function() {
+                    // On complete, ensure the final number is shown
+                    $this.text((isPlus ? '+' : '') + cleanNumber.toLocaleString());
+                },
+            });
         });
     });
 </script>
@@ -447,8 +446,7 @@
 </script>
 
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 <script>
     $(document).ready(function() {
         $('.brand-slider').slick({
@@ -830,28 +828,28 @@ OTENZA.goToTop();
 
 
 <script>
-  function openCity(evt, cityName) {
-    // Hide all tab content
-    const tabcontent = document.getElementsByClassName("tabcontent");
-    for (let i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
+    function openCity(evt, cityName) {
+        // Hide all tab content
+        const tabcontent = document.getElementsByClassName("tabcontent");
+        for (let i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Remove "active" class from all tab links
+        const tablinks = document.getElementsByClassName("tablinks");
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the selected tab content and add "active" class to the clicked tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
     }
 
-    // Remove "active" class from all tab links
-    const tablinks = document.getElementsByClassName("tablinks");
-    for (let i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the selected tab content and add "active" class to the clicked tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-  }
-
-  // Set the default active tab on page load
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelector(".tablinks.active").click();
-  });
+    // Set the default active tab on page load
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector(".tablinks.active").click();
+    });
 </script>
 
 <script>
@@ -1038,20 +1036,19 @@ OTENZA.goToTop();
 
 
 <script>
-        function openCity(evt, cityName) {
-            // Remove active class from all tab buttons
-            const tablinks = document.querySelectorAll(".tablinks");
-            tablinks.forEach((tab) => tab.classList.remove("active"));
+    function openCity(evt, cityName) {
+        // Remove active class from all tab buttons
+        const tablinks = document.querySelectorAll(".tablinks");
+        tablinks.forEach((tab) => tab.classList.remove("active"));
 
-            // Remove active class from all tab contents
-            const tabcontents = document.querySelectorAll(".tabcontent");
-            tabcontents.forEach((content) => content.classList.remove("active"));
+        // Remove active class from all tab contents
+        const tabcontents = document.querySelectorAll(".tabcontent");
+        tabcontents.forEach((content) => content.classList.remove("active"));
 
-            // Add active class to the clicked tab button
-            evt.currentTarget.classList.add("active");
+        // Add active class to the clicked tab button
+        evt.currentTarget.classList.add("active");
 
-            // Add active class to the corresponding tab content
-            document.getElementById(cityName).classList.add("active");
-        }
-    </script>
-
+        // Add active class to the corresponding tab content
+        document.getElementById(cityName).classList.add("active");
+    }
+</script>
