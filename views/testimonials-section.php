@@ -30,7 +30,7 @@
                     </p>
                     <h4><ruby>Gearge Bosch</ruby></h4>
                     <h5>Director</h5>
-                    <img src="/assets/images/client1.jpg" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client1.webp" alt="" class="img-fluid client-img">
                 </div>
                 <div class="slide-item">
                     <ul class="star-list">
@@ -55,7 +55,7 @@
                     </p>
                     <h4><ruby>Sarah Smith</ruby></h4>
                     <h5>CEO</h5>
-                    <img src="/assets/images/client2.jpg" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client2.webp" alt="" class="img-fluid client-img">
                 </div>
                 <div class="slide-item">
                     <ul class="star-list">
@@ -81,7 +81,7 @@
                     </p>
                     <h4><ruby>Allen McLaren</ruby></h4>
                     <h5>Social Media Manager</h5>
-                    <img src="/assets/images/client3.jpg" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client3.webp" alt="" class="img-fluid client-img">
                 </div>
                 <div class="slide-item">
                     <ul class="star-list">
@@ -107,7 +107,7 @@
                     </p>
                     <h4><ruby>Anne Smith</ruby></h4>
                     <h5>Director</h5>
-                    <img src="/assets/images/client5.jpg" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client5.webp" alt="" class="img-fluid client-img">
                 </div>
                 <div class="slide-item">
                     <ul class="star-list">
@@ -133,7 +133,7 @@
                     </p>
                     <h4><ruby>Jennifer Kitz</ruby></h4>
                     <h5>Marekting Manager</h5>
-                    <img src="/assets/images/client5.jpg" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client5.webp" alt="" class="img-fluid client-img">
                 </div>
             </div>
         </div>

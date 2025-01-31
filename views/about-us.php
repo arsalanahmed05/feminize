@@ -23,8 +23,8 @@
                 <img id="bn3" src="/assets/images/bn3.webp" alt="" class="img-fluid abs">
                 <img id="bn4" src="/assets/images/bn4.webp" alt="" class="img-fluid abs">
                 <img id="bn5" src="/assets/images/bn5.webp" alt="" class="img-fluid abs">
-                <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
-                <img id="particle2" src="/assets/images/abstract-right.png" alt="" class="img-fluid abs animate2">
+                <img id="particle1" src="/assets/images/abstract-left.webp" alt="" class="img-fluid abs animate1">
+                <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
             </div>
         </div>
     </section>
@@ -34,21 +34,21 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="key-points-parent">
-                        <img src="/assets/images/jigsaw.png" alt="Image 1" class="img-fluid aks">
+                        <img src="/assets/images/jigsaw.webp" alt="Image 1" class="img-fluid aks">
                         <h3>Creative <br><ruby>Solutions</ruby></h3>
                         <p>We deliver innovative and tailored strategies that bring your digital vision to life, ensuring your brand stands out online.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="key-points-parent">
-                        <img src="/assets/images/gear.png" alt="Image 2" class="img-fluid aks">
+                        <img src="/assets/images/gear.webp" alt="Image 2" class="img-fluid aks">
                         <h3>Expert <br><ruby>Execution</ruby></h3>
                         <p>Our team combines industry expertise with cutting-edge tools to provide seamless and impactful results.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="key-points-parent">
-                        <img src="/assets/images/target.png" alt="Image 3" class="img-fluid aks">
+                        <img src="/assets/images/target.webp" alt="Image 3" class="img-fluid aks">
                         <h3>Client <br><ruby>Focused</ruby></h3>
                         <p>Your goals are our priority. We work closely with you to create solutions that align with your unique needs.</p>
                     </div>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="img-bg">
-                        <img src="/assets/images/rb_14.png" alt="" class="img-fluid abs animateee-center">
+                        <img src="/assets/images/rb_14.webp" alt="" class="img-fluid abs animateee-center">
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -114,21 +114,21 @@
                         </div>
                         <div class="feature-parent">
                             <div class="feature-list">
-                                <img src="/assets/images/graphic-design.png" alt="" class="img-fluid">
+                                <img src="/assets/images/graphic-design.webp" alt="" class="img-fluid">
                                 <div class="feature-text">
                                     <h4>Custom Designs</h4>
                                     <p>We create unique, visually captivating websites tailored to your brand’s identity.</p>
                                 </div>
                             </div>
                             <div class="feature-list">
-                                <img src="/assets/images/profil.png" alt="" class="img-fluid">
+                                <img src="/assets/images/profil.webp" alt="" class="img-fluid">
                                 <div class="feature-text">
                                     <h4>Seamless User Experience</h4>
                                     <p>Our designs ensure smooth navigation, making your website intuitive and user-friendly.</p>
                                 </div>
                             </div>
                             <div class="feature-list">
-                                <img src="/assets/images/responsive.png" alt="" class="img-fluid">
+                                <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
                                 <div class="feature-text">
                                     <h4>Responsive & Mobile-Ready</h4>
                                     <p>Your website will look stunning and function flawlessly across all devices and screen sizes.</p>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="img-bg">
-                            <img src="/assets/images/about-feeature-img.png" alt="" class="img-fluid">
+                            <img src="/assets/images/about-feeature-img.webp" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -306,7 +306,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/about-img-with-text.png" alt="" class="img-fluid">
+                        <img src="/assets/images/about-img-with-text.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

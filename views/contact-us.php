@@ -19,8 +19,8 @@
                 <img id="bn3" src="/assets/images/bn3.webp" alt="" class="img-fluid abs">
                 <img id="bn4" src="/assets/images/bn4.webp" alt="" class="img-fluid abs">
                 <img id="bn5" src="/assets/images/bn5.webp" alt="" class="img-fluid abs">
-                <img id="particle1" src="/assets/images/abstract-left.png" alt="" class="img-fluid abs animate1">
-                <img id="particle2" src="/assets/images/abstract-right.png" alt="" class="img-fluid abs animate2">
+                <img id="particle1" src="/assets/images/abstract-left.webp" alt="" class="img-fluid abs animate1">
+                <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
             </div>
         </div>
     </section>

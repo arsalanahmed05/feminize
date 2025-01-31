@@ -762,7 +762,7 @@ ul.dropdown-menu.show {
 #banner-text::before {
     content: "";
     position: absolute;
-    background-image: url(/assets/images/fem-emb.png);
+    background-image: url(/assets/images/fem-emb.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 250px;
@@ -1275,6 +1275,13 @@ ul.dropdown-menu.show {
     transition: 0.5s;
     animation: bounce-left 2s infinite linear;
 }
+.process-item a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    z-index: 99999;
+    position: relative;
+}
 
 #process-section .row {
     align-items: baseline !important;
@@ -1350,7 +1357,7 @@ ul.dropdown-menu.show {
 #banner-text::before {
     content: "";
     position: absolute;
-    background-image: url('/assets/images/fem-emb.png');
+    background-image: url('/assets/images/fem-emb.webp');
     top: 50%;
     left: 50%;
     background-repeat: no-repeat;
@@ -1365,7 +1372,7 @@ ul.dropdown-menu.show {
 #process-section::before {
     content: "";
     position: absolute;
-    background-image: url('/assets/images/fem-emb.png');
+    background-image: url('/assets/images/fem-emb.webp');
     top: 50%;
     left: -210px;
     background-repeat: no-repeat;
@@ -1756,7 +1763,7 @@ ul.dropdown-menu.show {
 #testimonials .slide-item::before {
     content: "";
     position: absolute;
-    background-image: url(/assets/images/world.png);
+    background-image: url(/assets/images/world.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 280px;
@@ -2047,7 +2054,7 @@ div#loom-companion-mv3 {
     content: "";
     position: absolute;
     background-repeat: no-repeat;
-    background-image: url(/assets/images/plan-bg.png);
+    background-image: url(/assets/images/plan-bg.webp);
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
@@ -2186,7 +2193,7 @@ div#loom-companion-mv3 {
 
 /* contact */
 
-#contact input.submit-btn {
+.form input.submit-btn {
     background: #04099d;
     color: #fff !important;
     border: 2px solid #04099d;
@@ -2228,7 +2235,7 @@ div#loom-companion-mv3 {
     transform: translateX(10px);
     filter: brightness(0.8);
 }
-#contact .form {
+.form {
     background: #000116;
     padding: 70px 50px 20px;
     border-radius: 24px;
@@ -2280,7 +2287,7 @@ div#loom-companion-mv3 {
 /* #contact::before {
     content: "";
     position: absolute;
-    background-image: url(/assets/images/map.png);
+    background-image: url(/assets/images/map.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 1150px;
@@ -2392,24 +2399,25 @@ div#loom-companion-mv3 {
     filter: drop-shadow(0px 0px 12px #000);
 }
 
-#contact .form-group {
+.form-group {
     display: flex;
     gap: 10px;
     margin-bottom: 15px;
 }
 
-#contact .form {
+.form {
     padding: 50px;
     margin-top: 20px;
     border-radius: 64px;
-    background: #fff;
-    box-shadow: inset 0px 0px 40px #6e6666d6;
+    background: transparent;
+    border: 2px solid #fff;
 }
 
-#contact input,
-#contact select,
-#contact textarea,
-#contact button {
+
+.form input,
+.form select,
+.form textarea,
+.form button {
     font-size: 16px;
     padding: 14px 20px;
     width: 100%;
@@ -2421,16 +2429,16 @@ div#loom-companion-mv3 {
     border-radius: 16px;
 }
 
-#contact input::placeholder,
-#contact textarea::placeholder,
-#contact select:required {
+.form input::placeholder,
+.form textarea::placeholder,
+.form select:required {
     color: #4e4b4b;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
 
-#contact .text-warpper h2,
-#contact .text-warpper p {
+ .text-warpper h2,
+ .text-warpper p {
     color: #111;
 }
 
@@ -2449,7 +2457,7 @@ div#loom-companion-mv3 {
     transition: 0.5s;
 }
 
-#contact .form-group textarea {
+.form-group textarea {
     height: 170px;
 }
 
@@ -2876,7 +2884,7 @@ img.animateee-center {
 #steps .container::before {
     content: "";
     position: absolute;
-    background-image: url(/assets/images/Vector-1.png);
+    background-image: url(/assets/images/Vector-1.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 80%;
@@ -2934,31 +2942,212 @@ img.animateee-center {
 
 /* General popup styles */
 .popup {
+    display: none; /* Hide popup by default */
     position: fixed;
+    z-index: 99999999; /* Stay on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Background overlay */
+}
+.popup p, h2{
+    color: #fff !important;
+}
+a.popup-logo img {
+    width: 100%;
+}
+a.popup-logo {
+    width: 10%;
+}
+.popup-content .alpha {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+.popup-body .row {
+    align-items: baseline !important;
+}
+@keyframes zoomZee {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.popup-content #f {
+    top: 10%;
+    right: 6%;
+    width: 5%;
+    transform: rotate(-23deg);
+    animation: zoomZee 5s infinite;
+    
+}
+.popup-content #e {
+    top: 40%;
+    right: 10%;
+    width: 5%;
+    transform: rotate(35deg);
+    animation:MoveRplus 5s infinite;
+    
+}
+.popup-content #m {
+    top: 20%;
+    right: 20%;
+    width: 5%;
+    transform: rotate(-17deg);
+}
+.popup-content #i {
+    top: 15%;
+    right: 45%;
+    width: 1%;
+    transform: rotate(-25deg);
+    animation: zoomZee 5s infinite;
+}
+.popup-content #n {
+    top: 33%;
+    right: 37%;
+    width: 4%;
+    transform: rotate(17deg);
+    animation:MoveRplus 5s infinite;
+}
+.popup-content #i2 {
+    bottom: 44%;
+    left: 52%;
+    width: 1%;
+    transform: rotate(15deg);
+    filter: brightness(1.1);
+    animation: MoveRplus 5s infinite;
+}
+.popup-content #z {
+    bottom: 28%;
+    left: 87%;
+    width: 8%;
+    transform: rotate(15deg);
+    filter: brightness(1.1);
+    animation:MoveRplus 5s infinite;
+}
+.popup-content #e2 {
+    bottom: 20%;
+    left: 60%;
+    width: 8%;
+    transform: rotate(-15deg);
+    animation: zoomZee 5s infinite;
+}
+@keyframes MoveRplus {
+    0% {
+        transform: unset;
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: unset;
+    }
+}
+.popup-body .img-bg img {
+    width: 47%;
+    position: absolute;
+    left: 10px;
+    bottom: -20px;
+    animation: ZoomGlow 9s linear infinite;
+}
+@keyframes ZoomGlow {
+    0% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    50% {
+        transform: scale(0.95);
+        filter: brightness(0.6);
+    }
+    100% {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+}
+.popup-content {
+    position: relative;
+    margin: auto;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+    background: linear-gradient(-141deg, #050CD5 28%, #000116 80%);
+    padding: 30px 0px 40px;
+    border-radius: 20px;
+    max-width: 1200px;
     width: 80%;
-    max-width: 600px;
-    background: #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.popup .form input::placeholder,
+.popup .form textarea::placeholder,
+.popup .form select:required {
+    color: #111;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 15px !important;
+}
+.popup .form input, .popup .form select, .popup .form textarea, .popup .form button {
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #cfc3c3;
+    margin-top: 1px;
+    border: 2px solid #1d1e24;
+    color: #262424;
     border-radius: 8px;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 9999;
-    transition: visibility 0s ease-in-out, opacity 0.4s ease-in-out;
 }
-
-/* Popup entrance animations */
-.popup.show {
-    visibility: visible;
-    opacity: 1;
-    animation: fadeInScale 0.5s ease-out forwards;
+.form a.bton.quote-button {
+    display: table;
+    margin: auto;
+    padding: 10px 60px;
+    border-color: #050cd5;
+    /* color: #1465ad !important; */
+    background: #050cd5;
 }
-
-/* Popup exit animations */
-.popup.hide {
-    animation: fadeOutScale 0.5s ease-out forwards;
+button#closePopup {
+    background: transparent !important;
+    color: #fff;
+    box-shadow: unset !important;
+    border: unset;
+    position: absolute;
+    right: -10px;
+    top: -5px;
+}
+button#closePopup i {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    border-radius: 50%;
+    border: 2px solid #f3eaea;
+    color: #000;
+}
+.popup-body .form {
+    padding: 40px 30px 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+    background: linear-gradient(45deg, #ffffff -50%, #000116 40%);
+    border: 4px solid #000116;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px #01004e00;
+}
+.popup-body h2 {
+    font-size: 28px !important;
+    line-height: 38px !important;
+}
+.popup-header {
+    display: flex;
+    justify-content: end;
+    align-items: start !important;
+}
+.popup-body .form-left-wrap h2 {
+    font-size: 52px !important;
+    line-height: 62px !important;
 }
 
 /* Keyframes for entrance (fade and scale) */
@@ -3012,15 +3201,6 @@ img.animateee-center {
     }
 }
 
-.popup.show {
-    visibility: visible;
-    opacity: 1;
-    animation: slideIn 0.5s ease-out forwards;
-}
-
-.popup.hide {
-    animation: slideOut 0.5s ease-out forwards;
-}
 
 
 
@@ -3543,10 +3723,12 @@ video#services-video {
 .portfolio-section .tablinks.active {
     background: #fff !important;
     color: #000116 !important;
+    box-shadow: inset 0px 0px 20px #000116;
 }
 .portfolio-section .tab button.tablinks:hover {
     background: #fff;
     color: #000116;
+    box-shadow: inset 0px 0px 20px #000116;
 }
 .testimonials-slider {
     margin: 0px auto;
@@ -3767,11 +3949,11 @@ video#services-video {
         padding: 100px 0 130px;
     }
 
-    #contact .form {
+    .form {
         padding: 40px 30px 10px;
     }
 
-    #contact .form-group {
+    .form-group {
         margin-bottom: 4px;
     }
 
@@ -3779,7 +3961,7 @@ video#services-video {
         margin: 10px auto;
     }
 
-    #contact .form h2 {
+    .form h2 {
         font-size: 36px !important;
         line-height: 46px !important;
     }
@@ -3847,7 +4029,7 @@ video#services-video {
     #about-banner {
         padding: 320px 0px 200px;    }
     
-    #contact .form h2 {
+    .form h2 {
         font-size: 32px !important;
         line-height: 42px !important;
     }

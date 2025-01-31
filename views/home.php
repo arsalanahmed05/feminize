@@ -23,8 +23,9 @@
                                 <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
-                                <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
-                                        quote</button></a>
+                                <button id="openPopup" class="quote-btn bton">
+    <i class="fa-brands fa-rocketchat"></i> Get a Quote
+</button>
                                 <a href="tel:+123456789"><button class="quote-btn bton"><i
                                             class="fa-solid fa-phone"></i>+(123)-456-7890</button></a>
                             </div>
@@ -51,7 +52,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                 <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-2.png" alt="" class="img-fluid">
+                                    <img src="/assets/images/servoce-slide-2.webp" alt="" class="img-fluid">
                                 </div>
                             
                             </div>
@@ -71,7 +72,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                 <div class="img-bg">
-                                    <img src="/assets/images/servoce-slide-3.png" alt="" class="img-fluid">
+                                    <img src="/assets/images/servoce-slide-3.webp" alt="" class="img-fluid">
                                 </div>  
                                 
                             </div>
@@ -79,12 +80,12 @@
                     </div> -->
             </div>
             <div class="motion-img">
-                <img src="/assets/images/logoalphabets/1.png" alt="" class="img-fluid bn1">
-                <img src="/assets/images/logoalphabets/2.png" alt="" class="img-fluid bn2">
-                <img src="/assets/images/logoalphabets/3.png" alt="" class="img-fluid bn3">
-                <img src="/assets/images/logoalphabets/4.png" alt="" class="img-fluid bn4">
-                <img src="/assets/images/logoalphabets/5.png" alt="" class="img-fluid bn5">
-                <img src="/assets/images/logoalphabets/6.png" alt="" class="img-fluid bn6">
+                <img src="/assets/images/logoalphabets/1.webp" alt="" class="img-fluid bn1">
+                <img src="/assets/images/logoalphabets/2.webp" alt="" class="img-fluid bn2">
+                <img src="/assets/images/logoalphabets/3.webp" alt="" class="img-fluid bn3">
+                <img src="/assets/images/logoalphabets/4.webp" alt="" class="img-fluid bn4">
+                <img src="/assets/images/logoalphabets/5.webp" alt="" class="img-fluid bn5">
+                <img src="/assets/images/logoalphabets/6.webp" alt="" class="img-fluid bn6">
             </div>
         </div>
     </section>
@@ -96,7 +97,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="item-hwdi hwdi-odd">
-                        <img src="/assets/images/planning.png">
+                        <img src="/assets/images/planning.webp">
                         <div class="arrow-bg-clip">
                             <h4>Planning</h4>
                         </div>
@@ -106,7 +107,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="item-hwdi hwdi-even">
-                        <img src="/assets/images/research.png">
+                        <img src="/assets/images/research.webp">
                         <div class="arrow-bg-clip bg-black">
                             <h4>Research</h4>
                         </div>
@@ -116,7 +117,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="item-hwdi hwdi-odd">
-                        <img src="/assets/images/optimization.png">
+                        <img src="/assets/images/optimization.webp">
                         <div class="arrow-bg-clip arrow-spark">
                             <h4>Optimization</h4>
                         </div>
@@ -126,7 +127,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="item-hwdi hwdi-even">
-                        <img src="/assets/images/results.png">
+                        <img src="/assets/images/results.webp">
                         <div class="arrow-bg-clip bg-black">
                             <h4>Results</h4>
                         </div>
@@ -214,8 +215,7 @@
                         <h2>Unlock <ruby>Growth</ruby> with<br> Expert <ruby>Digital Solutions</ruby>
                         </h2>
                         <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and improve customer engagement.</p>
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View
-                                Packages</button></a>
+                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>Get A Quote</button></a>
                     </div>
 
                 </div>
@@ -224,76 +224,76 @@
                         <div class="col-lg-6">
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps1.png" alt=""> 
+                                    <img class="img-fluid top" src="/assets/images/ps1.webp" alt=""> 
                                     <h3><ruby>content </ruby><br>writing</h3>
                                     <p>Crafting compelling content that resonates with your audience, boosts engagement, and drives results for your brand’s success.</p>
                                     <a href="/content-writing/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps1.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps1.webp" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps2.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps2.webp" alt="">
                                     <h3><ruby>Email </ruby><br>Marketing</h3>
                                     <p>Unlock the power of email marketing with tailored campaigns that build relationships and drive conversions straight to your inbox.</p>
                                     <a href="/email-marketing/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps2.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps2.webp" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps3.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps3.webp" alt="">
                                     <h3><ruby>Graphic </ruby><br>Designing</h3>
                                     <p>Bringing your vision to life with innovative graphic designs that capture attention and communicate your brand’s unique story.</p>
                                     <a href="/graphic-designing/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps3.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps3.webp" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps4.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps4.webp" alt="">
                                     <h3><ruby>PPC </ruby><br>Marketing</h3>
                                     <p>Maximize your ROI (Return On Investment) with targeted Pay-Per-Click marketing campaigns that drive instant traffic and deliver measurable results for your business.</p>
                                     <a href="/pay-per-click/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps4.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps4.webp" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps5.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps5.webp" alt="">
                                     <h3><ruby>Search Engine </ruby><br>Optimization</h3>
                                     <p>Boost your online presence with strategic SEO, driving organic traffic and improving your website’s visibility on search engines.</p>
                                     <a href="/search-engine/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps5.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps5.webp" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps6.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps6.webp" alt="">
                                     <h3><ruby>Social Media </ruby><br>Marketing</h3>
                                     <p>Elevate your brand with targeted social media marketing that engages your audience and builds lasting connections across platforms.</p>
                                     <a href="/social-media/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps6.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps6.webp" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps7.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps7.webp" alt="">
                                     <h3><ruby>Web </ruby><br>Designing</h3>
                                     <p>Create a seamless online experience with stunning web design that reflects your brand and captivates visitors from the start.</p>
                                     <a href="/web-designing/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps7.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps7.webp" alt="">
                                 </div>
                             </div>
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps8.png" alt="">
+                                    <img class="img-fluid top" src="/assets/images/ps8.webp" alt="">
                                     <h3><ruby>Web </ruby><br>Development</h3>
                                     <p>Transform your ideas into stunning websites with our expert web development services, designed to engage and convert visitors.</p>
                                     <a href="/web-development/"><i class="fa-solid fa-arrow-right"></i></a>
-                                    <img class="img-fluid bottom" src="/assets/images/ps8.png" alt="">
+                                    <img class="img-fluid bottom" src="/assets/images/ps8.webp" alt="">
                                 </div>
                             </div>
                         </div>
@@ -324,7 +324,7 @@
                   <div class="col-xxl-5 col-xl-5 mb-5 mb-xl-0">
                     <div class="sticky-top" style="top: 80px;">
                       <div class="section-title">
-                        <span class="sub-title"><img class="img-fluid" src="images/subtitle-icon.png" alt=""> Our Steps</span>
+                        <span class="sub-title"><img class="img-fluid" src="images/subtitle-icon.webp" alt=""> Our Steps</span>
                         <h2 class="title"> Digital marketing services that help you grow.</h2>
                       </div>
                       <div class="ps-xxl-5 ms-0 ms-md-5">
@@ -441,22 +441,22 @@
           </section>
     <div class="scroll-container">
         <div class="scroll-content">
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/1.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/2.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/3.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/5.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/6.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/2.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/7.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/8.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/9.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/10.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/11.png" alt=""></div>
-            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/12.png" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/1.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/2.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/3.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/5.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/6.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/2.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/7.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/8.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/4.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/9.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/10.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/11.webp" alt=""></div>
+            <div class="alphabet-item"><img class="img-fluid" src="/assets/images/logoalphabets/12.webp" alt=""></div>
         </div>
     </div> -->
 
@@ -499,11 +499,11 @@
                         <ul class="portfolio-slider">
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.jpg">
-                                        <img src="/assets/images/logos/pl1.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
+                                        <img src="/assets/images/logos/pl1.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
 
                                         </a>
                                     </div>
@@ -511,11 +511,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.jpg">
-                                        <img src="/assets/images/logos/pl2.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
+                                        <img src="/assets/images/logos/pl2.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
 
                                         </a>
                                     </div>
@@ -523,11 +523,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl3.png">
-                                        <img src="/assets/images/logos/pl3.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl3.webp">
+                                        <img src="/assets/images/logos/pl3.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl3.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl3.webp">
 
                                         </a>
                                     </div>
@@ -535,11 +535,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.jpg">
-                                        <img src="/assets/images/logos/pl4.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
+                                        <img src="/assets/images/logos/pl4.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
 
                                         </a>
                                     </div>
@@ -547,11 +547,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl5.png">
-                                        <img src="/assets/images/logos/pl5.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl5.webp">
+                                        <img src="/assets/images/logos/pl5.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl5.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl5.webp">
 
                                         </a>
                                     </div>
@@ -559,11 +559,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.jpg">
-                                        <img src="/assets/images/logos/pl6.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
+                                        <img src="/assets/images/logos/pl6.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
 
                                         </a>
                                     </div>
@@ -571,11 +571,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.jpg">
-                                        <img src="/assets/images/logos/pl7.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
+                                        <img src="/assets/images/logos/pl7.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
 
                                         </a>
                                     </div>
@@ -583,11 +583,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.jpg">
-                                        <img src="/assets/images/logos/pl8.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
+                                        <img src="/assets/images/logos/pl8.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
 
                                         </a>
                                     </div>
@@ -595,11 +595,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.png">
-                                        <img src="/assets/images/logos/pl9.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
+                                        <img src="/assets/images/logos/pl9.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
 
                                         </a>
                                     </div>
@@ -607,11 +607,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.png">
-                                        <img src="/assets/images/logos/pl10.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
+                                        <img src="/assets/images/logos/pl10.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
 
                                         </a>
                                     </div>
@@ -619,11 +619,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl11.png">
-                                        <img src="/assets/images/logos/pl11.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl11.webp">
+                                        <img src="/assets/images/logos/pl11.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl11.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl11.webp">
 
                                         </a>
                                     </div>
@@ -633,11 +633,11 @@
                         <ul class="portfolio-slider-reverse">
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.jpg">
-                                        <img src="/assets/images/logos/pl12.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
+                                        <img src="/assets/images/logos/pl12.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
 
                                         </a>
                                     </div>
@@ -645,110 +645,110 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl13.png">
-                                        <img src="/assets/images/logos/pl13.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl13.webp">
+                                        <img src="/assets/images/logos/pl13.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl13.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl13.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl14.jpg">
-                                        <img src="/assets/images/logos/pl14.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl14.webp">
+                                        <img src="/assets/images/logos/pl14.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl14.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl14.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl15.jpg">
-                                        <img src="/assets/images/logos/pl15.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl15.webp">
+                                        <img src="/assets/images/logos/pl15.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl15.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl15.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl16.png">
-                                        <img src="/assets/images/logos/pl16.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl16.webp">
+                                        <img src="/assets/images/logos/pl16.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl16.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl16.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl17.jpg">
-                                        <img src="/assets/images/logos/pl17.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl17.webp">
+                                        <img src="/assets/images/logos/pl17.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl17.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl17.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl18.jpg">
-                                        <img src="/assets/images/logos/pl18.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl18.webp">
+                                        <img src="/assets/images/logos/pl18.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl18.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl18.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl19.png">
-                                        <img src="/assets/images/logos/pl19.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl19.webp">
+                                        <img src="/assets/images/logos/pl19.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl19.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl19.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl20.png">
-                                        <img src="/assets/images/logos/pl20.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl20.webp">
+                                        <img src="/assets/images/logos/pl20.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl20.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl20.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl21.png">
-                                        <img src="/assets/images/logos/pl21.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl21.webp">
+                                        <img src="/assets/images/logos/pl21.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl21.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl21.webp">
                                         </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl22.png">
-                                        <img src="/assets/images/logos/pl22.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl22.webp">
+                                        <img src="/assets/images/logos/pl22.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl22.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl22.webp">
                                         </a>
                                     </div>
                                 </div>
@@ -766,11 +766,11 @@
                         <ul class="portfolio-slider">
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd1.jpg">
-                                        <img src="/assets/images/webdesigns/wd1.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd1.webp">
+                                        <img src="/assets/images/webdesigns/wd1.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd1.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd1.webp">
 
                                         </a>
                                     </div>
@@ -778,11 +778,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd2.png">
-                                        <img src="/assets/images/webdesigns/wd2.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd2.webp">
+                                        <img src="/assets/images/webdesigns/wd2.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd2.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd2.webp">
 
                                         </a>
                                     </div>
@@ -790,11 +790,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd3.png">
-                                        <img src="/assets/images/webdesigns/wd3.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd3.webp">
+                                        <img src="/assets/images/webdesigns/wd3.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd3.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd3.webp">
 
                                         </a>
                                     </div>
@@ -802,11 +802,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd4.jpg">
-                                        <img src="/assets/images/webdesigns/wd4.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd4.webp">
+                                        <img src="/assets/images/webdesigns/wd4.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd4.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd4.webp">
 
                                         </a>
                                     </div>
@@ -814,11 +814,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd5.png">
-                                        <img src="/assets/images/webdesigns/wd5.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd5.webp">
+                                        <img src="/assets/images/webdesigns/wd5.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd5.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd5.webp">
 
                                         </a>
                                     </div>
@@ -826,11 +826,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd6.jpg">
-                                        <img src="/assets/images/webdesigns/wd6.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd6.webp">
+                                        <img src="/assets/images/webdesigns/wd6.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd6.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd6.webp">
 
                                         </a>
                                     </div>
@@ -838,11 +838,11 @@
                             </li>
                             <!-- <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.jpg">
-                                        <img src="/assets/images/logos/pl7.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
+                                        <img src="/assets/images/logos/pl7.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
 
                                         </a>
                                     </div>
@@ -850,11 +850,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.jpg">
-                                        <img src="/assets/images/logos/pl8.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
+                                        <img src="/assets/images/logos/pl8.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
 
                                         </a>
                                     </div>
@@ -864,11 +864,11 @@
                         <ul class="portfolio-slider-reverse">
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd7.jpg">
-                                        <img src="/assets/images/webdesigns/wd7.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd7.webp">
+                                        <img src="/assets/images/webdesigns/wd7.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd7.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd7.webp">
 
                                         </a>
                                     </div>
@@ -876,11 +876,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd8.png">
-                                        <img src="/assets/images/webdesigns/wd8.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd8.webp">
+                                        <img src="/assets/images/webdesigns/wd8.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd8.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd8.webp">
 
                                         </a>
                                     </div>
@@ -888,11 +888,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd9.jpg">
-                                        <img src="/assets/images/webdesigns/wd9.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd9.webp">
+                                        <img src="/assets/images/webdesigns/wd9.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd9.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd9.webp">
 
                                         </a>
                                     </div>
@@ -900,11 +900,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd10.png">
-                                        <img src="/assets/images/webdesigns/wd10.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd10.webp">
+                                        <img src="/assets/images/webdesigns/wd10.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd10.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd10.webp">
 
                                         </a>
                                     </div>
@@ -912,11 +912,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd11.jpg">
-                                        <img src="/assets/images/webdesigns/wd11.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd11.webp">
+                                        <img src="/assets/images/webdesigns/wd11.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd11.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd11.webp">
 
                                         </a>
                                     </div>
@@ -924,11 +924,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd12.jpg">
-                                        <img src="/assets/images/webdesigns/wd12.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd12.webp">
+                                        <img src="/assets/images/webdesigns/wd12.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd12.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd12.webp">
 
                                         </a>
                                     </div>
@@ -936,11 +936,11 @@
                             </li>
                             <!-- <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.jpg">
-                                        <img src="/assets/images/logos/pl1.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
+                                        <img src="/assets/images/logos/pl1.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
 
                                         </a>
                                     </div>
@@ -948,11 +948,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.jpg">
-                                        <img src="/assets/images/logos/pl2.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
+                                        <img src="/assets/images/logos/pl2.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
 
                                         </a>
                                     </div>
@@ -960,11 +960,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.jpg">
-                                        <img src="/assets/images/logos/pl4.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
+                                        <img src="/assets/images/logos/pl4.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
 
                                         </a>
                                     </div>
@@ -972,11 +972,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.jpg">
-                                        <img src="/assets/images/logos/pl6.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
+                                        <img src="/assets/images/logos/pl6.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
 
                                         </a>
                                     </div>
@@ -984,11 +984,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.png">
-                                        <img src="/assets/images/logos/pl9.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
+                                        <img src="/assets/images/logos/pl9.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
 
                                         </a>
                                     </div>
@@ -996,11 +996,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.png">
-                                        <img src="/assets/images/logos/pl10.png">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
+                                        <img src="/assets/images/logos/pl10.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.png">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
 
                                         </a>
                                     </div>
@@ -1008,11 +1008,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.jpg">
-                                        <img src="/assets/images/logos/pl12.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
+                                        <img src="/assets/images/logos/pl12.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
 
                                         </a>
                                     </div>
@@ -1020,11 +1020,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.jpg">
-                                        <img src="/assets/images/logos/pl1.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
+                                        <img src="/assets/images/logos/pl1.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
 
                                         </a>
                                     </div>
@@ -1044,11 +1044,11 @@
                         <ul class="portfolio-slider">
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp1.jpg">
-                                        <img src="/assets/images/branding/bp1.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp1.webp">
+                                        <img src="/assets/images/branding/bp1.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp1.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp1.webp">
 
                                         </a>
                                     </div>
@@ -1056,11 +1056,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp2.jpg">
-                                        <img src="/assets/images/branding/bp2.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp2.webp">
+                                        <img src="/assets/images/branding/bp2.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp2.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp2.webp">
 
                                         </a>
                                     </div>
@@ -1068,11 +1068,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp3.jpg">
-                                        <img src="/assets/images/branding/bp3.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp3.webp">
+                                        <img src="/assets/images/branding/bp3.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp3.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp3.webp">
 
                                         </a>
                                     </div>
@@ -1080,11 +1080,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp4.jpg">
-                                        <img src="/assets/images/branding/bp4.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp4.webp">
+                                        <img src="/assets/images/branding/bp4.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp4.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp4.webp">
 
                                         </a>
                                     </div>
@@ -1092,11 +1092,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp5.jpg">
-                                        <img src="/assets/images/branding/bp5.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp5.webp">
+                                        <img src="/assets/images/branding/bp5.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp5.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp5.webp">
 
                                         </a>
                                     </div>
@@ -1104,11 +1104,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp6.jpg">
-                                        <img src="/assets/images/branding/bp6.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp6.webp">
+                                        <img src="/assets/images/branding/bp6.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp6.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp6.webp">
 
                                         </a>
                                     </div>
@@ -1118,11 +1118,11 @@
                         <ul class="portfolio-slider-reverse">
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp7.jpg">
-                                        <img src="/assets/images/branding/bp7.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp7.webp">
+                                        <img src="/assets/images/branding/bp7.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp7.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp7.webp">
 
                                         </a>
                                     </div>
@@ -1130,11 +1130,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp8.jpg">
-                                        <img src="/assets/images/branding/bp8.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp8.webp">
+                                        <img src="/assets/images/branding/bp8.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp8.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp8.webp">
 
                                         </a>
                                     </div>
@@ -1142,11 +1142,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp9.jpg">
-                                        <img src="/assets/images/branding/bp9.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp9.webp">
+                                        <img src="/assets/images/branding/bp9.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp9.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp9.webp">
 
                                         </a>
                                     </div>
@@ -1154,11 +1154,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp10.jpg">
-                                        <img src="/assets/images/branding/bp10.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp10.webp">
+                                        <img src="/assets/images/branding/bp10.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp10.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp10.webp">
 
                                         </a>
                                     </div>
@@ -1166,11 +1166,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp11.jpg">
-                                        <img src="/assets/images/branding/bp11.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp11.webp">
+                                        <img src="/assets/images/branding/bp11.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp11.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp11.webp">
 
                                         </a>
                                     </div>
@@ -1178,11 +1178,11 @@
                             </li>
                             <li>
                                 <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp12.jpg">
-                                        <img src="/assets/images/branding/bp12.jpg">
+                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp12.webp">
+                                        <img src="/assets/images/branding/bp12.webp">
                                     </a>
                                     <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp12.jpg">
+                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp12.webp">
 
                                         </a>
                                     </div>
@@ -1888,38 +1888,38 @@
                         </div>
                         <div class="brand-slider">
                             <div class="brand-item">
-                                <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
+                                <img src="/assets/images/Partners-2.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-3.jpg" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-3.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
                                 <img src="/assets/images/Partner-4.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
+                                <img src="/assets/images/Partners-2.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
                                 <img src="/assets/images/Partner-6.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-7.jpg" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-7.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-8.jpg" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-8.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-10.jpg" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-10.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-11.jpg" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-11.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="stack">
                             <div class="brand-goal d-flex">
-                                <img src="/assets//images/target (2).png" alt="" class="img-fluid">
+                                <img src="/assets//images/target (2).webp" alt="" class="img-fluid">
                                 <div class="goal-detail">
                                     <h4>Purposeful Design</h4>
                                     <p>We design with intent, ensuring every design decision supports your brand’s story
@@ -1927,7 +1927,7 @@
                                 </div>
                             </div>
                             <div class="brand-goal d-flex">
-                                <img src="/assets/images/analysis.png" alt="" class="img-fluid">
+                                <img src="/assets/images/analysis.webp" alt="" class="img-fluid">
                                 <div class="goal-detail">
                                     <h4>Results-Oriented</h4>
                                     <p>We focus on creating websites that deliver tangible results, improving user
@@ -1935,7 +1935,7 @@
                                 </div>
                             </div>
                             <div class="brand-goal d-flex">
-                                <img src="/assets/images/sustainable-development.png" alt="" class="img-fluid">
+                                <img src="/assets/images/sustainable-development.webp" alt="" class="img-fluid">
                                 <div class="goal-detail">
                                     <h4>Sustainability</h4>
                                     <p>We’re committed to building long-lasting solutions that adapt to the

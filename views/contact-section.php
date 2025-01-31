@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-7">
                 <div class="img-bg">
-                    <img src="/assets/images/contact-us-left-col.png" alt="" class="img-fluid">
+                    <img src="/assets/images/contact-us-left-col.webp" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-md-5">

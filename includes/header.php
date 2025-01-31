@@ -1,7 +1,7 @@
 <header id="top">
     <div class="container-fluid">
         <nav class="navbar bg-body-tertiary fixed-top">
-            <a class="navbar-brand" href="/"><img src="/assets/images/Feminize-digital.png" alt=""
+            <a class="navbar-brand" href="/"><img src="/assets/images/Feminize-digital.webp" alt=""
                     class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <img src="/assets/images/Feminize-digital.png" alt="" class="img-fluid dropdown-logo">
+                    <img src="/assets/images/Feminize-digital.webp" alt="" class="img-fluid dropdown-logo">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -48,7 +48,9 @@
                             <a class="nav-link" href="/contact-us/">Contact Us</a>
                         </li>
                     </ul>
-                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a quote</button></a>
+                    <button id="openPopup" class="quote-btn bton">
+    <i class="fa-brands fa-rocketchat"></i> Get a Quote
+</button>
                 </div>
             </div>
         </nav>
