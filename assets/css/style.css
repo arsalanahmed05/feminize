@@ -5,11 +5,17 @@ html body {
     background-color: #000116;
 
 }
-
 header#top {
     animation: 3s ease-out 0s 1 slideInFromLeft;
     z-index: 99999999;
     position: relative;
+}
+header#top nav {
+    position: relative;
+    background: #fff !important;
+    padding: 0 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow:inset 0px 0px 19px #00011675
 }
 @keyframes slideInFromLeft {
   0% {
@@ -145,6 +151,7 @@ h6 span {
     transition: 0.5s;
     z-index: -1;
     border-radius: 32px;
+    box-shdaow:inset 0px 0px 20px #000116;
 }
 
 ul.star-list li {
@@ -203,12 +210,12 @@ ruby {
     transition: 0.5s ease-in-out;
     border-radius: 32px;
     position: relative;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .bton:hover {
     transform: scale(1.05);
-    color: #000116;
+    color: #000116 !important;
 }
 
 /* html, body {
@@ -596,26 +603,13 @@ ruby {
 
 
 /* header css */
-nav.navbar.bg-body-tertiary.fixed-top {
-    background: transparent !important;
-    padding: 0 20px;
-    transition: all 0.3s ease-in-out;
-    box-shadow: unset !important;
-    width: 100vw;
-    padding: 0 !important;
-}
+
 
 
 
 
 /* Default navbar styles */
-.navbar {
-    transition: all 0.3s ease-in-out;
-    background-color: transparent;
-    /* Default background color */
-    padding: 20px 30px;
-    box-shadow: none;
-}
+
 
 /* When navbar gets the 'scrolled' class */
 .navbar.scrolled {
@@ -642,24 +636,36 @@ nav.navbar.bg-body-tertiary.fixed-top {
 }
 
 ul.navbar-nav li a {
-    color: #fff;
+    color: #000 !important;
     text-transform: capitalize;
 }
+nav .bton::before {
+    display: none;
+}
 
+nav .bton:hover {
+    background: #000116 !important;
+    color: #fff !important;
+}
+nav .bton {
+    border: 1px solid #ccc;
+    color: #000116 !important;
+    padding: 8px 24px;
+}
 a.dropdown-item:hover {
     color: #000116 !important;
 }
-
+ul.navbar-nav {
+    justify-content: start !important;
+}
+nav .quote-link {
+    margin-top: 0;
+}
 a.navbar-brand img {
-    width: 8%;
-    display: table;
-    margin: 0 auto 0px;
-    background: #fff;
-    border-radius: 0px 0px 20px 20px;
-    filter: drop-shadow(-2px 3px 12px #050cd6);
+    width: 22%;
 }
 a.navbar-brand {
-    width: 100%;
+    width: 20%;
     z-index: 999;
     padding: 0;
 }
@@ -670,46 +676,48 @@ button.navbar-toggler {
     z-index: 9999999;
 }
 button.navbar-toggler i {
-    color: #fff;
+    color: #000 !important;
     font-size: 30px;
     transition: 0.5s;
 }
 
-div#offcanvasNavbar {
+/* div#offcanvasNavbar {
     background: #000116;
     color: #fff;
-}
+} */
 
 button.btn-close {
     opacity: 1;
     filter: invert(1) !important;
 
 }
-
-#top ul.navbar-nav {
-    margin-bottom: 30px;
+.offcanvas-body {
+    align-items: center !important;
 }
-
 #top nav ul li a.nav-link {
-    color: #fff;
+    color: #000 !important;
     transition: 0.5s;
     font-family: "Poppins" !important;
     font-size: 18px;
     line-height: 28px;
+    margin: 0pc 24px;
+    padding: 0;
 }
-
-#top nav ul li a.nav-link:hover,
-#top nav ul li a.nav-link.active {
-    color: #050cd5;
-
+#top nav ul li a.nav-link:hover, #top nav ul li a.nav-link.active {
+    color: #050cd5 !important;
+}
+nav .bton i {
+    display: none;
 }
 #steps .step-main span {
     font-family: 'Poppins';
 }
 ul.dropdown-menu.show {
-    background: #050cd5;
-    color: #fff;
+    background: #ffff;
+    color: #000;
     transition: 0.5s;
+    border-radius: 0px 0px 12px 12px;
+    border-top: unset !important;
 }
 
 
@@ -717,9 +725,8 @@ ul.dropdown-menu.show {
 /* home-banner css */
 
 #home-banner {
-    padding: 400px 0px 160px;
+    padding: 260px 0px 250px;
     position: relative;
-
 }
 
 #home-banner .abs {
@@ -738,6 +745,24 @@ ul.dropdown-menu.show {
     width: 10%;
     z-index: -1;
     opacity: 0.5;
+}
+#home-banner #Shopify {
+    bottom: 17%;
+    right: 19%;
+    width: 6%;
+    z-index: -1;
+}
+#home-banner #tiktok {
+    top: 17%;
+    right: 21%;
+    width: 6%;
+    z-index: -1;
+}
+#home-banner #amazon {
+    bottom: 17%;
+    left: 19%;
+    width: 6%;
+    z-index: -1;
 }
 
 #home-banner .row {
@@ -813,13 +838,7 @@ ul.dropdown-menu.show {
     line-height: 66px !important;
 }
 
-#home-banner img {
-    filter: drop-shadow(2px 34px 6px #050cd5);
-}
 
-#home-banner img.main-img {
-    width: 40%;
-}
 
 /* #banner-text::after {
     content: "";
@@ -1121,8 +1140,8 @@ ul.dropdown-menu.show {
     display: none; 
     position: relative;
 }
-#steps h2 {
-    color: #000116;
+#steps h2, #steps h6 span {
+    color: #000116 !important;
 }
 #about-features .milestone h4 {
     color: #fff;
@@ -1515,6 +1534,22 @@ ul.dropdown-menu.show {
     box-shadow: 0 0 30px #0000001f
 }
 
+#medusa-banner h1 {
+    font-size: 132px !important;
+    line-height: 142px !important;
+}
+
+#medusa-banner {
+    padding: 200px 0 280px;
+}
+#medusa-banner img {
+    width: 10%;
+    margin: 0px 20px;
+}
+
+
+
+
 .ban-form input {
     width: 100%;
     margin: 0 0 15px;
@@ -1677,6 +1712,44 @@ ul.dropdown-menu.show {
     transition: 0.4s;
     z-index: 1 !important;
 }
+
+
+#service-points .row {
+    background: #fff;
+    color: #000116;
+    border-radius: 12px;
+    padding: 20px 20px;
+    box-shadow: inset 0px 0px 20px #000116;
+    position: relative;
+}
+#service-points .row::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, #050cd6, #ffffff00);
+    width: 1340px;
+    height: 300px;
+    z-index: -1;
+    left: -20px;
+    top: -20px;
+    border-radius: 12px;
+}
+#service-points .row li span {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 26px;
+    color:#000;
+    font-weight:500;
+}
+
+#service-points .row li {
+    margin: 20px 0px;
+}
+
+#service-points .row li::marker {
+    color: #050cd6;
+}
+
+
 
 /* Animated Border */
 .process-item::before {
@@ -2412,7 +2485,9 @@ div#loom-companion-mv3 {
     background: transparent;
     border: 2px solid #fff;
 }
-
+.quote-link {
+    margin-top: 30px;
+}
 
 .form input,
 .form select,
@@ -2436,17 +2511,15 @@ div#loom-companion-mv3 {
     text-transform: capitalize;
     letter-spacing: 1px;
 }
-
  .text-warpper h2,
  .text-warpper p {
     color: #111;
 }
-
 #contact a.bton.quote-button {
     background: transparent;
-    color: #000 !important;
+    color: #fff !important;
     text-transform: capitalize;
-    border: 2px solid #000116;
+    border: 2px solid #fff;
     border-radius: 34px;
     padding: 12px 60px;
     font-size: 18px;
@@ -2455,6 +2528,12 @@ div#loom-companion-mv3 {
     display: table;
     margin: auto;
     transition: 0.5s;
+}
+#contact .form p {
+    color: #fff !important;
+}
+#contact a.bton.quote-button:hover {
+    color: #000116 !important;
 }
 
 .form-group textarea {
@@ -2580,7 +2659,7 @@ footer.footer-section p {
 footer.footer-section img {
     width: 50%;
     display: table;
-    margin: -180px auto 0;
+    margin: -120px auto 0;
     background: #fff;
     padding: 8px;
     border-radius: 100px;
@@ -2588,7 +2667,7 @@ footer.footer-section img {
 
 footer.footer-section #top-row {
     align-items: center !important;
-    padding: 0px 0px 20px;
+    padding: 0px 0px 30px;
     border-bottom: 1px solid #fff;
 }
 
@@ -2610,15 +2689,14 @@ footer.footer-section .footer-left-menu li a i {
 }
 
 .footer-section .footer-menu li a i {
-    margin-right: 10px;
     font-size: 14px;
+    margin-right: 10px;
 
 }
 
 .footer-section .footer-menu li a:hover,
 .footer-section .footer-left-menu li a:hover {
-    margin-left: 10px;
-    color: #050CD5;
+    color: #050CD5 !important;
 }
 
 
@@ -2843,55 +2921,75 @@ img.animateee-center {
 
 
 
-#steps .step-main {
-    background: linear-gradient(180deg, #050CD5 -150%, #000116 70%);
-    padding: 60px 40px;
-    border-radius: 140px;
-    margin: 20px 40px;
+
+
+
+#process-steps-section .process-steps {
     text-align: center;
-    border: 4px solid #050cd6;
+    position: relative;
+    transition: 0.5s;
+}
+#process-steps-section .process-steps::before {
+    content: "\f04b";
+    position: absolute;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    top: 131px;
+    left: 141px;
+    transform: rotate(90deg);
+    opacity: 0.2;
+    transition: 0.5s;
+}
+#process-steps-section .process-steps:hover:before {
+    opacity: 1;
+}
+#process-steps-section .process-steps img {
+    width: 30%;
+    filter: invert(1);
+    display: table;
+    margin: 0px auto 100px;
+    transition: 0.5s;
+    opacity: 0.5;
 }
 
-#steps .step-down {
-    transform: translateY(50%);
-}
-
-#steps {
-    background: linear-gradient(45deg, #ffffff, #000116 240%);
-    color: #000116;
-    padding: 80px 0 220px;
+#process-steps-section .row {
+    align-items: baseline !important;
     position: relative;
 }
 
-#steps .step-main span,
-#steps h4 {
-    color: #fff !important;
+#process-steps-section .process-steps span {
+    font-size: 62px;
+    font-family: 'Russo One';
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    transition: 0.5s;
 }
-
-#steps .section-title {
-    margin-bottom: 20px !important;
+#process-steps-section .process-steps h4 {
+    font-size: 28px !important;
+    line-height: 38px !important;
+    transition: 0.5s;
+    opacity: 0.5;
 }
-
-#steps ruby {
-    -webkit-text-stroke: 2px #000116 !important;
+#process-steps-section .process-steps p {
+    opacity: 0.5;
+    transition: 0.5s;
 }
-
-#steps .container {
-    position: relative;
-    z-index: 1;
+#process-steps-section .process-steps:hover h4, #process-steps-section .process-steps:hover p, #process-steps-section .process-steps:hover img, #process-steps-section .process-steps:hover span {
+    opacity: 1;
 }
-
-#steps .container::before {
+#process-steps-section .process-steps:hover span {
+    -webkit-text-stroke: unset;
+    color: #fff;
+}
+#process-steps-section .row::before {
     content: "";
     position: absolute;
-    background-image: url(/assets/images/Vector-1.webp);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 80%;
-    height: 40%;
-    top: 65%;
-    left: 110px;
-    filter: invert(1);
+    background: #fff;
+    width: 1300px;
+    height: 1px;
+    top: 140px;
+    left: 0;
+    opacity: 0.2;
     z-index: -1;
 }
 
@@ -3334,7 +3432,7 @@ video#services-video {
 #slide-item-row {
     padding: 0px 10px;
 }
-#services-banner button.quote-btn.bton {
+#services-banner #lft {
     margin-right: 10px;
 }
 #services-banner .slick-arrow {
@@ -3548,7 +3646,6 @@ video#services-video {
 #business-feature .section-title {
     margin-bottom: 100px;
 }
-
 
 
 #service-features {
@@ -3792,7 +3889,7 @@ video#services-video {
 }
 
 #portfolio-herobanner h2 {
-    color: #000116;
+    color: #000116 !important;
 }
 
 #portfolio-herobanner .row::before {
@@ -3822,9 +3919,35 @@ video#services-video {
         font-size: 90px;
         line-height: 100px;
     }
+    #process-steps-section .row::before {
+        width: 1140px;
+    }
+    #process-steps-section .process-steps::before {
+        left: 120px;
+    }
+    #business-feature .feature-parent h4 {
+        font-size: 24px !important;
+        line-height: 34px !important;
+    }  
+    #category-plan button.tablinks::before {
+        width: 540px;
+    }
+    #category-plan .plan-item {
+        margin: 10px 60px;  
+    }
+    #category-plan .tabcontent.active::before {
+        width: 80%;
+        left: 53px;
+    }    
+    #business-feature {
+        padding: 100px 0;
+    } 
     .key-points-parent {
         margin: 0px 50px;
         padding: 0px 20px;
+    }
+    a.navbar-brand img {
+        width: 32%;
     }
     #about-points {
         padding: 120px 0px 60px;
@@ -3997,6 +4120,58 @@ video#services-video {
     section#faqs h2 br {
         display: none;
     }
+    #top nav ul li a.nav-link {
+        margin: 0pc 16px;
+    }
+    footer.footer-section .footer-left-menu li a i {
+        font-size: 17px;
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .process-item img.top {
+        margin-bottom: 20px;
+    }
+    .process-item p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .left-sec-content-wrapper {
+        margin-left: 60px;
+    }
+    #testimonials .slide-item p { 
+        min-height: 190px;
+    }
+    h2 {
+        font-size: 38px !important;
+        line-height: 48px !important;
+    }
+    footer.footer-section ul li a {
+        font-size: 16px !important;
+    }
+    .form {     
+        border-radius: 48px;
+    }
+    #banner-text::before {
+        width: 350px;
+        height: 350px;
+    }
+    #process-steps-section .row::before {
+        width: 1100px;
+        top: 120px;
+        left: 10px;
+    }
+    #process-steps-section .process-steps::before {
+        top: 111px;
+        left: 120px;
+    }
+    #process-steps-section .process-steps img {
+        margin: 0px auto 80px;
+    }
+    #process-steps-section .section-title {
+        margin-bottom: 60px;
+    }
     #about-banner #bn2 {
         bottom: 68px;
         left: 40%;
@@ -4039,10 +4214,20 @@ video#services-video {
     }
 
     .process-item {
-        margin: 20px 10px;
+        margin: 20px 5px;
     }
     #steps .step-main {
         margin: 20px 20px;
+    }
+    .process-item h3 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+    .process-item i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 22px; 
     }
     
 
@@ -4056,6 +4241,23 @@ video#services-video {
     #banner-text h1 {
         font-size: 70px !important;
         line-height: 80px !important;
+    }
+    #process-steps-section .row::before, #process-steps-section .process-steps::before {
+        display: none;
+    }
+    #process-steps-section .col-md-3 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #process-steps-section .process-steps h4, #process-steps-section .process-steps p, #process-steps-section .process-steps img, #process-steps-section .process-steps span {
+        opacity: 1;
+    }
+    #process-steps-section .process-steps img {
+        margin: 0px auto 20px;
+        width: 23%;
+    }
+    #process-steps-section .process-steps {
+        padding: 20px 0px;
     }
     a.navbar-brand img {
         width: 16%;

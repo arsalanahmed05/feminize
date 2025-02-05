@@ -27,9 +27,9 @@
                                     <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                     <p>Seamless technology solutions that enhance and empower your brand for lasting
                                         success and growth.</p>
-                                    <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
+                                    <div class="quote-link">
+        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -47,9 +47,9 @@
                                     <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
                                     <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
                                         on your brand.</p>
-                                    <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
+                                    <div class="quote-link">
+        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -67,9 +67,9 @@
                                     <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
                                     <p>Turn innovative ideas into powerful success stories that drive growth and create
                                         lasting impact.</p>
-                                    <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
+                                    <div class="quote-link">
+        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -95,14 +95,33 @@
                     <h6 class="sub-heading">Web Development</h6>
                     <h1>Transforming <ruby>Ideas</ruby> into <br> Stunning <ruby>Websites</ruby></h1>
                     <p>We design cutting-edge websites that don’t just look great but also help your<br> business grow by engaging your audience effectively.</p>
-                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
-                            quote</button></a>
+                    <div class="quote-link">
+                        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                    </div>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.webp" alt="" class="img-fluid abs animate1">
                 <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
+                <!-- <img id="amazon" src="/assets/images/amazon-service.png" alt="" class="img-fluid abs animate1">
+                <img id="shopify" src="/assets/images/shopify-green.png" alt="" class="img-fluid abs animate2">
+                <img id="tiktok" src="/assets/images/tiktok-service.png" alt="" class="img-fluid abs animate1"> -->
             </div>
         </div>
     </section>
+
+
+
+    <!-- <section id="medusa-banner">
+        <div class="container">
+            <div class="row">
+                <div class="banner-wrapper text-end">
+                    <h1><ruby>Creative</ruby><span><img src="/assets/images/fem-emb.webp" alt="" class="img-fluid"></span>Web<br>Studio</h1>
+                    <div class="quote-link">
+                        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
 
 
@@ -211,7 +230,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/responsive-vector.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/service-img/webdev-1.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -223,7 +242,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/secure&scable.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/service-img/webdev-2.webp" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -248,7 +267,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div id="Starter" class="tabcontent" >
+                    <div id="Starter" class="tabcontent">
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h4>Starter <br>Package</h4>
@@ -1194,7 +1213,7 @@
 
 
 
-    <section id="service-features">
+    <!-- <section id="service-features">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-4">
@@ -1259,6 +1278,76 @@
                             <p>We offer powerful content management systems (CMS) that allow you to easily update and manage your website content without technical expertise.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section id="service-points">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <p>
+                    Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Custom Website Development</span>
+                        </li>
+                        <li>
+                            <span>UI/UX Design & Creativity</span>
+                        </li>
+                        <li>
+                            <span>Strategic Development Planning</span>
+                        </li>
+                        <li>
+                            <span>Performance Optimization</span>
+                        </li>
+                        <li>
+                            <span>Real-Time Website Monitoring</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>SEO & Analytics Integration</span>
+                        </li>
+                        <li>
+                            <span>SEO & Analytics Integration</span>
+                        </li>
+                        <li>
+                            <span>Mobile & Responsive Design</span>
+                        </li>
+                        <li>
+                            <span>Regular Updates & Maintenance</span>
+                        </li>
+                        <li>
+                            <span>Comprehensive Reporting</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Full Website Management</span>
+                        </li>
+                        <li>
+                            <span>Content Development & Copywriting</span>
+                        </li>
+                        <li>
+                            <span>Competitor Analysis & Market Research</span>
+                        </li>
+                        <li>
+                            <span>A/B Testing & Optimization</span>
+                        </li>
+                        <li>
+                            <span>Security & Data Protection</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

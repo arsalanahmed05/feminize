@@ -12,7 +12,9 @@
                     <h6 class="sub-heading">Contact Us</h6>
                     <h1>Your Next Step<br> <ruby>Starts Here</ruby></h1>
                     <p>Take your first step towards innovation and success, redefining<br> what's possible for your business.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>Get Quote</button></a>
+                    <div class="quote-link">
+        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+    </div>
                 </div>
                 <img id="bn1" src="/assets/images/bn1.webp" alt="" class="img-fluid abs">
                 <img id="bn2" src="/assets/images/bn2.webp" alt="" class="img-fluid abs">

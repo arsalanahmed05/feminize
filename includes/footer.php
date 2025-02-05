@@ -64,28 +64,28 @@
                     <h3>Services</h3>
                     <ul class="footer-menu">
                         <li>
-                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a>
+                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i>Content Writing</a>
                         </li>
                         <li>
-                            <a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a>
+                            <a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i>Email Marketing</a>
                         </li>
                         <li>
-                            <a href="/graphics-designing/"><i class="fa-solid fa-chevron-right"></i> Graphics
+                            <a href="/graphics-designing/"><i class="fa-solid fa-chevron-right"></i>Graphics
                                 Designing</a>
                         </li>
                         <li>
-                            <a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i> Search Engine
+                            <a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i>Search Engine
                                 Optimization</a>
                         </li>
                         <li>
-                            <a href="/social-media/"><i class="fa-solid fa-chevron-right"></i> Social Media
+                            <a href="/social-media/"><i class="fa-solid fa-chevron-right"></i>Social Media
                                 Marketing</a>
                         </li>
                         <li>
-                            <a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i> Web Designing</a>
+                            <a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i>Web Designing</a>
                         </li>
                         <li>
-                            <a href="/web-development/"><i class="fa-solid fa-chevron-right"></i> Web Development</a>
+                            <a href="/web-development/"><i class="fa-solid fa-chevron-right"></i>Web Development</a>
                         </li>
                         <li>
                             <a href="/pay-per-click/"><i class="fa-solid fa-chevron-right"></i>PPC Marketing</a>
@@ -120,7 +120,7 @@
 </footer>
 
 
-<div id="Popup" >
+<div id="Popup" class="popup">
     <div class="popup-content">
         <div class="popup-header">
             <button class="popup-close" id="closePopup"><i class="fas fa-times"></i></button>
@@ -130,25 +130,23 @@
                 <div class="col-md-6 popup-right">
                     <div class="form-left-wrap text-center">
                         <h2>
-                            <ruby>
-                                <a href="" class="typewrite" data-period="2000"
-                                   data-type='["Connect.", "Consult..", "Schedule..."]'
-                                    <span class="wrap"></span>
-                                </a>
-                            </ruby>
+                            <a href="" class="typewrite" data-period="2000"
+                               data-type='["Connect.", "Consult..", "Schedule..."]'>
+                                <span class="wrap"></span>
+                            </a>
                         </h2>
                     </div>
                     <div class="img-bg">
-                        <img src="/assets/images/popup/ppp.png" alt="" class="img-fluid">
+                        <img src="/assets/images/popup/ppp.webp" alt="" class="img-fluid">
                     </div>
-                    <img id="f" src="/assets//images/1.webp" alt="" class="img-fluid alpha">
-                    <img id="e" src="/assets//images/2.webp" alt="" class="img-fluid alpha">
-                    <img id="m" src="/assets//images/3.webp" alt="" class="img-fluid alpha">
-                    <img id="i" src="/assets//images/4.webp" alt="" class="img-fluid alpha">
-                    <img id="n" src="/assets//images/5.webp" alt="" class="img-fluid alpha">
-                    <img id="i2" src="/assets//images/4i.webp" alt="" class="img-fluid alpha">
-                    <img id="z" src="/assets//images/6.webp" alt="" class="img-fluid alpha">
-                    <img id="e2" src="/assets//images/2e.webp" alt="" class="img-fluid alpha">
+                    <img id="f" src="/assets/images/1.webp" alt="" class="img-fluid alpha">
+                    <img id="e" src="/assets/images/2.webp" alt="" class="img-fluid alpha">
+                    <img id="m" src="/assets/images/3.webp" alt="" class="img-fluid alpha">
+                    <img id="i" src="/assets/images/4.webp" alt="" class="img-fluid alpha">
+                    <img id="n" src="/assets/images/5.webp" alt="" class="img-fluid alpha">
+                    <img id="i2" src="/assets/images/4i.webp" alt="" class="img-fluid alpha">
+                    <img id="z" src="/assets/images/6.webp" alt="" class="img-fluid alpha">
+                    <img id="e2" src="/assets/images/2e.webp" alt="" class="img-fluid alpha">
                 </div>
                 <div class="col-md-6 popup-left">
                     <div class="form">
@@ -158,26 +156,25 @@
                         </div>
                         <form>
                             <div class="form-group">
-                                <input type="text" placeholder="First Name" name="first_name" required="" />
-                                <input type="text" placeholder="Last Name" name="last_name" required="" />
+                                <input type="text" placeholder="First Name" name="first_name" required />
+                                <input type="text" placeholder="Last Name" name="last_name" required />
                             </div>
                             <div class="form-group">
-                                <input type="email" placeholder="Email Address" name="email" required="" />
-                                <input type="tel" placeholder="Phone Number" name="phone" required="" />
+                                <input type="email" placeholder="Email Address" name="email" required />
+                                <input type="tel" placeholder="Phone Number" class="phone-country" name="phone" required />
                             </div>
                             <div class="form-group">
-                                <select name="country" required="">
+                                <select name="country" required>
                                     <option value="United States">United States</option>
                                     <option value="United Kingdom">United Kingdom</option>
                                     <option value="Canada">Canada</option>
                                     <option value="United Arab Emirates">United Arab Emirates</option>
-                                    <!-- Add more countries if needed -->
                                 </select>
                             </div>
                             <div class="form-group">
-                                <textarea name="message" placeholder="Your Message" rows="4" required=""></textarea>
+                                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
                             </div>
-                            <a href="#" class="bton quote-button">submit</a>
+                            <a href="#" class="bton quote-button">Submit</a>
                         </form>
                     </div>
                 </div>
@@ -193,8 +190,57 @@
 
 
 
-
 <script>
+    // Get modal and buttons
+    var modal = document.getElementById("Popup"); // Fixed ID to match your HTML
+    var buttons = document.getElementsByClassName("quote-button");
+    var closeButton = document.getElementById("closePopup");
+
+    // Function to open the modal
+    function openModal(event) {
+        event.preventDefault(); // Prevent default anchor action
+        modal.style.display = "block";
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        modal.style.display = "none";
+    }
+
+    // Attach event listeners to all quote buttons
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", openModal);
+    }
+
+    // Close button event listener
+    if (closeButton) {
+        closeButton.addEventListener("click", closeModal);
+    }
+
+    // Close modal when clicking outside of it
+    window.addEventListener("click", function(event) {
+        if (event.target === modal) {
+            closeModal();
+        }
+    });
+
+    // Initialize international telephone input
+    $(".phone-country").intlTelInput({
+        geoIpLookup: function(callback) {
+            $.get("https://ipinfo.io", function() {}, "jsonp").always(function(response) {
+                callback(response && response.country ? response.country : ""); 
+            });
+        },
+        initialCountry: "auto",
+        nationalMode: true,
+        separateDialCode: true
+    });
+</script>
+
+
+
+
+<!-- <script>
  document.addEventListener("DOMContentLoaded", function () {
     let openPopupBtn = document.getElementById("openPopup");
     let closePopupBtn = document.getElementById("closePopup");
@@ -223,7 +269,7 @@
 
 
 
-</script>
+</script> -->
 
 
 <script>

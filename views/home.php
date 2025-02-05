@@ -23,11 +23,12 @@
                                 <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                 <p>Seamless technology solutions that enhance and empower your brand for lasting
                                     success and growth.</p>
-                                <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
-                                <a href="tel:+123456789"><button class="quote-btn bton"><i
+                                <div class="quote-link">
+                                    <a id="lft" href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                                    <a id="ryt" href="tel:+123456789"><button class="quote-btn bton"><i
                                             class="fa-solid fa-phone"></i>+(123)-456-7890</button></a>
+                                </div>
+                                
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -215,7 +216,9 @@
                         <h2>Unlock <ruby>Growth</ruby> with<br> Expert <ruby>Digital Solutions</ruby>
                         </h2>
                         <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and improve customer engagement.</p>
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>Get A Quote</button></a>
+                        <div class="quote-link">
+                            <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                        </div>
                     </div>
 
                 </div>
@@ -224,7 +227,7 @@
                         <div class="col-lg-6">
                             <div class="outer-layer">
                                 <div class="process-item">
-                                    <img class="img-fluid top" src="/assets/images/ps1.webp" alt=""> 
+                                    <img class="img-fluid top" src="/assets/images/ps1.webp" alt="">
                                     <h3><ruby>content </ruby><br>writing</h3>
                                     <p>Crafting compelling content that resonates with your audience, boosts engagement, and drives results for your brand’s success.</p>
                                     <a href="/content-writing/"><i class="fa-solid fa-arrow-right"></i></a>

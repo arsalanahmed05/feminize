@@ -1,14 +1,12 @@
 <header id="top">
     <div class="container-fluid">
-        <nav class="navbar bg-body-tertiary fixed-top">
-            <a class="navbar-brand" href="/"><img src="/assets/images/Feminize-digital.webp" alt=""
-                    class="img-fluid"></a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <a class="navbar-brand" href="/"><img src="/assets/images/Feminize-digital.webp" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <img src="/assets/images/Feminize-digital.webp" alt="" class="img-fluid dropdown-logo">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -35,7 +33,6 @@
                                 <li><a class="dropdown-item" href="/web-designing/">Web Designing</a></li>
                                 <li><a class="dropdown-item" href="/web-development/">Web Development</a></li>
                                 <li><a class="dropdown-item" href="/pay-per-click/">PPC Marketing</a></li>
-
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -48,14 +45,15 @@
                             <a class="nav-link" href="/contact-us/">Contact Us</a>
                         </li>
                     </ul>
-                    <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
+                    <div class="quote-link">
+                        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                    </div>
                 </div>
             </div>
         </nav>
     </div>
 </header>
+
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

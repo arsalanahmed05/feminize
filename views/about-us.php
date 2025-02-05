@@ -16,7 +16,9 @@
                     <h6 class="sub-heading">Welcome Feminize Digital</h6>
                     <h1>Generation <br><ruby>Digital Agency</ruby></h1>
                     <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
+                    <div class="quote-link">
+        <a href="/portfolio/" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>view portfolio</a>
+    </div>
                 </div>
                 <img id="bn1" src="/assets/images/bn1.webp" alt="" class="img-fluid abs">
                 <img id="bn2" src="/assets/images/bn2.webp" alt="" class="img-fluid abs">
@@ -186,7 +188,9 @@
                         <div class="melancholy-content">
                             <p>Everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression. ladies she basket season age her uneasy saw. Discourse unwilling am no described.</p>
                         </div>
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
+                        <div class="quote-link">
+                            <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                        </div>
                     </div>
                 </div>
                 <div class="row" id="inner-row">
@@ -240,50 +244,51 @@
 
 
 
-
-
-
-    <section id="steps">
+    <section id="process-steps-section">
         <div class="container">
             <div class="section-title text-center">
-                <h6 class="sub-heading"><span>Steps</span></h6>
-                <h2>Craft a Strategic Website<br> <ruby>Development Plan</ruby></h2>
+                <h6 class="subheading">Process</h6>
+                <h2>Streamlined <ruby>Workflow</ruby></h2>
             </div>
-            <div id="top-row" class="row">
+            <div class="row">
                 <div class="col-md-3">
-                    <div class="step-main">
-                        <div class="step-content">
-                            <h4>Step 1</h4>
-                            <span>Make An <br>Appointment</span>
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/idea.webp" alt="" class="img-fluid">
                         </div>
+                        <span>01</span>
+                        <h4>Discover  Needs</h4>
+                        <p>Understanding your vision to craft a strategy for success.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="step-down">
-                        <div class="step-main">
-                            <div class="step-content">
-                                <h4>Step 2</h4>
-                                <span>Meet Our <br>Team</span>
-                            </div>
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/design-thinking.webp" alt="" class="img-fluid">
                         </div>
+                        <span>02</span>
+                        <h4>Craft Vision</h4>
+                        <p>Designing with purpose to turn concepts into stunning realities.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="step-main">
-                        <div class="step-content">
-                            <h4>Step 3</h4>
-                            <span>Get <br>Consultation</span>
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/product-development.webp" alt="" class="img-fluid">
                         </div>
+                        <span>03</span>
+                        <h4>Build Wonders</h4>
+                        <p>Transforming designs into seamless, high-performing digital experiences.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="step-down">
-                        <div class="step-main">
-                            <div class="step-content">
-                                <h4>Step 4</h4>
-                                <span>Start<br>Project</span>
-                            </div>
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/developing.webp" alt="" class="img-fluid">
                         </div>
+                        <span>04</span>
+                        <h4>Deliver Success</h4>
+                        <p>Launching brilliance that drives success and lasting impressions.</p>
                     </div>
                 </div>
             </div>
@@ -301,7 +306,9 @@
                         <p>At Feminize Digitals, we empower businesses to thrive in the digital landscape with innovative and result-driven solutions. As a full-service digital agency, we specialize in web development, SEO, content creation, social media management, and everything in between.</p>
                         <p>Our mission is to craft impactful digital experiences that help brands stand out, grow, and connect with their audiences meaningfully. We believe in blending creativity, strategy, and technology to transform ideas into reality.</p>
                     </div>
-                    <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>View All</button></a>
+                    <div class="quote-link">
+                        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                    </div>
 
                 </div>
                 <div class="col-md-6">

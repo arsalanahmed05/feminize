@@ -27,9 +27,9 @@
                                     <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
                                     <p>Seamless technology solutions that enhance and empower your brand for lasting
                                         success and growth.</p>
-                                    <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
+                                    <div class="quote-link">
+        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -47,9 +47,9 @@
                                     <h1>Content That <br><ruby>Speaks Volumes</ruby></h1>
                                     <p>Designed to inspire creativity and engage your audience, leaving a lasting impact
                                         on your brand.</p>
-                                    <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
+                                    <div class="quote-link">
+        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -67,9 +67,9 @@
                                     <h1>Unleash Your <br><ruby>Digital Potential</ruby></h1>
                                     <p>Turn innovative ideas into powerful success stories that drive growth and create
                                         lasting impact.</p>
-                                    <button id="openPopup" class="quote-btn bton">
-    <i class="fa-brands fa-rocketchat"></i> Get a Quote
-</button>
+                                    <div class="quote-link">
+        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -95,8 +95,9 @@
                     <h6 class="sub-heading">PPC Marketing</h6>
                     <h1>Transforming <ruby>Ideas</ruby> into <br> Stunning <ruby>Websites</ruby></h1>
                     <p>We design cutting-edge websites that don’t just look great but also help your<br> business grow by engaging your audience effectively.</p>
-                    <a href="/contact-us/"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
-                            quote</button></a>
+                    <div class="quote-link">
+                        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                    </div>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.webp" alt="" class="img-fluid abs animate1">
                 <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
@@ -211,7 +212,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/responsive-vector.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/service-img/ppc-1.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -223,7 +224,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/secure&scable.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/service-img/ppc-2.webp" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -248,7 +249,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div id="Starter" class="tabcontent" >
+                    <div id="Starter" class="tabcontent">
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h4>Starter <br>Package</h4>
@@ -1193,14 +1194,84 @@
     </section>
 
 
+    <section id="service-points">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Our Comprehensive <ruby>PPC Marketing</ruby> Solutions</h2>
+                <p>
+                Our mission is to elevate your online presence. We manage everything from crafting a stunning website to optimizing its reach for the right audience.</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Audience Targeting & Segmentation</span>
+                        </li>
+                        <li>
+                            <span>Keyword Research & Selection</span>
+                        </li>
+                        <li>
+                            <span>Ad Copywriting & Optimization</span>
+                        </li>
+                        <li>
+                            <span>A/B Testing & Performance Analysis</span>
+                        </li>
+                        <li>
+                            <span>Budget Allocation & Optimization</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Real-Time Campaign Monitoring</span>
+                        </li>
+                        <li>
+                            <span>Ad Retargeting Strategies</span>
+                        </li>
+                        <li>
+                            <span>Lookalike Audience Creation</span>
+                        </li>
+                        <li>
+                            <span>Bid Management & Adjustments</span>
+                        </li>
+                        <li>
+                            <span>Geo-Targeting & Demographic Focus</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Ad Scheduling & Timing Optimization</span>
+                        </li>
+                        <li>
+                            <span>Conversion Tracking & Analytics</span>
+                        </li>
+                        <li>
+                            <span>Competitor Analysis & Benchmarking</span>
+                        </li>
+                        <li>
+                            <span>Campaign Reporting & Insights</span>
+                        </li>
+                        <li>
+                            <span>Security & Data Protection</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="service-features">
+
+
+    <!-- <section id="service-features">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="text-wrapper">
                         <h6 class="sub-heading">Features</h6>
-                        <h2>Web Development <br><ruby>Solutions Hub</ruby></h2>
+                        <h2>Comprehensive ruby <br> Marketing Solutions</ruby></h2>
                         <p>We offer a full range of web development features, from custom designs to robust security, ensuring a seamless user experience.</p>
                     </div>
                 </div>
@@ -1262,7 +1333,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <?php include_once("views/testimonials-section.php"); ?>
