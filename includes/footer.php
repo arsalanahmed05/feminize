@@ -354,7 +354,7 @@
             autoplay: true,
             autoplaySpeed: 2000,
             responsive: [{
-                    breakpoint: 1030,
+                    breakpoint: 1025,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1,
@@ -707,6 +707,26 @@
     });
 </script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        function handleNavbar() {
+            let screenWidth = window.innerWidth;
+            let navbar = document.getElementById("offcanvasNavbar");
+
+            if (screenWidth <= 1024) {
+                navbar.classList.add("show");
+            } else {
+                navbar.classList.remove("show");
+            }
+        }
+
+        // Run on page load
+        handleNavbar();
+
+        // Run on window resize
+        window.addEventListener("resize", handleNavbar);
+    });
+</script>
 
 <script>
     document.addEventListener("DOMContentLoaded", () => {
