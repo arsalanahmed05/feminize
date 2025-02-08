@@ -15,7 +15,7 @@ header#top {
 header#top nav {
     position: relative;
     background: #fff !important;
-    padding: 0 20px;
+    padding: 10px 20px;
     transition: all 0.3s ease-in-out;
     box-shadow:inset 0px 0px 19px #00011675
 }
@@ -153,7 +153,6 @@ h6 span {
     transition: 0.5s;
     z-index: -1;
     border-radius: 32px;
-    box-shadow:inset 0px 0px 20px #000116;
 }
 
 ul.star-list li {
@@ -1610,21 +1609,21 @@ ul.dropdown-menu.show {
     position: absolute;
     right: -210px;
     width: 260px;
-    border-radius: 3px 0 0 3px;
-    box-shadow: 0 0 40px #00000026 !important;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 0 40px #16161624 !important;
     z-index: 9999;
-    background: #0410ff;
+    background: linear-gradient(45deg, #01044b, #050cd5);
     overflow: hidden;
-    height: 50px;
+    height: 52px;
     align-items: center;
     display: flex !important
 ;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .btns_wrap {
     position: fixed;
-    right: -6px
+    right: 7px;
 }
 
 .btns_wrap a:hover {
@@ -2587,7 +2586,7 @@ textarea::placeholder {
 /* footer section */
 
 footer.footer-section {
-    padding: 60px 0 10px;
+    padding: 30px 0 10px;
     position: relative;
     background: linear-gradient(180deg, #050CD5 -150%, #000116 70%);
     color: #fff;
@@ -2598,8 +2597,8 @@ footer.footer-section {
 }
 
 .footer-section #bottom-row {
-    padding: 30px 0 20px;
-    border-top: 1px solid #fff;
+    padding: 20px 0 10px;
+    /* border-top: 1px solid #ffffff46; */
 }
 
 .footer-section #bottom-row a {
@@ -2659,9 +2658,8 @@ footer.footer-section p {
 }
 
 footer.footer-section img {
-    width: 50%;
+    width: 25%;
     display: table;
-    margin: -120px auto 0;
     background: #fff;
     padding: 8px;
     border-radius: 100px;
@@ -2669,8 +2667,8 @@ footer.footer-section img {
 
 footer.footer-section #top-row {
     align-items: center !important;
-    padding: 0px 0px 30px;
-    border-bottom: 1px solid #fff;
+    padding: 0px 0px 20px;
+    border-bottom: 1px solid #ffffff46;
 }
 
 footer.footer-section #middle-row {
@@ -2826,7 +2824,9 @@ footer.footer-section .footer-left-menu li a i {
 
 /* next section */
 
-
+#solutions #inner-row-top {
+    margin-bottom: 40px !important;
+}
 .solutions-content-main .icon i {
     font-size: 70px;
 }
@@ -2922,6 +2922,83 @@ img.animateee-center {
 }
 
 
+
+#hero-banner-about {
+    padding: 140px 0px 0px;
+    position: relative;
+}
+#hero-banner-about::before {
+    content: "";
+    position: absolute;
+    background: #000116;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#hero-banner-about div#inner-row .img-bg img {
+    transition: 0.3s;
+}
+#hero-banner-about div#inner-row .img-bg {
+    border: 10px solid #fff;
+    border-radius: 24px;
+    width: 72%;
+    float: right;
+    position: relative;
+}
+#hero-banner-about .about-trust-slider img {
+    width: 3% !important;
+    filter: brightness(3) ;
+}
+.slider-parent {
+    margin-top: 60px;
+    /* border-top: 1px solid #cccccc59; */
+    /* padding: 20px 0px 0px; */
+}
+section#hero-banner-about h1 {
+    font-size: 56px !important;
+    line-height: 66px !important;
+}
+img.let {
+    position: absolute;
+}
+#analytics1 {
+    width: 50%;
+    top: -70px;
+    right: -190px;
+}
+#analytics2 {
+    width: 70%;
+    bottom: 20px;
+    left: -132px;
+}
+#solutions {
+    padding: 140px 0 60px;
+}
+#about-features {
+    padding: 100px 0 140px;
+}
+
+#about-parallex {
+    /* background: url(/assets/images/hightly-deta.jpg); */
+    padding: 60px 0 30px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center; */
+    background: linear-gradient(45deg, #ffffff, #ababab);
+}
+#about-parallex h2 {
+    color: #000 !important;
+}
+#about-parallex img {
+    width: 85%;
+    float: right;
+    transform: scale(1.7);
+}
 
 
 
@@ -3310,19 +3387,163 @@ button#closePopup i {
 
 /* key points CSS */
 
-
 #about-points .key-points-parent img {
-    width: 25%;
-    filter: invert(1) drop-shadow(2px 4px 6px #050CD5);
-    margin-left: -40px;
-    margin-bottom: 20px;
+    width: 18%;
+    margin-top: -41px;
+    background: #fff;
+    padding: 17px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px #000;
 }
 
+.key-points-parent::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(360deg, #000116 60%, transparent 91%);
+    width: 590px;
+    height: 240px;
+    top: 10px;
+    left: -30px;
+    z-index: -1;
+}
+
+.key-points-parent::before {
+    content: "";
+    position: absolute;
+    border: 2px solid;
+    width: 570px;
+    height: 240px;
+    top: -15px;
+    left: -20px;
+    z-index: -2;
+    border-radius: 14px;
+}
 .key-points-parent {
     margin: 0px 40px;
-    padding: 0px 80px;
+    padding: 0px 30px;
+    border: 2px dashed;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #000116, #01044b);
+    box-shadow: inset 0px 0px 20px #0d6efd82;
+    position: relative;
 }
-
+#chart-worlflow {
+    position: relative;
+}
+.key-points-parent p {
+    min-height: 80px;
+}
+.key-points-parent h3 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+}
+#chart-worlflow video {
+    width: 70%;
+    display: table;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px #000;
+}
+#chart-worlflow .img-bg::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(360deg, #000116 30%, transparent 170%);
+    width: 100%;
+    height: 60%;
+    bottom: -10px;
+}
+#chart-worlflow .text-wrapper {
+    margin-top: 60px;
+}
+#chart-worlflow .img-bg {
+    position: relative;
+    margin-top: -240px;
+}
+#chart-worlflow {
+    position: relative;
+}
+#chart-worlflow img.posi {
+    position: absolute;
+    display: none;
+}
+#chart-worlflow #tat1 {
+    width: 4%;
+    left: 390px;
+    bottom: 360px;
+    transform: rotate(-5deg);
+}
+#chart-worlflow #tat2 {
+    width: 3%;
+    left: 70px;
+    top: 120px;
+}
+#chart-worlflow .wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+#chart-worlflow .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 400s linear infinite;
+    background: transparent;
+}
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+#chart-worlflow .wrapper p {
+    color: transparent !important;
+    margin: 0;
+    font-size: 260px;
+    line-height: 260px;
+    padding: 40px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-text-stroke: 2px #fff;
+    opacity: 0.4;
+}
+#chart-worlflow #tat3 {
+    width: 2%;
+    right: 410px;
+    top: 30%;
+}
+#chart-worlflow #tat4 {
+    width: 4%;
+    top: 110px;
+    left: 350px;
+    transform: rotate(25deg);
+}
+#chart-worlflow #tat5 {
+    width: 1%;
+    top: 290px;
+    left: 210px;
+    transform: rotate(-17deg);
+}
+#chart-worlflow #tat6 {
+    width: 1%;
+    right: 340px;
+    bottom: 320px;
+    transform: rotate(45deg);
+}
+#chart-worlflow #tat7 {
+    width: 2%;
+    bottom: 290px;
+    left: 40%;
+    transform: rotate(15deg);
+}
+#chart-worlflow #tat8 {
+    width: 3%;
+    right: 170px;
+    top: 130px;
+    transform: rotate(-45deg);
+}
 .aks {
     transition: transform 0.05s ease-out;
     width: 300px;
@@ -3374,8 +3595,8 @@ a.typewrite span {
 
 
 
-#about-points {
-    padding: 240px 0px 100px;
+  #about-points {
+    padding: 90px 0px 60px;
 }
 
 #text-title {
@@ -3713,13 +3934,23 @@ video#services-video {
 #rgt-img {
     padding: 80px 0 40px;
 }
-
 #rgt-img img {
-    width: 90%;
+    width: 60%;
     float: right;
-    animation: MoveLeft 5s infinite;
+    animation: Move3D 5s linear infinite;
 }
+@keyframes Move3D {
+    0% {
+        transform: translate3d(10px, 10px, 10px);
+    }
+    50% {
+        transform: translate3d(0px, 0px, 0px);
+    }
 
+    100% {
+        transform: translate3d(10px, 10px, 10px);
+    }
+}
 @keyframes MoveLeft {
     0% {
         transform: translateX(0px);
@@ -3905,7 +4136,7 @@ video#services-video {
     left: -200px;
     top: 10px;
     z-index: -1;
-    border: 20px solid #01044b;
+    border: 20px solid #01034b49;
 }
 
 

@@ -1,14 +1,14 @@
 <footer class="footer-section">
-    <div class="container">
+    <div class="container ">
         <div id="main-row" class="row">
             <div id="top-row" class="row">
                 <div class="col-sm-4">
-                    <p>Innovating web solutions to elevate<br> brands in the digital world.</p>
+                        <a href="#"><img src="/assets/images/Feminize-digital.webp" alt=""></a>
                 </div>
-                <div class="col-sm-4">
-                    <a href="#"><img src="/assets/images/Feminize-digital.webp" alt=""></a>
-                </div>
-                <div class="col-sm-4">
+                <!-- <div class="col-sm-4">
+                    
+                </div> -->
+                <div class="col-sm-8">
                     <ul class="socials-menu">
                         <li class="socials-items">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -131,7 +131,7 @@
                     <div class="form-left-wrap text-center">
                         <h2>
                             <a href="" class="typewrite" data-period="2000"
-                               data-type='["Connect.", "Consult..", "Schedule..."]'>
+                                data-type='["Connect.", "Consult..", "Schedule..."]'>
                                 <span class="wrap"></span>
                             </a>
                         </h2>
@@ -228,7 +228,7 @@
     $(".phone-country").intlTelInput({
         geoIpLookup: function(callback) {
             $.get("https://ipinfo.io", function() {}, "jsonp").always(function(response) {
-                callback(response && response.country ? response.country : ""); 
+                callback(response && response.country ? response.country : "");
             });
         },
         initialCountry: "auto",
@@ -608,6 +608,38 @@
 
 
 <script>
+    $(document).ready(function() {
+        $('.about-trust-slider').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+                // Add more breakpoints and settings as needed
+            ]
+        });
+    });
+</script>
+
+
+<script>
     /*************************
       Cursor
     *************************/
@@ -708,7 +740,7 @@
 </script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         function handleNavbar() {
             let screenWidth = window.innerWidth;
             let navbar = document.getElementById("offcanvasNavbar");
@@ -876,6 +908,51 @@ OTENZA.goToTop();
         });
     });
 </script>
+<!-- <script>
+    $(document).ready(function() {
+        $('.brand-name-slider').slick({
+            slidesToShow: 3, // Show 3 slides on desktop
+            slidesToScroll: 2,
+            dots: false,
+            infinite: true, // Enable infinite loop
+            autoplay: false,
+            autoplaySpeed: 0,
+            speed: 4000, // Duration of smoothness for sliding (ms)
+            cssEase: 'linear', // Ensure smooth continuous movement
+            centerMode: true, // Center the active slide
+            centerPadding: '0', // No padding around the active slide
+            arrows: false,
+            prevArrow: '<button type="button" class="slick-prev">❮</button>',
+            nextArrow: '<button type="button" class="slick-next">❯</button>',
+            responsive: [{
+                    breakpoint: 1025, // Tablet size and above
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for tablets
+                    }
+                },
+                {
+                    breakpoint: 768, // Mobile size
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: false, // Disable center mode for mobile
+                    }
+                },
+                {
+                    breakpoint: 480, // Extra small mobile devices
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        centerMode: false, // Disable center mode for small screens
+                    }
+                }
+            ]
+        });
+    });
+</script> -->
 
 
 

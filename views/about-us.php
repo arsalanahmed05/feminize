@@ -9,7 +9,51 @@
     </div>
 
 
-    <section id="about-banner">
+    <section id="hero-banner-about">
+        <video autoplay loop muted playsinline id="services-video">
+            <source src="/assets/images/about-banner-video-gb.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div id="main-row" class="row">
+                <div id="inner-row" class="row">
+                    <div class="col-md-7">
+                        <div class="text-wrapper">
+                            <h1>Empowering Business <br>Through <ruby><a href="" class="typewrite" data-period="2000" data-type="[ &quot;Website.&quot;, &quot;Graphic..&quot;, &quot;Insights...&quot; ]"><span class="wrap"></span></a></ruby></h1>
+                            <p>Building impactful brands, designing engaging websites, and creating powerful<br> marketing campaigns that drive growth, visibility, and success.</p>
+                        </div>
+                        <div class="quote-links">
+                            <a id="lft" href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="img-bg">
+                            <img src="/assets/images/hero-banner-img-about.webp" alt="" class="img-fluid">
+                            <img id="analytics1" src="/assets/images/rb_136.png" alt="" class="img-fluid let">
+                            <img id="analytics2" src="/assets/images/hero-analytics1.png" alt="" class="img-fluid let">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-parent">
+                    <h3 class="text-center">Trusted Brands</h3>
+                    <div class="about-trust-slider">
+                        <img src="/assets/images/client-logo/Client-logo_Bloom-energy-2.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_Imperva-II.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_Integrify-1-1.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_Labelbox-II.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_Model-N-1.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_PackageX-1.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_Provigil-II.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_TDengine.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_Tint.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_ToolWatch-II.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/client-logo/Client-logo_Top-Echelon-II.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="about-banner">
         <div class="container">
             <div class="row">
                 <div class="text-wrapper text-center">
@@ -17,8 +61,8 @@
                     <h1>Generation <br><ruby>Digital Agency</ruby></h1>
                     <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
                     <div class="quote-link">
-        <a href="/portfolio/" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>view portfolio</a>
-    </div>
+                        <a href="/portfolio/" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>view portfolio</a>
+                    </div>
                 </div>
                 <img id="bn1" src="/assets/images/bn1.webp" alt="" class="img-fluid abs">
                 <img id="bn2" src="/assets/images/bn2.webp" alt="" class="img-fluid abs">
@@ -29,7 +73,7 @@
                 <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="about-points">
         <div class="container-fluid">
@@ -60,7 +104,7 @@
     </section>
 
 
-    <section id="about-us-section">
+    <!-- <section id="about-us-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -100,6 +144,44 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section id="chart-worlflow">
+        <div class="container-fliud">
+            <div class="wrapper">
+                <div class="marquee">
+                    <p>
+                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing 
+                    </p>
+                    <p>
+                    Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img-bg">
+                <video autoplay loop muted playsinline>
+                    <source src="/assets/images/573271_Business_Stock_1920x1080.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="text-wrapper text-center">
+                <h2>Evulate Your Numbers</h2>
+                <p>Unlock insights, analyze trends, track progress, refine strategies, and let numbers guide success!"<br>
+                    Let me know if you need more variations! </p>
+            </div>
+            <div class="alphab">
+                <img id="tat1" src="/assets/images/1.webp" alt="" class="img-fluid posi">
+                <img id="tat2" src="/assets/images/2.webp" alt="" class="img-fluid posi">
+                <img id="tat3" src="/assets/images/2e.webp" alt="" class="img-fluid posi">
+                <img id="tat4" src="/assets/images/3.webp" alt="" class="img-fluid posi">
+                <img id="tat5" src="/assets/images/4.webp" alt="" class="img-fluid posi">
+                <img id="tat6" src="/assets/images/4i.webp" alt="" class="img-fluid posi">
+                <img id="tat7" src="/assets/images/5.webp" alt="" class="img-fluid posi">
+                <img id="tat8" src="/assets/images/6.webp" alt="" class="img-fluid posi">
             </div>
         </div>
     </section>
@@ -168,6 +250,23 @@
                             </ruby>
                             <h4>Design<br> Excellence</h4>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-parallex">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="text-wrapper">
+                        <h2>Your Digital Growth Partner in Web Design & Development</h2>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="img-bg">
+                        <img src="/assets/images/hero-analytics1.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -257,7 +356,7 @@
                             <img src="/assets/images/idea.webp" alt="" class="img-fluid">
                         </div>
                         <span>01</span>
-                        <h4>Discover  Needs</h4>
+                        <h4>Discover Needs</h4>
                         <p>Understanding your vision to craft a strategy for success.</p>
                     </div>
                 </div>

@@ -8,7 +8,7 @@
 
 
     <section id="home-banner">
-    <video autoplay loop muted playsinline id="services-video">
+        <video autoplay loop muted playsinline id="services-video">
             <source src="/assets/images/home-banner.mp4 " type="video/mp4">
         </video>
         <div class="container-fluid">
@@ -18,14 +18,29 @@
                     <h1><ruby>Designing</ruby> Websites That <br>Inspire <ruby>Interaction</ruby></h1>
                     <p>We design visually striking and user-friendly websites that keep<br> your audience engaged and coming back for more.</p>
                     <div class="quote-link">
-        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
-    </div>
+                        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                    </div>
                 </div>
                 <img id="particle1" src="/assets/images/abstract-left.webp" alt="" class="img-fluid abs animate1">
                 <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
             </div>
         </div>
     </section>
+
+
+    <!-- <section id="portfolio-feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="text-wrapper">
+                        <h2>Innovating with Strategy in Mind</h2>
+                        <p>With a strategic approach, we blend creativity and planning to deliver impactful solutions that resonate and drive results. Every idea we create is purposeful, ensuring our work stands out while aligning with your goals.</p>
+                    </div>
+                </div>
+                <div class="col-md-7"></div>
+            </div>
+        </div>
+    </section> -->
 
     <section id="rgt-img">
         <div class="container">
@@ -38,7 +53,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/dashbord-web.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/contact-us-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
