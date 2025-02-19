@@ -1,15 +1,19 @@
 <section id="contact">
-    <div class="container-fluid">
-        <div class="section-title">
+    <div class="container">
+        <!-- <div class="section-title">
             <h2>Contact Us</h2>
-        </div>
+        </div> -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="img-bg">
-                    <img src="/assets/images/contact-us-left-col.webp" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>Connect <ruby>With Us</ruby></h2>
+                        <p>At Feminize Digitals, we believe in building strong connections that drive success. Whether you're looking to elevate your brand, boost online presence, or craft compelling digital experiences, we're here to make it happen. Let’s collaborate, innovate, and grow together. Reach out today and let’s bring your vision to life! </p>
+                    </div>
+                    <img src="/assets/images/content-vector3.webp" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <div class="form">
                     <div class="text-warpper">
                         <h2>Book an  <span>Appointment</span></h2>

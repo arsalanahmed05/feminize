@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap');
 
 html body {
-    color: #fff;
-    background-color: #000116;
+    color: #000;
+    background-color: #fff;
 
 }
 header#top {
@@ -32,7 +32,7 @@ h2,
 h3,
 h4,h5,h6 {
     font-family: "Russo One" !important;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
 
 }
@@ -75,7 +75,7 @@ html {
 h6,
 h5 {
     font-weight: 500 !important;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
 }
 
@@ -84,7 +84,7 @@ p {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
 }
 
 h1 {
@@ -136,13 +136,13 @@ h6 span {
     text-transform: uppercase !important;
     font-family: "Jost" !important;
 }
-
+/* 
 .bton:hover:before {
     width: 100%;
     z-index: -1;
-}
+} */
 
-.bton::before {
+/* .bton::before {
     content: "";
     position: absolute;
     background: #fff;
@@ -153,8 +153,24 @@ h6 span {
     transition: 0.5s;
     z-index: -1;
     border-radius: 32px;
+} */
+.bton:hover {
+    background: #fff;
+    color: #000 !important;
 }
-
+#services-banner .bton i {
+    background: #fff;
+    color: #000;
+}
+    
+#services-banner .bton:hover i {
+    background: #fff !important;
+    color:#000 !important;
+}
+.bton:hover i {
+    background: #fff;
+    color:#000 ;
+}
 ul.star-list li {
     display: inline-block;
 }
@@ -167,8 +183,8 @@ ul.star-list {
 .bton i {
     font-size: 22px;
     transition: 0.5s;
-    background: #fff;
-    color: #000116;
+    background: #000;
+    color: #fff;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -180,9 +196,9 @@ ul.star-list {
 }
 
 ruby {
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
-    animation: shad 2s infinite linear;
+    background: -webkit-linear-gradient(#0410ff, #000116);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @keyframes shad {
@@ -201,8 +217,8 @@ ruby {
 
 .bton {
     background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #000;
+    color: #000 !important;
     padding: 10px 30px 10px 70px;
     font-size: 20px;
     text-transform: capitalize;
@@ -216,7 +232,8 @@ ruby {
 
 .bton:hover {
     transform: scale(1.05);
-    color: #000116 !important;
+    color: #fff !important;
+    background: #000 !important;
 }
 
 /* html, body {
@@ -773,7 +790,7 @@ ul.dropdown-menu.show {
 #banner-text h1 {
     font-size: 150px !important;
     line-height: 160px !important;
-    -webkit-text-stroke: 4px #fff;
+    -webkit-text-stroke: 4px #000;
     text-align: center;
 
 }
@@ -879,10 +896,6 @@ ul.dropdown-menu.show {
 
 #about-us .row {
     align-items: center;
-    background: linear-gradient(45deg, #000116, #020791);
-    padding: 50px 40px;
-    margin: 0px 10px;
-    border-radius: 24px;
 }
 
 #about-us #inner-row-bottom {
@@ -891,15 +904,9 @@ ul.dropdown-menu.show {
     color: #000116;
 }
 
-#about-us #inner-row-bottom .count {
-    -webkit-text-stroke: 2px #111;
-}
-
 .milestone ruby {
     font-family: "Poppins";
     font-weight: 700;
-    -webkit-text-stroke: 1px #fff;
-
 }
 
 #about-us {
@@ -1283,15 +1290,14 @@ ul.dropdown-menu.show {
 }
 
 .process-item i {
-    color: #060bd4;
-    background: #fff;
+    color: #Fff;
+    background: linear-gradient(45deg, #0410ff, #000116);
     width: 60px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     border-radius: 50%;
     font-size: 26px;
-    box-shadow: 0px 0px 40px #000116;
     transition: 0.5s;
     animation: bounce-left 2s infinite linear;
 }
@@ -1331,6 +1337,7 @@ ul.dropdown-menu.show {
 .process-item img.top {
     margin-bottom: 30px;
     width: 25%;
+    filter: grayscale(5) brightness(0);
 }
 
 .process-item img.bottom {
@@ -1373,11 +1380,12 @@ ul.dropdown-menu.show {
     position: relative;
 }
 .portfolio-box, .container-fluid {
-    padding: 0 !important;}
+    padding: 0 !important;
+}
 #banner-text::before {
     content: "";
     position: absolute;
-    background-image: url('/assets/images/fem-emb.webp');
+    background-image: url(/assets/images/fem-emb.webp);
     top: 50%;
     left: 50%;
     background-repeat: no-repeat;
@@ -1385,9 +1393,9 @@ ul.dropdown-menu.show {
     width: 400px;
     height: 400px;
     z-index: -1;
-    transform: translate(-50%,-50%);
-    opacity: 0.5;
-    animation: Shadow-drop 5s infinite linear;  
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+    filter: invert(1);
 }
 #process-section::before {
     content: "";
@@ -1708,10 +1716,12 @@ ul.dropdown-menu.show {
     padding: 30px;
     margin: 30px 20px 50px 0px;
     border-radius: 12px !important;
-    background: linear-gradient(45deg, #050cd6 -100%, transparent 40%);
+    background: transparent;
     overflow: hidden;
     transition: 0.4s;
     z-index: 1 !important;
+    border-bottom: 4px solid #01044b;
+    box-shadow: inset 0px 0px 50px #6e6e6e1c;
 }
 
 
@@ -1753,25 +1763,11 @@ ul.dropdown-menu.show {
 
 
 /* Animated Border */
-.process-item::before {
-    content: "";
-    position: absolute;
-    inset: -3px; /* Expands beyond the border */
-    border-radius: 24px; /* Matches border radius */
-    padding: 3px; /* Border thickness */
-    background: conic-gradient(
-        from 0deg,
-        #fff 0%,
-        #000116 50%
-    );
-    z-index: -1;
-    animation: rotate-border 4s linear infinite;
-    transition: 0.5s;
-}
+
 .process-item:hover:before {
     display: none;
 }
-.process-item::after {
+/* .process-item::after {
     content: "";
     position: absolute;
     background: linear-gradient(45deg, #050cd6, #000116);
@@ -1782,7 +1778,7 @@ ul.dropdown-menu.show {
     z-index: -1;
     border-radius: 12px;
     transition: 0.5s;
-}
+} */
 .process-item:hover:after {
     width: 100%;
     height: 100%;
@@ -1790,30 +1786,11 @@ ul.dropdown-menu.show {
     left: 0;
 }
 
-/* Ensuring the inner content is above */
-.process-item * {
-    position: relative;
-    z-index: 2;
-}
 
-/* Keyframes for border animation */
-@keyframes rotate-border {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
-.process-item:hover {
-    background: #000116;
-    transform: scale(1.02);
-}
-
-.process-item img {
+/* .process-item img {
     filter: brightness(0) invert(1);
-}
+} */
 
 .col-md-5.left-section {
     top: 150px !important;
@@ -1825,13 +1802,13 @@ ul.dropdown-menu.show {
 
 
 #testimonials .slide-item {
-    border: 2px solid #ccc;
     border-radius: 12px;
     padding: 40px 40px;
     margin: 10px 20px;
-    background: linear-gradient(160deg, #000116 -20%, #01044b 80%);
+    background: linear-gradient(180deg, #01044b 32%, #0410ff 130%);
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 #testimonials .slide-item::before {
@@ -1846,7 +1823,6 @@ ul.dropdown-menu.show {
     bottom: -120px;
     transition: 0.5s;
     opacity: 0.1;
-    filter: invert(1);
     animation: LeftRight 5s infinite;
 }
 
@@ -1863,37 +1839,26 @@ ul.dropdown-menu.show {
     font-size: 28px !important;
     line-height: 38px !important;
     margin-bottom: 0;
+    color: #fff;
+}
+#testimonials .slide-item p {
+    color: #fff;
 }
 
 #testimonials .slide-item h5 {
     font-size: 18px !important;
     line-height: 18px !important;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 #testimonials .slide-item .client-img {
-    position: absolute;
     width: 30%;
     border-radius: 41% 59% 54% 46% / 50% 38% 62% 50%;
-    bottom: -150px;
-    right: -200px;
     transition: 0.5s;
-    opacity: 0.4;
-    animation: move 10s linear infinite;
-}
-
-@keyframes move {
-    0% {
-        transform: translateX(10px)translateY(10px);
-    }
-
-    50% {
-        transform: translateX(0px)translateY(0px);
-    }
-
-    100% {
-        transform: translateX(10px)translateY(10px);
-    }
+    opacity: 1;
+    display: table;
+    margin: auto;
 }
 
 #testimonials .slide-item:hover .client-img {
@@ -1941,7 +1906,9 @@ button.accordion-button,
 #faqs .section-title {
     margin-bottom: 40px;
 }
-
+section#faqs h2, section#faqs h5 {
+    color: #fff;
+}
 .accordion-button::before {
     content: "\f067";
     /* Font Awesome Plus icon */
@@ -1991,7 +1958,7 @@ button.accordion-button,
 #faqs .row {
     background: linear-gradient(160deg, #000116 -20%, #01044b 80%);
     padding: 20px 40px;
-    margin: 0px 40px;
+    margin: 0px 40px !important;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -2098,6 +2065,9 @@ div#loom-companion-mv3 {
     clip-path: polygon(84% 0, 100% 50%, 84% 100%, 0% 100%, 12% 51%, 0% 0%);
     margin-bottom: 1.563vw;
   }
+  .arrow-bg-clip h4 {
+    color: #fff;
+}
 #pricing-plan .plan-item {
     background: linear-gradient(160deg, #fff 40%, #0410ff 100%);
     margin: 0px 15px 20px;
@@ -2451,16 +2421,6 @@ div#loom-companion-mv3 {
     margin-bottom: 30px;
     display: flex;
 } */
-#contact .section-title h2 {
-    text-align: center;
-    font-size: 262px !important;
-    line-height: 132px !important;
-    z-index: -1;
-    position: relative;
-    -webkit-text-stroke: 5px #fff;
-    color: transparent;
-    opacity: 0.5;
-}
 
 #contact .section-title {
     margin: 0;
@@ -2470,7 +2430,7 @@ div#loom-companion-mv3 {
     width: 60%;
     display: table;
     margin: auto;
-    filter: drop-shadow(0px 0px 12px #000);
+    filter: drop-shadow(0px 0px 12px #ccccccb6);
 }
 
 .form-group {
@@ -2483,7 +2443,7 @@ div#loom-companion-mv3 {
     padding: 50px;
     margin-top: 20px;
     border-radius: 64px;
-    background: transparent;
+    background: linear-gradient(45deg, #01044b, #050cd5);
     border: 2px solid #fff;
 }
 .quote-link {
@@ -2530,7 +2490,7 @@ div#loom-companion-mv3 {
     margin: auto;
     transition: 0.5s;
 }
-#contact .form p {
+#contact .form p, #contact .form h2 {
     color: #fff !important;
 }
 #contact a.bton.quote-button:hover {
@@ -2540,16 +2500,8 @@ div#loom-companion-mv3 {
 .form-group textarea {
     height: 170px;
 }
-
-#contact .row {
-    background: linear-gradient(45deg, black, #020c89);
-    padding: 40px 40px;
-    border-radius: 40px;
-    margin: 0px 20px;
-}
-
 #contact {
-    padding: 160px 0 80px;
+    padding: 40px 0 20px;
 }
 
 input::placeholder,
@@ -3130,7 +3082,7 @@ section#portfolio-herobanner p {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4); /* Background overlay */
 }
-.popup p, h2{
+.popup p{
     color: #fff !important;
 }
 a.popup-logo img {
@@ -3695,10 +3647,26 @@ video#services-video {
     left: -230px;
     top: 90%;
 }
+#services-banner .text-wrapper .bton {
+    border-color: #fff;
+    color: #fff !important;
+}
+#services-banner .text-wrapper .bton:hover{
+    color: #000 !important;
+    background: #fff !important;
 
+}
+#services-banner .text-wrapper .bton:hover i {
+    background: #000 !important;
+    color: #fff !important;
+}
 #services-banner .text-wrapper h1 {
     font-size: 62px !important;
     line-height: 72px !important;
+    color: #fff;
+}
+#services-banner .text-wrapper h6, #services-banner .text-wrapper p {
+    color: #fff;
 }
 
 .motion-img img {
@@ -4000,15 +3968,14 @@ video#services-video {
 
 .brand-goal:hover {
     opacity: 1;
-    transform: scale(1.05);
-    background: #000116;
+    transform: scale(1.02);
 }
 
 .brand-goal {
     border-radius: 24px;
     transition: transform 0.6s;
     user-select: none;
-    border: 2px dashed #fff;
+    border: 2px dashed #000116;
     padding: 20px 20px;
     margin: 30px 0px;
     background: transparent;
@@ -4041,8 +4008,8 @@ video#services-video {
 }
 .portfolio-section .tab button.tablinks {
     background: transparent;
-    color: #fff;
-    border: 2px solid #fff;
+    color: #000;
+    border: 2px solid #000;
     border-radius: 24px;
     font-size: 20px;
     margin: 0px 10px;
@@ -4053,14 +4020,14 @@ video#services-video {
     font-family: 'Poppins';
 }
 .portfolio-section .tablinks.active {
-    background: #fff !important;
-    color: #000116 !important;
-    box-shadow: inset 0px 0px 20px #000116;
+    background: #01044b !important;
+    color: #fff !important;
+    border-color: #fff !important;
 }
 .portfolio-section .tab button.tablinks:hover {
-    background: #fff;
-    color: #000116;
-    box-shadow: inset 0px 0px 20px #000116;
+    background: #01044b;
+    color: #fff;
+    border-color: #fff;
 }
 .testimonials-slider {
     margin: 0px auto;
@@ -4722,12 +4689,6 @@ video#services-video {
     }
     button.accordion-button,.accordion-body {
         padding: 10px !important;
-    }
-    #testimonials .slide-item .client-img {
-        position: absolute;
-        width: 26%;
-        bottom: 40px;
-        right: 30px;
     }
     footer.footer-section #middle-row .col-sm-3 {
         width: 50%;

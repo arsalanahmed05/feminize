@@ -142,7 +142,7 @@
 
 
     <section id="about-us">
-        <div class="container-fluid">
+        <div class="container">
             <div id="main-row" class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
@@ -1959,7 +1959,7 @@
                 <div class="col-md-6">
                     <div class="section-title">
                         <h5><span>FAQs</span></h5>
-                        <h2>Navigate <ruby>Digital Growth</ruby><br> with Answers</h2>
+                        <h2>Navigate Digital Growth<br> with Answers</h2>
                     </div>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">

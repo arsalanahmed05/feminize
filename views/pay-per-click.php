@@ -4,7 +4,7 @@
 
 <body>
     <div id="cursor">
-        <div class="cursor__circle"></div>
+        <div class="cursor__circlesss"></div>
     </div>
 
     <!-- <section id="services-banner">
