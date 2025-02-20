@@ -14,32 +14,31 @@
             <source src="/assets/images/service-banner-bg.mp4" type="video/mp4">
         </video>
         <div class="container">
-            <div class="service-banner-slider">
-                <div class="slide-item">
-                    <div id="slide-item-row" class="row">
-                        <div class="col-lg-6">
-                            <div class="text-wrapper">
-                                <h6 class="sub-heading">Redefine Success</h6>
-                                <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
-                                <p>Seamless technology solutions that enhance and empower your brand for lasting
-                                    success and growth.</p>
-                                <div class="quote-link">
-                                    <a id="lft" href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
-                                    <a id="ryt" href="tel:+123456789"><button class="quote-btn bton"><i
-                                            class="fa-solid fa-phone"></i>+(123)-456-7890</button></a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="img-bg">
-                                <img src="/assets/images/home-idea4.webp" alt="" class="img-fluid">
 
-                            </div>
+            <div id="slide-item-row" class="row">
+                <div class="col-lg-6">
+                    <div class="text-wrapper">
+                        <h6 class="sub-heading">Redefine Success</h6>
+                        <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
+                        <p>Seamless technology solutions that enhance and empower your brand for lasting
+                            success and growth.</p>
+                        <div class="quote-link">
+                            <a id="lft" href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                            <a id="ryt" href="tel:+123456789"><button class="quote-btn bton"><i
+                                        class="fa-solid fa-phone"></i>+(123)-456-7890</button></a>
                         </div>
+
                     </div>
                 </div>
-                <!-- <div class="slide-item">
+                <div class="col-lg-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/banner-idea1.webp" alt="" class="img-fluid">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="slide-item">
                         <div id="slide-item-row" class="row">
                             <div class="col-lg-6">
                                 <div class="text-wrapper">
@@ -79,7 +78,6 @@
                             </div>
                         </div>
                     </div> -->
-            </div>
             <div class="motion-img">
                 <img src="/assets/images/logoalphabets/1.webp" alt="" class="img-fluid bn1">
                 <img src="/assets/images/logoalphabets/2.webp" alt="" class="img-fluid bn2">
@@ -497,7 +495,7 @@
         <!-- Tab content -->
         <div id="logo-design" class="tabcontent active">
             <div class="container-fluid">
-                <div class="row align-items-baseline">
+                <div class="row align-items-center">
                     <div class="portfolio-box">
                         <ul class="portfolio-slider">
                             <li>
