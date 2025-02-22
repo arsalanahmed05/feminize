@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h1>Social Media <ruby>Marketing</ruby></h1>
+                        <h1>Influencer <ruby>Marketing</ruby></h1>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -59,91 +59,84 @@
     </section>
 
 
-    <section id="PPC-about">
+    <section id="intro-influencer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/services-images/PPC-about.webp" alt="" class="img-fluid">
+                    <div class="text-wrapper">
+                        <h2>What Sets Our <ruby>Influencer Marketing</ruby> Apart</h2>
+                        <p>Feminize Digital is a leading digital marketing agency specializing in influencer marketing services. We craft tailored strategies to drive results and maximize ROI. Our influencer campaigns are designed to connect your brand with the right audience at the ideal moment.</p>
+                        <P>By leveraging authentic influencer partnerships, we upgrade brand awareness, raise engagement and drive conversions. Through accurate planning, correct targeting and data-driven optimization we maximize your marketing efforts to achieve your desired success.</P>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="text-wrapper">
-                        <h2>PPC Excellence with <ruby>Feminize Digital</ruby></h2>
-                        <p><strong>Feminize Digital</strong> is a top digital marketing agency specializing in PPC services. Our PPC solutions are designed to deliver prompt results and maximize return on investment (ROI). We tailor campaigns to connect you with your target audience at the right time. With our PPC services, we boost traffic and convert leads into sales. Through strategic planning, precise targeting, and data-driven optimization, we ensure your ad spend drives success.</p>
-                    </div>
+                    <img src="/assets/images/" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section id="ppc-solutions">
+    <section id="if-mrkt">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Expert <ruby>PPC Solutions</ruby></h2>
-                <p>At Feminize Digital, we offer top-tier PPC services, covering everything from strategic keyword research to compelling ad creation, campaign management, and performance analysis. Our customized solutions ensure that businesses reach the right audience, drive high-quality traffic, and achieve impactful results to help you reach your goals.</p>
+                <h2>benefits of <ruby>influencer marketing services</ruby></h2>
+                <p>At Feminize Digital, we offer a comprehensive influencer marketing package. From selecting the right influencers to crafting engaging campaigns and conducting in-depth performance analysis, we provide tailored solutions to meet your needs. Our personalized approach ensures your brand connects with the right audience, delivering high-quality, impactful, and measurable results aligned with your business goals.</p>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>01</span>
-                        <div class="inner-solutions d-flex">
-                            <h4>Advanced Keyword Research Strategy</h4>
-                        </div>
+                <div class="col-lg-5">
+                    <div class="if-services d-flex">
+                        <h4>Multi-Platform Management</h4>
+                        <img src="/assets/images/services-images/if-ser1.webp" alt="" class="img-fluid">
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>02</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Algorithm-Driven Campaign Optimization</h4>
-                        </div>
+                    <div class="if-services d-flex">
+                        <h4>Contract Negotiation
+                        </h4>
+                        <img src="/assets/images/services-images/if-ser2.webp" alt="" class="img-fluid">
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>03</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Ad Creation</h4>
-                        </div>
+                    <div class="if-services d-flex">
+                        <h4>Campaign Strategy Development</h4>
+                        <img src="/assets/images/services-images/if-ser3.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="if-services d-flex">
+                        <h4>Audience Analysis</h4>
+                        <img src="/assets/images/services-images/if-ser4.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>04</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Comprehensive Data Analytics & Reporting</h4>
-                        </div>
+                <div class="col-sm-2">
+                    <div class="bullet text-center">
+                        <img src="/assets/images/services-images/bullets1.png" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/bullets2.png" alt="" class="img-fluid">
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>05</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Budget Allocation & ROI Maximization</h4>
-                        </div>
+                    <div class="bullet text-center">
+                        <img src="/assets/images/services-images/bullets2.png" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/bullets1.png" alt="" class="img-fluid">
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>06</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Landing Page Conversion Engineering</h4>
-                        </div>
+                    <div class="bullet text-center">
+                        <img src="/assets/images/services-images/bullets1.png" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/bullets2.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="bullet text-center">
+                        <img src="/assets/images/services-images/bullets2.png" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/bullets1.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>07</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Predictive Performance Testing (PPT)</h4>
-                        </div>
+                <div class="col-md-5">
+                    <div class="if-services d-flex">
+                        <img src="/assets/images/services-images/if-ser5.webp" alt="" class="img-fluid">
+                        <h4>Content Creation Coordination </h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>08</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Precision Audience Targeting</h4>
-                        </div>
+                    <div class="if-services d-flex">
+                        <h4>Performance Reporting</h4>
+                        <img src="/assets/images/services-images/if-ser6.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="if-services d-flex">
+                        <h4>Influencer Identification</h4>
+                        <img src="/assets/images/services-images/if-ser7.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="if-services d-flex">
+                        <h4>Ongoing Optimization</h4>
+                        <img src="/assets/images/services-images/if-ser8.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

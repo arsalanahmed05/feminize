@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h1>Social Media <ruby>Marketing</ruby></h1>
+                        <h1>Video <ruby>Editing</ruby></h1>
                     </div>
                 </div>
                 <div class="col-md-6">

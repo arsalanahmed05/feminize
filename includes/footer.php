@@ -3,7 +3,7 @@
         <div id="main-row" class="row">
             <div id="top-row" class="row">
                 <div class="col-sm-4">
-                        <a href="#"><img src="/assets/images/Feminize-digital.webp" alt=""></a>
+                    <a href="#"><img src="/assets/images/Feminize-digital.webp" alt=""></a>
                 </div>
                 <!-- <div class="col-sm-4">
                     
@@ -63,33 +63,21 @@
                 <div class="col-sm-3">
                     <h3>Services</h3>
                     <ul class="footer-menu">
-                        <li>
-                            <a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i>Content Writing</a>
-                        </li>
-                        <li>
-                            <a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i>Email Marketing</a>
-                        </li>
-                        <li>
-                            <a href="/graphics-designing/"><i class="fa-solid fa-chevron-right"></i>Graphics
-                                Designing</a>
-                        </li>
-                        <li>
-                            <a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i>Search Engine
-                                Optimization</a>
-                        </li>
-                        <li>
-                            <a href="/social-media/"><i class="fa-solid fa-chevron-right"></i>Social Media
-                                Marketing</a>
-                        </li>
-                        <li>
-                            <a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i>Web Designing</a>
-                        </li>
-                        <li>
-                            <a href="/web-development/"><i class="fa-solid fa-chevron-right"></i>Web Development</a>
-                        </li>
-                        <li>
-                            <a href="/pay-per-click/"><i class="fa-solid fa-chevron-right"></i>PPC Marketing</a>
-                        </li>
+                        <li><a href="/app-development/"><i class="fa-solid fa-chevron-right"></i> App Development</a></li>
+                        <li><a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a></li>
+                        <li><a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a></li>
+                        <li><a href="/google-business/"><i class="fa-solid fa-chevron-right"></i> GMB</a></li>
+                        <li><a href="/graphic-designing/"><i class="fa-solid fa-chevron-right"></i> Graphic Designing</a></li>
+                        <li><a href="/influencer-marketing/"><i class="fa-solid fa-chevron-right"></i> Influencer Marketing</a></li>
+                        <li><a href="/orm/"><i class="fa-solid fa-chevron-right"></i> ORM</a></li>
+                        <li><a class="dropdown-item" href="/pay-per-click/">PPC Marketing</a></li>
+                        <li><a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i> SEO</a></li>
+                        <li><a href="/social-media/"><i class="fa-solid fa-chevron-right"></i> Social Media Marketing</a></li>
+                        <li><a href="/video-editing/"><i class="fa-solid fa-chevron-right"></i> Video Editing</a></li>
+                        <li><a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i> Web Designing</a></li>
+                        <li><a href="/web-development/"><i class="fa-solid fa-chevron-right"></i> Web Development</a></li>
+
+
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -240,36 +228,10 @@
 
 
 
-<!-- <script>
- document.addEventListener("DOMContentLoaded", function () {
-    let openPopupBtn = document.getElementById("openPopup");
-    let closePopupBtn = document.getElementById("closePopup");
-    let popup = document.getElementById("Popup");
-
-    if (openPopupBtn && popup) {
-        openPopupBtn.addEventListener("click", function (e) {
-            e.preventDefault();
-            popup.classList.add("active"); // Show popup
-        });
-    }
-
-    if (closePopupBtn) {
-        closePopupBtn.addEventListener("click", function () {
-            popup.classList.remove("active"); // Hide popup
-        });
-    }
-
-    // Close popup when clicking outside content
-    window.addEventListener("click", function (e) {
-        if (e.target === popup) {
-            popup.classList.remove("active");
-        }
-    });
-});
 
 
 
-</script> -->
+
 
 
 <script>
@@ -375,35 +337,7 @@
     });
 </script>
 
-<!-- <script>
-    $(document).ready(function() {
-        $('.plan-monthly-slider').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-                // Add more breakpoints and settings as needed
-            ]
-        });
-    });
-</script> -->
+
 
 <script>
     $(document).ready(function() {
@@ -804,65 +738,6 @@
 
 
 
-
-
-
-
-<!-- <script>
-    OTENZA.goToTop = function () {
-  var progressPath = document.querySelector('.back-to-top path');
-  var pathLength = progressPath.getTotalLength();
-  
-  // Set up initial stroke for path (progress circle)
-  progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-  progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-  progressPath.style.strokeDashoffset = pathLength;
-
-  // Recalculate path length for initial render
-  progressPath.getBoundingClientRect();
-  progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
-
-  // Update progress based on scroll
-  var updateProgress = function () {
-    var scroll = $(window).scrollTop(2);
-    var height = $(document).height() - $(window).height();
-    var progress = pathLength - (scroll * pathLength / height);
-    progressPath.style.strokeDashoffset = progress;
-
-    // Show button when scrolled down more than 300px
-    if (scroll > 300) {
-      if (!$('.back-to-top').hasClass('active-progress')) {
-        $('.back-to-top').addClass('active-progress');
-        console.log('active-progress class added');
-      }
-    } else {
-      if ($('.back-to-top').hasClass('active-progress')) {
-        $('.back-to-top').removeClass('active-progress');
-        console.log('active-progress class removed');
-      }
-    }
-  };
-
-  updateProgress();
-  $(window).scroll(updateProgress);
-
-  var offset = 300;  // When to show the button
-  var duration = 600; // Duration for scroll-to-top
-
-  // Handle the scroll-to-top behavior
-  $('.back-to-top').on('click', function (event) {
-    event.preventDefault();
-    $('html, body').animate({ scrollTop: 0 }, duration);
-    return false;
-  });
-};
-
-OTENZA.goToTop();
-
-
-</script> -->
-
-
 <script>
     $(document).ready(function() {
         $('.portfolio-slider').slick({
@@ -908,51 +783,6 @@ OTENZA.goToTop();
         });
     });
 </script>
-<!-- <script>
-    $(document).ready(function() {
-        $('.brand-name-slider').slick({
-            slidesToShow: 3, // Show 3 slides on desktop
-            slidesToScroll: 2,
-            dots: false,
-            infinite: true, // Enable infinite loop
-            autoplay: false,
-            autoplaySpeed: 0,
-            speed: 4000, // Duration of smoothness for sliding (ms)
-            cssEase: 'linear', // Ensure smooth continuous movement
-            centerMode: true, // Center the active slide
-            centerPadding: '0', // No padding around the active slide
-            arrows: false,
-            prevArrow: '<button type="button" class="slick-prev">❮</button>',
-            nextArrow: '<button type="button" class="slick-next">❯</button>',
-            responsive: [{
-                    breakpoint: 1025, // Tablet size and above
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for tablets
-                    }
-                },
-                {
-                    breakpoint: 768, // Mobile size
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        centerMode: false, // Disable center mode for mobile
-                    }
-                },
-                {
-                    breakpoint: 480, // Extra small mobile devices
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        centerMode: false, // Disable center mode for small screens
-                    }
-                }
-            ]
-        });
-    });
-</script> -->
 
 
 
@@ -1054,26 +884,26 @@ OTENZA.goToTop();
 
 
 <script>
-    function openCity(evt, cityName) {
-        // Hide all tab content
-        const tabcontent = document.getElementsByClassName("tabcontent");
-        for (let i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Remove "active" class from all tab links
-        const tablinks = document.getElementsByClassName("tablinks");
-        for (let i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the selected tab content and add "active" class to the clicked tab
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-
-    // Set the default active tab on page load
     document.addEventListener("DOMContentLoaded", function() {
+        // Get all tab buttons and add event listeners
+        var tabButtons = document.querySelectorAll(".tablinks");
+        var tabContents = document.querySelectorAll(".tabcontent");
+
+        tabButtons.forEach(function(button) {
+            button.addEventListener("click", function() {
+                var packageName = this.getAttribute("onclick").split("'")[1];
+
+                // Remove active class from all tabs and hide content
+                tabButtons.forEach(btn => btn.classList.remove("active"));
+                tabContents.forEach(content => content.style.display = "none");
+
+                // Add active class to clicked tab and show its content
+                this.classList.add("active");
+                document.getElementById(packageName).style.display = "block";
+            });
+        });
+
+        // Set the default active tab
         document.querySelector(".tablinks.active").click();
     });
 </script>
