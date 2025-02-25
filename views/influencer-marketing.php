@@ -127,16 +127,16 @@
                         <h4>Content Creation Coordination </h4>
                     </div>
                     <div class="if-services d-flex">
-                        <h4>Performance Reporting</h4>
                         <img src="/assets/images/services-images/if-ser6.webp" alt="" class="img-fluid">
+                        <h4>Performance Reporting</h4>
                     </div>
                     <div class="if-services d-flex">
-                        <h4>Influencer Identification</h4>
                         <img src="/assets/images/services-images/if-ser7.webp" alt="" class="img-fluid">
+                        <h4>Influencer Identification</h4>
                     </div>
                     <div class="if-services d-flex">
-                        <h4>Ongoing Optimization</h4>
                         <img src="/assets/images/services-images/if-ser8.webp" alt="" class="img-fluid">
+                        <h4>Ongoing Optimization</h4>
                     </div>
                 </div>
             </div>

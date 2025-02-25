@@ -8,7 +8,7 @@
     </div>
 
 
-    <section class="services-banner" id="pay-per-click">
+    <section class="services-banner" id="video-editing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/image-20.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -59,18 +59,19 @@
     </section>
 
 
-    <section id="PPC-about">
+    <section id="vid-about">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/PPC-about.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/vid-abt.webp" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>PPC Excellence with <ruby>Feminize Digital</ruby></h2>
-                        <p><strong>Feminize Digital</strong> is a top digital marketing agency specializing in PPC services. Our PPC solutions are designed to deliver prompt results and maximize return on investment (ROI). We tailor campaigns to connect you with your target audience at the right time. With our PPC services, we boost traffic and convert leads into sales. Through strategic planning, precise targeting, and data-driven optimization, we ensure your ad spend drives success.</p>
+                        <h2>Transform Your Brand with <ruby>High-Impact Video Content</ruby></h2>
+                        <p>In today’s fast-evolving digital marketing landscape, businesses need innovative strategies to reach their target audience. Video has become one of the most engaging and effective ways to communicate messages and share information.</p>
+                        <p>Feminize Digitals’ video marketing team specializes in crafting compelling visual stories that drive engagement. From eye-catching promotional videos to high-quality brand storytelling, we ensure every detail captures your audience’s attention. Whether you need social media content, product demos, motivational clips, or corporate presentations, we provide tailored video solutions to help your business achieve its goals.</p>
                     </div>
                 </div>
             </div>
@@ -78,72 +79,44 @@
     </section>
 
 
-    <section id="ppc-solutions">
+    <section id="vid-solutions">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Expert <ruby>PPC Solutions</ruby></h2>
+                <h2>What we offer in <ruby>video editing services</ruby></h2>
                 <p>At Feminize Digital, we offer top-tier PPC services, covering everything from strategic keyword research to compelling ad creation, campaign management, and performance analysis. Our customized solutions ensure that businesses reach the right audience, drive high-quality traffic, and achieve impactful results to help you reach your goals.</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>01</span>
-                        <div class="inner-solutions d-flex">
-                            <h4>Advanced Keyword Research Strategy</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Ad Video<br> Production</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>02</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Algorithm-Driven Campaign Optimization</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Influencer & <br>Testimonial Videos</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>03</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Ad Creation</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Product Demo<br> Videos</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>04</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Comprehensive Data Analytics & Reporting</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Video<br> Editing</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>05</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Budget Allocation & ROI Maximization</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Product Demo<br> Videos</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>06</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Landing Page Conversion Engineering</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Social Media <br>Video Marketing</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>07</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Predictive Performance Testing (PPT)</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Motion Graphics<br> & Animation</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>08</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Precision Audience Targeting</h4>
-                        </div>
+                    <div class="vid-solutions">
+                        <h4>Corporate & <br>Promotional Videos</h4>
+                    </div>
+                    <div class="vid-solutions">
+                        <h4>YouTube Video<br> Optimization</h4>
                     </div>
                 </div>
             </div>
@@ -152,28 +125,22 @@
 
 
 
-    <section id="ppc-creative">
+    <section id="vid-creative">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-
+                <div class="col-sm-4">
                     <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea1.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/vid-ct1.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea2.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/vid-ct2.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea3.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea4.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/vid-ct3.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -185,7 +152,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <h2>Our Comprehensive <ruby>video editing</ruby> Solutions</h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -256,8 +223,8 @@
     <section id="industries">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <h2>Industries Thriving with <ruby>video editing services</ruby></h2>
+                <p>Feminize Digitals offers a comprehensive range of video editing and marketing services tailored to your business needs. Our expertise includes advanced video editing, professional transitions, animations, subtitles, and strategic marketing techniques to help you reach a wider audience effectively.</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">

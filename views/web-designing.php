@@ -8,7 +8,7 @@
     </div>
 
 
-    <section class="services-banner" id="pay-per-click">
+    <section class="services-banner" id="web-desigining">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -59,18 +59,18 @@
     </section>
 
 
-    <section id="PPC-about">
+    <section id="web-about">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/PPC-about.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/grp1397.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>PPC Excellence with <ruby>Feminize Digital</ruby></h2>
-                        <p><strong>Feminize Digital</strong> is a top digital marketing agency specializing in PPC services. Our PPC solutions are designed to deliver prompt results and maximize return on investment (ROI). We tailor campaigns to connect you with your target audience at the right time. With our PPC services, we boost traffic and convert leads into sales. Through strategic planning, precise targeting, and data-driven optimization, we ensure your ad spend drives success.</p>
+                        <h2>Why <ruby>Web Design Matters</ruby> for Your Business</h2>
+                        <p><strong>Feminize Digitals</strong> is a digital marketing agency that knows your website is the face of your brand. We specialize in creating visually appealing, responsive, and user-friendly websites that align perfectly with your brand identity. Our team blends creativity with functionality to ensure a seamless user experience that drives engagement and conversions. Whether you're building a new business or upgrading an existing one, we are committed to making your website stand out in the competitive digital space. With our expertise, your online presence will leave a lasting impact, helping you grow and succeed.</p>
                     </div>
                 </div>
             </div>
@@ -78,72 +78,51 @@
     </section>
 
 
-    <section id="ppc-solutions">
+    <section id="web-solutions">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Expert <ruby>PPC Solutions</ruby></h2>
-                <p>At Feminize Digital, we offer top-tier PPC services, covering everything from strategic keyword research to compelling ad creation, campaign management, and performance analysis. Our customized solutions ensure that businesses reach the right audience, drive high-quality traffic, and achieve impactful results to help you reach your goals.</p>
+                <h2>What We Offer in <ruby> Web Design</ruby></h2>
+                <p>At Feminize Digitals, we offer a comprehensive range of customized services to help your brand reach new heights of success. From strategic planning and innovative design to real-time optimization and in-depth performance reporting, we handle every aspect of your campaigns with precision. Leveraging cutting-edge tools and industry expertise, our services are designed to drive high-quality traffic, boost engagement, and deliver measurable success—all tailored to align with your unique business goals.</p>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>01</span>
-                        <div class="inner-solutions d-flex">
-                            <h4>Advanced Keyword Research Strategy</h4>
-                        </div>
+                <div class="col-sm-3">
+                    <div class="offer-web">
+                        <h4>Custom Website<br> Design</h4>
+                        <img src="/assets/images/services-images/web-design.webp" alt="" class="img-fluid">
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>02</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Algorithm-Driven Campaign Optimization</h4>
-                        </div>
-                    </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>03</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Ad Creation</h4>
-                        </div>
+                    <div class="offer-web">
+                        <h4>Responsive Web<br> Design</h4>
+                        <img src="/assets/images/services-images/responsive.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>04</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Comprehensive Data Analytics & Reporting</h4>
-                        </div>
+                <div class="col-sm-3">
+                    <div class="offer-web">
+                        <h4>UI/UX<br> Design</h4>
+                        <img src="/assets/images/services-images/design.webp" alt="" class="img-fluid">
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>05</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Budget Allocation & ROI Maximization</h4>
-                        </div>
-                    </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>06</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Landing Page Conversion Engineering</h4>
-                        </div>
+                    <div class="offer-web">
+                        <h4>E-commerce<br> Solutions</h4>
+                        <img src="/assets/images/services-images/shopping-store.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>07</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Predictive Performance Testing (PPT)</h4>
-                        </div>
+                <div class="col-sm-3">
+                    <div class="offer-web">
+                        <h4>Website<br> Redesign</h4>
+                        <img src="/assets/images/services-images/redesign.webp" alt="" class="img-fluid">
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>08</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Precision Audience Targeting</h4>
-                        </div>
+                    <div class="offer-web">
+                        <h4>Content Management<br> Systems</h4>
+                        <img src="/assets/images/services-images/cms.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="offer-web">
+                        <h4>SEO-Optimized<br> Design</h4>
+                        <img src="/assets/images/services-images/optimize.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="offer-web">
+                        <h4>Maintenance &<br> Support</h4>
+                        <img src="/assets/images/services-images/front-end.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -152,32 +131,30 @@
 
 
 
-    <section id="ppc-creative">
+    <section id="web-des-creative">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea1.webp" alt="" class="img-fluid">
+                    <div class="outer-des">
+                        <img src="/assets/images/services-images/des-ct1.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea2.webp" alt="" class="img-fluid">
+                    <div class="outer-des">
+                        <img src="/assets/images/services-images/des-ct2.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea3.webp" alt="" class="img-fluid">
+                    <div class="outer-des">
+                        <img src="/assets/images/services-images/des-ct3.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea4.webp" alt="" class="img-fluid">
+                    <div class="outer-des">
+                        <img src="/assets/images/services-images/des-ct4.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 
@@ -185,7 +162,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <h2>Our Comprehensive <ruby>Web Designing</ruby> Solutions</h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -256,7 +233,7 @@
     <section id="industries">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Industries We <ruby>Transform with PPC</ruby></h2>
+                <h2>Industries We <ruby>Transform with Web Designs</ruby></h2>
                 <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
             </div>
             <div class="row">
