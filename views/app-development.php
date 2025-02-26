@@ -2,7 +2,7 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body>
+<body id="app-development">
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
@@ -68,7 +68,7 @@
                 <div class="col-md-6">
                     <div class="text-wrapper">
                         <h2>Why <ruby>App Development</ruby></h2>
-                        <p>In today’s digital marketing era, mobile app becomes an important part of life. It is important for every business who wants to upgrade customer engagement, streamline operations and generate revenue. At DIGIVIBZ, we are specialized in providing custom app development by providing cutting -edge solutions which are customized according to every business needs. It’s doesn’t matter if you need an iOS app, Android app or a cross-platform solutions, our team of experts can give life to your dream application with sleek designs and seamless functionality.</p>
+                        <p>In today’s digital marketing era, mobile app becomes an important part of life. It is important for every business who wants to upgrade customer engagement, streamline operations and generate revenue. At Feminize Digitals, we are specialized in providing custom app development by providing cutting -edge solutions which are customized according to every business needs. It’s doesn’t matter if you need an iOS app, Android app or a cross-platform solutions, our team of experts can give life to your dream application with sleek designs and seamless functionality.</p>
                     </div>
                 </div>
             </div>
@@ -88,19 +88,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Responsive <br>Design</h4>
+                                <h4>User-Centric<br> Design</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
                             <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Customizable <br>Templates</h4>
+                                <h4>Data<br> Security</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/gear.webp" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Optimized <br>Development</h4>
+                                <h4>Speed &<br> Performance</h4>
                             </div>
                         </div>
                     </div>
@@ -115,19 +115,19 @@
                         <div class="feature-parent">
                             <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>E-Commerce <br>Integration</h4>
+                                <h4>Scalability<br> Featured</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
                             <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>User Experience <br>Focus</h4>
+                                <h4>24/7<br> Support</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
                             <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
                             <div class="feature-content">
-                                <h4>Fast Loading <br>Speeds</h4>
+                                <h4>Integration<br> Ready</h4>
                             </div>
                         </div>
                     </div>
@@ -149,50 +149,50 @@
                     <div class="offer-item lft-dot d-flex">
                         <span class="offer-number">01</span>
                         <div class="offer-text">
-                            <h5>Cross-Platform App Development</h5>
+                            <h5>Cross-Platform<br> App Development</h5>
                         </div>
                     </div>
                     <div class="offer-item lft-dot d-flex">
                         <span class="offer-number">02</span>
                         <div class="offer-text">
-                            <h5>Custom App Development</h5>
+                            <h5>Custom App<br> Development</h5>
                         </div>
                     </div>
                     <div class="offer-item lft-dot d-flex">
                         <span class="offer-number">03</span>
                         <div class="offer-text">
-                            <h5>App Testing & Quality Assurance</h5>
+                            <h5>App Testing &<br> Quality Assurance</h5>
                         </div>
                     </div>
                     <div class="offer-item lft-dot d-flex">
                         <span class="offer-number">04</span>
                         <div class="offer-text">
-                            <h5>API & Third-Party Integrations</h5>
+                            <h5>API & Third-Party<br> Integrations</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="offer-item ryt-dot d-flex">
                         <div class="offer-text">
-                            <h5>iOS & Android App Development </h5>
+                            <h5>iOS & Android<br> App Development </h5>
                         </div>
                         <span class="offer-number">05</span>
                     </div>
                     <div class="offer-item ryt-dot d-flex">
                         <div class="offer-text">
-                            <h5>UI/UX Design</h5>
+                            <h5>UI/UX<br> Design</h5>
                         </div>
                         <span class="offer-number">06</span>
                     </div>
                     <div class="offer-item ryt-dot d-flex">
                         <div class="offer-text">
-                            <h5>App Maintenance & Support</h5>
+                            <h5>App Maintenance<br> & Support</h5>
                         </div>
                         <span class="offer-number">07</span>
                     </div>
                     <div class="offer-item ryt-dot d-flex">
                         <div class="offer-text">
-                            <h5>Front End Development</h5>
+                            <h5>Front End<br> Development</h5>
                         </div>
                         <span class="offer-number">08</span>
                     </div>
@@ -292,14 +292,14 @@
         <div class="container">
             <div class="section-title text-center">
                 <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, Real Estate, education, travel, Professional Services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Retail & Ecommerce</h4>
+                                <h4>Retail &<br> Ecommerce</h4>
                             </div>
                             <img src="/assets/images/services-images/business1.webp" alt="" class="img-fluid">
                         </div>
@@ -308,7 +308,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Medical & Health</h4>
+                                <h4>Medical &<br> Health</h4>
                             </div>
                             <img src="/assets/images/services-images/business2.webp" alt="" class="img-fluid">
                         </div>
@@ -317,7 +317,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Professional Services</h4>
+                                <h4>Professional<br> Services</h4>
                             </div>
                             <img src="/assets/images/services-images/business3.webp" alt="" class="img-fluid">
                         </div>
@@ -326,7 +326,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Recreation & Entertainment</h4>
+                                <h4>Recreation &<br> Entertainment</h4>
                             </div>
                             <img src="/assets/images/services-images/business4.webp" alt="" class="img-fluid">
                         </div>
@@ -337,7 +337,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Real Estate</h4>
+                                <h4>Real<br> Estate</h4>
                             </div>
                             <img src="/assets/images/services-images/business5.webp" alt="" class="img-fluid">
                         </div>
@@ -355,7 +355,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Local Businesses</h4>
+                                <h4>Local<br> Businesses</h4>
                             </div>
                             <img src="/assets/images/services-images/business7.webp" alt="" class="img-fluid">
                         </div>
@@ -366,7 +366,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Tourism & Hospitality</h4>
+                                <h4>Tourism &<br> Hospitality</h4>
                             </div>
                             <img src="/assets/images/services-images/business8.webp" alt="" class="img-fluid">
                         </div>
@@ -375,7 +375,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Food & Beverage</h4>
+                                <h4>Food &<br> Beverage</h4>
                             </div>
                             <img src="/assets/images/services-images/business9.webp" alt="" class="img-fluid">
                         </div>
@@ -384,7 +384,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Automotive & Transportation</h4>
+                                <h4>Automotive &<br> Transportation</h4>
                             </div>
                             <img src="/assets/images/services-images/business10.webp" alt="" class="img-fluid">
                         </div>
@@ -1291,6 +1291,17 @@
         </div>
     </section>
 
+    <section id="project-bar">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Let’s Create An Amazing <br><ruby>Project Together!</ruby></h2>
+            </div>
+            <div class="img-bg">
+                <img src="/assets/images/services-images/project-img.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
 
     <section id="category-plan">
         <div class="container">
@@ -1316,7 +1327,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div id="Starter" class="tabcontent" style="display: block;">
+                    <div id="Starter" class="tabcontent" style="display: block !important;">
                         <div class="plan-item">
                             <div class="plan-title">
                                 <h4>Starter <br>Package</h4>

@@ -2,13 +2,13 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body id="pay-per-click">
+<body id="influencer-marketing">
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
 
 
-    <section class="services-banner" id="pay-per-click">
+    <section class="services-banner" id="influencer-marketing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -71,6 +71,67 @@
                 </div>
                 <div class="col-md-6">
                     <img src="/assets/images/" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="business-feature">
+        <div class="container">
+            <div class="section-title text-center mb20">
+                <h6 class="sub-heading">Feature</h6>
+                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature-row left">
+                        <div class="feature-parent">
+                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>User-Centric<br> Design</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-left">
+                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Data<br> Security</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Speed &<br> Performance</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-bg">
+                        <img id="center-col" src="/assets/images/business-feature-img.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature-row right">
+                        <div class="feature-parent">
+                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Scalability<br> Featured</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-right">
+                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>24/7<br> Support</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Integration<br> Ready</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -145,33 +206,6 @@
 
 
 
-    <section id="ppc-creative">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea1.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea2.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea3.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea4.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
@@ -250,56 +284,57 @@
         <div class="container">
             <div class="section-title text-center">
                 <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, Real<br> Estate, education, travel, Professional<br> Services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Retail & Ecommerce</h4>
+                                <h4>Retail &<br> Ecommerce</h4>
                             </div>
                             <img src="/assets/images/services-images/business1.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Through PPC we maximize sales with precisely targeted, product-specific ads that engage high-intent buyers actively searching for your products.</p>
+                        <p>In this Industry we collaborate with fashion influencers to showcase your clothing lines, enhancing your brand visibility and produce sales among style-conscious consumers.</p>
                     </div>
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Medical & Health</h4>
+                                <h4>Medical &<br> Health</h4>
                             </div>
                             <img src="/assets/images/services-images/business2.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Through our ads you can reach local and regional audiences seeking specialized healthcare services, treatments, or wellness solutions through customized ad campaigns.</p>
+                        <p>We make your business work with fitness and wellness influencers to promote your health products or services by reaching audiences invested in personal well-being.</p>
                     </div>
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Professional Services</h4>
+                                <h4>Professional<br> Services</h4>
                             </div>
                             <img src="/assets/images/services-images/business3.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of</p>
+                        <p>We engage financial influencers to explain complex financial products, building credibility and attracting informed clients for you.</p>
                     </div>
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Recreation & Entertainment</h4>
+                                <h4>Recreation &<br> Entertainment</h4>
                             </div>
                             <img src="/assets/images/services-images/business4.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of</p>
+                        <p>We engage financial influencers to explain complex financial products, building credibility and attracting informed clients for you.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Real Estate</h4>
+                                <h4>Real<br> Estate</h4>
                             </div>
                             <img src="/assets/images/services-images/business5.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Get premium-quality leads with carefully customized PPC ads for property listings, realty services, and new developments.</p>
+                        <p>Our experts team up with tech-savvy influencers to review & recommend your products, influencing purchasing decisions in the tech community.
+                        </p>
                     </div>
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
@@ -308,45 +343,49 @@
                             </div>
                             <img src="/assets/images/services-images/business6.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Increase enrollment rates by targeting students and parents with customized campaigns highlighting academic courses, certifications, and educational institutions.</p>
+                        <p>For beauty & skincare business we approach the beauty gurus to demonstrate your product efficacy, building trust and encouraging purchases from engaged audiences.
+                        </p>
                     </div>
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Local Businesses</h4>
+                                <h4>Local<br> Businesses</h4>
                             </div>
                             <img src="/assets/images/services-images/business7.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown pri</p>
+                        <p>Partner with automotive lovers to showcase your vehicles or accessories by driving interest and potential sales among car aficionados.
+                        </p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Tourism & Hospitality</h4>
+                                <h4>Tourism &<br> Hospitality</h4>
                             </div>
                             <img src="/assets/images/services-images/business8.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Grab the attention of travelers by promoting specific and exclusive hotel stays, vacation packages, and customized experiences with our PPC ads.</p>
+                        <p>We engage travel lovers to highlight destinations and accommodations, inspiring potential travelers to choose your services.</p>
                     </div>
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Food & Beverage</h4>
+                                <h4>Food &<br> Beverage</h4>
                             </div>
                             <img src="/assets/images/services-images/business9.webp" alt="" class="img-fluid">
                         </div>
-                        <p>By our ads you can get both in-store traffic and e-commerce sales with geo-targeted promotions and seasonal campaign ads.</p>
+                        <p>Through collaborating with food bloggers and culinary experts to feature your offerings, engaging food lovers to explore your brand.
+                        </p>
                     </div>
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Automotive & Transportation</h4>
+                                <h4>Automotive &<br> Transportation</h4>
                             </div>
                             <img src="/assets/images/services-images/business10.webp" alt="" class="img-fluid">
                         </div>
-                        <p>Our PPC ads can increase your vehicle sales, highlight dealership offers, and promote repair services.</p>
+                        <p>Partner with automotive lovers to showcase your vehicles or accessories by driving interest and potential sales among car aficionados.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -1247,6 +1286,18 @@
                         <p>We strengthen customer relationships with direct interactions while leveraging data-driven insights for continuous improvement.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="project-bar">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Let’s Create An Amazing <br><ruby>Project Together!</ruby></h2>
+            </div>
+            <div class="img-bg">
+                <img src="/assets/images/services-images/project-img.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>

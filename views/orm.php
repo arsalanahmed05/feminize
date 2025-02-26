@@ -2,23 +2,23 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body id="pay-per-click">
+<body id="ORM">
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
 
 
-    <section class="services-banner" id="pay-per-click">
+    <section class="services-banner" id="ORM">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h1>Online Reputation  <ruby>Management</ruby></h1>
+                        <h1>Online Reputation <ruby>Management</ruby></h1>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/ORM-banner.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -59,18 +59,78 @@
     </section>
 
 
-    <section id="PPC-about">
+    <section id="ORM-about">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/PPC-about.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/ORM-about.webp" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>PPC Excellence with <ruby>Feminize Digital</ruby></h2>
-                        <p><strong>Feminize Digital</strong> is a top digital marketing agency specializing in PPC services. Our PPC solutions are designed to deliver prompt results and maximize return on investment (ROI). We tailor campaigns to connect you with your target audience at the right time. With our PPC services, we boost traffic and convert leads into sales. Through strategic planning, precise targeting, and data-driven optimization, we ensure your ad spend drives success.</p>
+                        <h2>Upgrade Your Brand’s <ruby>Online Presence With ORM</ruby></h2>
+                        <p>In today’s world, where everything is becoming digital, here your reputation is your most valuable asset. A single negative review can ruin your brand’s image. At Feminize Digitals, we provide ORM (Online Reputation Management) services from which we can monitor, repair and strengthen your online presence by making sure that every business gets noticed positively among all the platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="business-feature">
+        <div class="container">
+            <div class="section-title text-center mb20">
+                <h6 class="sub-heading">Feature</h6>
+                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature-row left">
+                        <div class="feature-parent">
+                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>User-Centric<br> Design</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-left">
+                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Data<br> Security</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Speed &<br> Performance</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-bg">
+                        <img id="center-col" src="/assets/images/business-feature-img.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature-row right">
+                        <div class="feature-parent">
+                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Scalability<br> Featured</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-right">
+                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>24/7<br> Support</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Integration<br> Ready</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,69 +141,32 @@
     <section id="ppc-solutions">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Expert <ruby>PPC Solutions</ruby></h2>
-                <p>At Feminize Digital, we offer top-tier PPC services, covering everything from strategic keyword research to compelling ad creation, campaign management, and performance analysis. Our customized solutions ensure that businesses reach the right audience, drive high-quality traffic, and achieve impactful results to help you reach your goals.</p>
+                <h2>The services which <ruby>we provide in ORM</ruby></h2>
+                <p>At Feminize Digitals, we provide a complete range of ORM services to help Business in maintaining their positive online reputation. Our ORM solutions make sure that your business remains trustworthy among the targeted audience.</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>01</span>
-                        <div class="inner-solutions d-flex">
-                            <h4>Advanced Keyword Research Strategy</h4>
-                        </div>
+                    <div class="ORM-sol">
+                        <h4>Review<br> Management</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>02</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Algorithm-Driven Campaign Optimization</h4>
-                        </div>
-                    </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>03</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Ad Creation</h4>
-                        </div>
+                    <div class="ORM-sol">
+                        <h4>SEO Reputation<br> Repair</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>04</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Comprehensive Data Analytics & Reporting</h4>
-                        </div>
+                    <div class="ORM-sol">
+                        <h4>Brand<br> Monitoring</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>05</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Budget Allocation & ROI Maximization</h4>
-                        </div>
-                    </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>06</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Landing Page Conversion Engineering</h4>
-                        </div>
+                    <div class="ORM-sol">
+                        <h4>Social Media<br> Reputation Management</h4>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>07</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Predictive Performance Testing (PPT)</h4>
-                        </div>
+                    <div class="ORM-sol">
+                        <h4>Crisis<br> Management</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>08</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Precision Audience Targeting</h4>
-                        </div>
+                    <div class="ORM-sol">
+                        <h4>Content Removal<br> & Suppression</h4>
                     </div>
                 </div>
             </div>
@@ -152,28 +175,17 @@
 
 
 
-    <section id="ppc-creative">
+    <section id="ORM-crt">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea1.webp" alt="" class="img-fluid">
+                <div class="col-md-6">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/ORM-crt1.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea2.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea3.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea4.webp" alt="" class="img-fluid">
+                <div class="col-md-6">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/ORM-crt2.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -185,7 +197,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <h2>Our Comprehensive <ruby>ORM</ruby> Solutions</h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -256,15 +268,15 @@
     <section id="industries">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <h2>Industries We <ruby>Empower with ORM</ruby></h2>
+                <p>Today’s digital marketing era, maintaining an online strong and positive presence is important for every kind and size of business. A single negative review can impact the customer’s trust and the business growth. At Feminize Digitals, we provide customized ORM solutions to help the brands in monitoring , managing and upgrading their online presence. Here’s how our ORM services benefit various industries</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Retail & Ecommerce</h4>
+                                <h4>Retail &<br> Ecommerce</h4>
                             </div>
                             <img src="/assets/images/services-images/business1.webp" alt="" class="img-fluid">
                         </div>
@@ -273,7 +285,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Medical & Health</h4>
+                                <h4>Medical &<br> Health</h4>
                             </div>
                             <img src="/assets/images/services-images/business2.webp" alt="" class="img-fluid">
                         </div>
@@ -282,7 +294,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Professional Services</h4>
+                                <h4>Professional<br> Services</h4>
                             </div>
                             <img src="/assets/images/services-images/business3.webp" alt="" class="img-fluid">
                         </div>
@@ -291,7 +303,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Recreation & Entertainment</h4>
+                                <h4>Recreation &<br> Entertainment</h4>
                             </div>
                             <img src="/assets/images/services-images/business4.webp" alt="" class="img-fluid">
                         </div>
@@ -302,7 +314,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Real Estate</h4>
+                                <h4>Real<br> Estate</h4>
                             </div>
                             <img src="/assets/images/services-images/business5.webp" alt="" class="img-fluid">
                         </div>
@@ -320,7 +332,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Local Businesses</h4>
+                                <h4>Local<br> Businesses</h4>
                             </div>
                             <img src="/assets/images/services-images/business7.webp" alt="" class="img-fluid">
                         </div>
@@ -331,7 +343,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Tourism & Hospitality</h4>
+                                <h4>Tourism &<br> Hospitality</h4>
                             </div>
                             <img src="/assets/images/services-images/business8.webp" alt="" class="img-fluid">
                         </div>
@@ -340,7 +352,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Food & Beverage</h4>
+                                <h4>Food &<br> Beverage</h4>
                             </div>
                             <img src="/assets/images/services-images/business9.webp" alt="" class="img-fluid">
                         </div>
@@ -349,7 +361,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Automotive & Transportation</h4>
+                                <h4>Automotive &<br> Transportation</h4>
                             </div>
                             <img src="/assets/images/services-images/business10.webp" alt="" class="img-fluid">
                         </div>
@@ -1254,6 +1266,18 @@
                         <p>We strengthen customer relationships with direct interactions while leveraging data-driven insights for continuous improvement.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="project-bar">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Let’s Create An Amazing <br><ruby>Project Together!</ruby></h2>
+            </div>
+            <div class="img-bg">
+                <img src="/assets/images/services-images/project-img.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>

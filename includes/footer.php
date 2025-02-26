@@ -70,7 +70,7 @@
                         <li><a href="/graphic-designing/"><i class="fa-solid fa-chevron-right"></i> Graphic Designing</a></li>
                         <li><a href="/influencer-marketing/"><i class="fa-solid fa-chevron-right"></i> Influencer Marketing</a></li>
                         <li><a href="/orm/"><i class="fa-solid fa-chevron-right"></i> ORM</a></li>
-                        <li><a class="dropdown-item" href="/pay-per-click/">PPC Marketing</a></li>
+                        <li><a class="dropdown-item" href="/pay-per-click/"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a></li>
                         <li><a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i> SEO</a></li>
                         <li><a href="/social-media/"><i class="fa-solid fa-chevron-right"></i> Social Media Marketing</a></li>
                         <li><a href="/video-editing/"><i class="fa-solid fa-chevron-right"></i> Video Editing</a></li>

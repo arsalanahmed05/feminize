@@ -2,13 +2,13 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body id="pay-per-click">
+<body id="social-media">
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
 
 
-    <section class="services-banner" id="pay-per-click">
+    <section class="services-banner" id="social-media">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -71,6 +71,66 @@
                     <div class="text-wrapper">
                         <h2>PPC Excellence with <ruby>Feminize Digital</ruby></h2>
                         <p><strong>Feminize Digital</strong> is a top digital marketing agency specializing in PPC services. Our PPC solutions are designed to deliver prompt results and maximize return on investment (ROI). We tailor campaigns to connect you with your target audience at the right time. With our PPC services, we boost traffic and convert leads into sales. Through strategic planning, precise targeting, and data-driven optimization, we ensure your ad spend drives success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="business-feature">
+        <div class="container">
+            <div class="section-title text-center mb20">
+                <h6 class="sub-heading">Feature</h6>
+                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature-row left">
+                        <div class="feature-parent">
+                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>User-Centric<br> Design</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-left">
+                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Data<br> Security</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Speed &<br> Performance</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-bg">
+                        <img id="center-col" src="/assets/images/business-feature-img.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature-row right">
+                        <div class="feature-parent">
+                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Scalability<br> Featured</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-right">
+                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>24/7<br> Support</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Integration<br> Ready</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -257,14 +317,14 @@
         <div class="container">
             <div class="section-title text-center">
                 <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, Real<br> Estate, education, travel, Professional<br> Services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Retail & Ecommerce</h4>
+                                <h4>Retail &<br> Ecommerce</h4>
                             </div>
                             <img src="/assets/images/services-images/business1.webp" alt="" class="img-fluid">
                         </div>
@@ -273,7 +333,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Medical & Health</h4>
+                                <h4>Medical &<br> Health</h4>
                             </div>
                             <img src="/assets/images/services-images/business2.webp" alt="" class="img-fluid">
                         </div>
@@ -282,7 +342,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Professional Services</h4>
+                                <h4>Professional<br> Services</h4>
                             </div>
                             <img src="/assets/images/services-images/business3.webp" alt="" class="img-fluid">
                         </div>
@@ -291,7 +351,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Recreation & Entertainment</h4>
+                                <h4>Recreation &<br> Entertainment</h4>
                             </div>
                             <img src="/assets/images/services-images/business4.webp" alt="" class="img-fluid">
                         </div>
@@ -302,7 +362,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Real Estate</h4>
+                                <h4>Real<br> Estate</h4>
                             </div>
                             <img src="/assets/images/services-images/business5.webp" alt="" class="img-fluid">
                         </div>
@@ -320,7 +380,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Local Businesses</h4>
+                                <h4>Local<br> Businesses</h4>
                             </div>
                             <img src="/assets/images/services-images/business7.webp" alt="" class="img-fluid">
                         </div>
@@ -331,7 +391,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Tourism & Hospitality</h4>
+                                <h4>Tourism &<br> Hospitality</h4>
                             </div>
                             <img src="/assets/images/services-images/business8.webp" alt="" class="img-fluid">
                         </div>
@@ -340,7 +400,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Food & Beverage</h4>
+                                <h4>Food &<br> Beverage</h4>
                             </div>
                             <img src="/assets/images/services-images/business9.webp" alt="" class="img-fluid">
                         </div>
@@ -349,7 +409,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Automotive & Transportation</h4>
+                                <h4>Automotive &<br> Transportation</h4>
                             </div>
                             <img src="/assets/images/services-images/business10.webp" alt="" class="img-fluid">
                         </div>
@@ -1254,6 +1314,18 @@
                         <p>We strengthen customer relationships with direct interactions while leveraging data-driven insights for continuous improvement.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="project-bar">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Let’s Create An Amazing <br><ruby>Project Together!</ruby></h2>
+            </div>
+            <div class="img-bg">
+                <img src="/assets/images/services-images/project-img.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>

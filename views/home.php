@@ -162,7 +162,7 @@
                     </div> -->
 
                     <div id="inner-row-bottom" class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <div class="milestone">
                                 <ruby>
                                     <div class="count" data-count="+240"><span>+</span>0</div>
@@ -170,7 +170,7 @@
                                 <h4>Project<br> Completed</h4>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <div class="milestone">
                                 <ruby>
                                     <div class="count" data-count="+650"><span>+</span>0</div>

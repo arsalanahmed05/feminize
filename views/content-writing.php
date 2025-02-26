@@ -2,13 +2,13 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body id="pay-per-click">
+<body id="content-writing">
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
 
 
-    <section class="services-banner" id="pay-per-click">
+    <section class="services-banner" id="content-writing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/contentwriting-banner.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -59,18 +59,19 @@
     </section>
 
 
-    <section id="PPC-about">
+    <section id="CW-about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/services-images/PPC-about.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>PPC Excellence with <ruby>Feminize Digital</ruby></h2>
-                        <p><strong>Feminize Digital</strong> is a top digital marketing agency specializing in PPC services. Our PPC solutions are designed to deliver prompt results and maximize return on investment (ROI). We tailor campaigns to connect you with your target audience at the right time. With our PPC services, we boost traffic and convert leads into sales. Through strategic planning, precise targeting, and data-driven optimization, we ensure your ad spend drives success.</p>
+                        <h2>Importance Of <ruby>Content Writing</ruby> For Your Business</h2>
+                        <p>High-quality content is the backbone of every business striving to succeed in the digital market. Without compelling and well-crafted content, your business may struggle to connect with its target audience effectively. That’s why our expert team is here to provide top-tier content tailored to your needs.</p>
+                        <p>At Feminize Digitals, we specialize in creating high-quality, SEO-optimized content that captures your audience’s attention and drives engagement. Whether you need website copy, social media content, blogs, articles, or email campaigns, our experts are ready to deliver. We ensure your brand’s message is communicated clearly and effectively to your audience.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/services-images/CW-abt.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -78,71 +79,123 @@
     </section>
 
 
-    <section id="ppc-solutions">
+    <section id="business-feature">
+        <div class="container">
+            <div class="section-title text-center mb20">
+                <h6 class="sub-heading">Feature</h6>
+                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature-row left">
+                        <div class="feature-parent">
+                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>User-Centric<br> Design</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-left">
+                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Data<br> Security</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Speed &<br> Performance</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-bg">
+                        <img id="center-col" src="/assets/images/business-feature-img.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature-row right">
+                        <div class="feature-parent">
+                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Scalability<br> Featured</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-right">
+                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>24/7<br> Support</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Integration<br> Ready</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="CW-solutions">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Expert <ruby>PPC Solutions</ruby></h2>
-                <p>At Feminize Digital, we offer top-tier PPC services, covering everything from strategic keyword research to compelling ad creation, campaign management, and performance analysis. Our customized solutions ensure that businesses reach the right audience, drive high-quality traffic, and achieve impactful results to help you reach your goals.</p>
+                <h2>Services We Provide in <ruby>Content Writing</ruby></h2>
+                <p>At Feminize Digitals, we go beyond just writing—we craft content that tells your story, strengthens your brand voice, and connects you with your audience. By combining strategic keyword use with persuasive storytelling, we create content that boosts engagement and improves search rankings.</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>01</span>
+                    <div class="CW-solutions d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-sol1.webp" alt="">
                         <div class="inner-solutions d-flex">
-                            <h4>Advanced Keyword Research Strategy</h4>
+                            <h4>SEO Content Creation</h4>
                         </div>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>02</span>
+                    <div class="CW-solutions d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-sol2.webp" alt="">
                         <div class="inner-solutions d-flex">
 
-                            <h4>Algorithm-Driven Campaign Optimization</h4>
+                            <h4>Website Copywriting </h4>
                         </div>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>03</span>
+                    <div class="CW-solutions d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-sol3.webp" alt="">
                         <div class="inner-solutions d-flex">
 
-                            <h4>Ad Creation</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>04</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Comprehensive Data Analytics & Reporting</h4>
-                        </div>
-                    </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>05</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Budget Allocation & ROI Maximization</h4>
-                        </div>
-                    </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>06</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Landing Page Conversion Engineering</h4>
+                            <h4>Email Marketing</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>07</span>
+                    <div class="CW-solutions d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-sol4.webp" alt="">
                         <div class="inner-solutions d-flex">
-
-                            <h4>Predictive Performance Testing (PPT)</h4>
+                            <h4>Blog & Article Writing</h4>
                         </div>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>08</span>
+                    <div class="CW-solutions d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-sol5.webp" alt="">
                         <div class="inner-solutions d-flex">
 
-                            <h4>Precision Audience Targeting</h4>
+                            <h4>Product Descriptions </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="CW-solutions d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-sol6.webp" alt="">
+                        <div class="inner-solutions d-flex">
+                            <h4>Technical Writing</h4>
+                        </div>
+                    </div>
+                    <div class="CW-solutions d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-sol7.webp" alt="">
+                        <div class="inner-solutions d-flex">
+
+                            <h4>Social Media Content</h4>
                         </div>
                     </div>
                 </div>
@@ -152,28 +205,52 @@
 
 
 
-    <section id="ppc-creative">
+    <section id="CW-creative">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/CRT-cw1.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/CRT-cw2.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/CRT-cw3.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea1.webp" alt="" class="img-fluid">
+
+    <section id="CW-benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Benefits of Getting our <ruby>Content Writing Service</ruby></h2>
+                <p>High-quality content is essential for building brand credibility, engaging audiences, and driving conversions. Our content writing services ensure your brand message is clear, compelling, and optimized for search engines. At Feminize Digitals, we create customized, SEO-friendly content that helps businesses establish authority, attract their target audience, and achieve their marketing goals.</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="cw-benefits d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-ben1.png" alt="">
+                        <p>We upgrade brand reputation by delivering informative, valuable, & engaging content.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea2.webp" alt="" class="img-fluid">
+                <div class="col-sm-4">
+                    <div class="cw-benefits d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-ben2.png" alt="">
+                        <p>We save your time by handling content strategy while you focus on growing your business.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea3.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea4.webp" alt="" class="img-fluid">
+                <div class="col-sm-4">
+                    <div class="cw-benefits d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-ben3.png" alt="">
+                        <p>We produce higher search rankings with SEO-optimized content that attracts organic traffic.</p>
                     </div>
                 </div>
             </div>
@@ -185,7 +262,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <h2>Our Comprehensive <ruby>Content Writing</ruby> Solutions</h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -256,15 +333,16 @@
     <section id="industries">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <h2>Industries We Empowering By <ruby>Content Writing</ruby></h2>
+                <p>
+                    Content writing benefits businesses across all industries by delivering valuable and relevant content. Our team of experts creates customized, industry-specific content that enhances brand awareness, builds customer trust, and drives engagement.</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Retail & Ecommerce</h4>
+                                <h4>Retail &<br> Ecommerce</h4>
                             </div>
                             <img src="/assets/images/services-images/business1.webp" alt="" class="img-fluid">
                         </div>
@@ -273,7 +351,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Medical & Health</h4>
+                                <h4>Medical &<br> Health</h4>
                             </div>
                             <img src="/assets/images/services-images/business2.webp" alt="" class="img-fluid">
                         </div>
@@ -282,7 +360,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Professional Services</h4>
+                                <h4>Professional<br> Services</h4>
                             </div>
                             <img src="/assets/images/services-images/business3.webp" alt="" class="img-fluid">
                         </div>
@@ -291,7 +369,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Recreation & Entertainment</h4>
+                                <h4>Recreation &<br> Entertainment</h4>
                             </div>
                             <img src="/assets/images/services-images/business4.webp" alt="" class="img-fluid">
                         </div>
@@ -302,7 +380,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Real Estate</h4>
+                                <h4>Real<br> Estate</h4>
                             </div>
                             <img src="/assets/images/services-images/business5.webp" alt="" class="img-fluid">
                         </div>
@@ -320,7 +398,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Local Businesses</h4>
+                                <h4>Local<br> Businesses</h4>
                             </div>
                             <img src="/assets/images/services-images/business7.webp" alt="" class="img-fluid">
                         </div>
@@ -331,7 +409,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Tourism & Hospitality</h4>
+                                <h4>Tourism &<br> Hospitality</h4>
                             </div>
                             <img src="/assets/images/services-images/business8.webp" alt="" class="img-fluid">
                         </div>
@@ -340,7 +418,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Food & Beverage</h4>
+                                <h4>Food &<br> Beverage</h4>
                             </div>
                             <img src="/assets/images/services-images/business9.webp" alt="" class="img-fluid">
                         </div>
@@ -349,7 +427,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Automotive & Transportation</h4>
+                                <h4>Automotive &<br> Transportation</h4>
                             </div>
                             <img src="/assets/images/services-images/business10.webp" alt="" class="img-fluid">
                         </div>
@@ -1223,41 +1301,17 @@
     </section>
 
 
-    <section id="partner-benefits">
+
+    <section id="project-bar">
         <div class="container">
-            <div class="section-title">
-                <h2>Benefits of <ruby>Partnering With Us</ruby></h2>
-                <p>A mobile app is a powerful tool that upgrades the customer engagement and boosts brand’s visibility in a competitive market. Mobile applications provides businesses a direct platform to customers to connect directly with brand services by providing seamless functionality. By partnering with us, you can get expertly designed mobile apps that are not only meet your business needs but also get desired and long-term success.</p>
+            <div class="section-title text-center">
+                <h2>Let’s Create An Amazing <br><ruby>Project Together!</ruby></h2>
             </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div id="lft-ben" class="benefits-item down">
-                        <div class="img-bg btm">
-                            <img id="top-icon" src="/assets/images/services-images/doble-pin.webp" alt="" class="img-fluid">
-                        </div>
-                        <p>We provide optimized apps with fast performance, high security, and intuitive user experience to keep customers engaged.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div id="lft-cen" class="benefits-item up">
-                        <p>Provide apps that are designed according to your business needs, ensuring future expansions and seamless integration of new features.</p>
-                        <div class="img-bg cen">
-                            <img id="top-icon" src="/assets/images/services-images/hand-click.webp" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div id="lft-ben" class="benefits-item down">
-                        <div class="img-bg btm">
-                            <img id="top-icon" src="/assets/images/services-images/three-cubes.webp" alt="" class="img-fluid">
-                        </div>
-                        <p>We strengthen customer relationships with direct interactions while leveraging data-driven insights for continuous improvement.</p>
-                    </div>
-                </div>
+            <div class="img-bg">
+                <img src="/assets/images/services-images/project-img.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>
-
 
     <section id="category-plan">
         <div class="container">

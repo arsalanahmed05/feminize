@@ -2,13 +2,13 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body id="pay-per-click">
+<body id="email-marketing">
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
 
 
-    <section class="services-banner" id="pay-per-click">
+    <section class="services-banner" id="email-marketing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/email-banner.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -59,18 +59,18 @@
     </section>
 
 
-    <section id="PPC-about">
+    <section id="email-about">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/PPC-about.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/email-abt.webp" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>PPC Excellence with <ruby>Feminize Digital</ruby></h2>
-                        <p><strong>Feminize Digital</strong> is a top digital marketing agency specializing in PPC services. Our PPC solutions are designed to deliver prompt results and maximize return on investment (ROI). We tailor campaigns to connect you with your target audience at the right time. With our PPC services, we boost traffic and convert leads into sales. Through strategic planning, precise targeting, and data-driven optimization, we ensure your ad spend drives success.</p>
+                        <h2>Why Choose <ruby>Email Marketing</ruby></h2>
+                        <p>Email marketing is a best and useful way for those businesses who wants to connect with their audience in a meaningful way. At Feminize Digitals, we are expert in creating customized and result oriented campaigns that drive connects directly with your audience. If you are looking to expand your customer base, Build stronger relationships or boost your sales by our email marketing services you will gain unmeasurable success. With creative templates, automation, detailed analytics and reports, we make sure that every campaign maximizes your return on investment (ROI).</p>
                     </div>
                 </div>
             </div>
@@ -78,72 +78,102 @@
     </section>
 
 
-    <section id="ppc-solutions">
+    <section id="business-feature">
+        <div class="container">
+            <div class="section-title text-center mb20">
+                <h6 class="sub-heading">Feature</h6>
+                <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature-row left">
+                        <div class="feature-parent">
+                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>User-Centric<br> Design</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-left">
+                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Data<br> Security</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Speed &<br> Performance</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-bg">
+                        <img id="center-col" src="/assets/images/business-feature-img.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature-row right">
+                        <div class="feature-parent">
+                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Scalability<br> Featured</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent middle-right">
+                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>24/7<br> Support</h4>
+                            </div>
+                        </div>
+                        <div class="feature-parent">
+                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <div class="feature-content">
+                                <h4>Integration<br> Ready</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="email-solutions">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Expert <ruby>PPC Solutions</ruby></h2>
-                <p>At Feminize Digital, we offer top-tier PPC services, covering everything from strategic keyword research to compelling ad creation, campaign management, and performance analysis. Our customized solutions ensure that businesses reach the right audience, drive high-quality traffic, and achieve impactful results to help you reach your goals.</p>
+                <h2><ruby>Email Marekting</ruby> Service Provided</h2>
+                <p>Email marketing is a all-rounder tool that caters to the unique needs of different industries. At DIGI VIBZ, we understand that every business requires a different customized way to reach its audience efficaciously. That’s why Feminize Digitals offer tailored email marketing strategies that are designed to drive engagement, build trust, and achieve significant results. Here’s how we help businesses across the top industries to achieve their required results through our customized impactful email campaigns.
+                </p>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>01</span>
-                        <div class="inner-solutions d-flex">
-                            <h4>Advanced Keyword Research Strategy</h4>
-                        </div>
+                <div class="col-md-6">
+                    <div class="email-sol">
+                        <h4>Targeted Lists</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>02</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Algorithm-Driven Campaign Optimization</h4>
-                        </div>
+                    <div class="email-sol">
+                        <h4>Lead Nurturing</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>03</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Ad Creation</h4>
-                        </div>
+                    <div class="email-sol">
+                        <h4>Engagement Boost</h4>
+                    </div>
+                    <div class="email-sol">
+                        <h4>Newsletter Campaigns</h4>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>04</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Comprehensive Data Analytics & Reporting</h4>
-                        </div>
+                <div class="col-md-6">
+                    <div class="email-sol">
+                        <h4>Drip Campaigns</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>05</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Budget Allocation & ROI Maximization</h4>
-                        </div>
+                    <div class="email-sol">
+                        <h4>Email Automation</h4>
                     </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>06</span>
-                        <div class="inner-solutions d-flex">
 
-                            <h4>Landing Page Conversion Engineering</h4>
-                        </div>
+                    <div class="email-sol">
+                        <h4>Analytics Reporting</h4>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="ppc-solutions d-flex">
-                        <span>07</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Predictive Performance Testing (PPT)</h4>
-                        </div>
-                    </div>
-                    <div class="ppc-solutions d-flex">
-                        <span>08</span>
-                        <div class="inner-solutions d-flex">
-
-                            <h4>Precision Audience Targeting</h4>
-                        </div>
+                    <div class="email-sol">
+                        <h4>Personalized Emails Strategies </h4>
                     </div>
                 </div>
             </div>
@@ -152,28 +182,22 @@
 
 
 
-    <section id="ppc-creative">
+    <section id="email-creative">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea1.webp" alt="" class="img-fluid">
+                <div class="col-sm-4">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/email-crt1.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea2.webp" alt="" class="img-fluid">
+                <div class="col-sm-4">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/email-crt2.webp" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea3.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="outer-creative">
-                        <img src="/assets/images/services-images/ppc-idea4.webp" alt="" class="img-fluid">
+                <div class="col-sm-4">
+                    <div class="bg">
+                        <img src="/assets/images/services-images/email-crt3.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -185,7 +209,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <h2>Our Comprehensive <ruby>Email Marketing</ruby> Solutions</h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -256,15 +280,15 @@
     <section id="industries">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, real estate, education, travel, professional services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <h2>Industries We Empower Through<br> <ruby>Email Marketing</ruby></h2>
+                <p>Email marketing is not a one-size-fits-all solution. At DIGI VIBZ, we produce industry-specific strategies that are customized to meet the unique needs of every size of businesses. From retail to healthcare, education to entertainment, our email marketing services are designed to connect with the wide audiences. By delivering customized messages that resonate, we help businesses across industries drive engagement, build trust, and achieve remarkable growth.</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Retail & Ecommerce</h4>
+                                <h4>Retail &<br> Ecommerce</h4>
                             </div>
                             <img src="/assets/images/services-images/business1.webp" alt="" class="img-fluid">
                         </div>
@@ -273,7 +297,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Medical & Health</h4>
+                                <h4>Medical &<br> Health</h4>
                             </div>
                             <img src="/assets/images/services-images/business2.webp" alt="" class="img-fluid">
                         </div>
@@ -282,7 +306,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Professional Services</h4>
+                                <h4>Professional<br> Services</h4>
                             </div>
                             <img src="/assets/images/services-images/business3.webp" alt="" class="img-fluid">
                         </div>
@@ -291,7 +315,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Recreation & Entertainment</h4>
+                                <h4>Recreation &<br> Entertainment</h4>
                             </div>
                             <img src="/assets/images/services-images/business4.webp" alt="" class="img-fluid">
                         </div>
@@ -302,7 +326,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Real Estate</h4>
+                                <h4>Real<br> Estate</h4>
                             </div>
                             <img src="/assets/images/services-images/business5.webp" alt="" class="img-fluid">
                         </div>
@@ -320,7 +344,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Local Businesses</h4>
+                                <h4>Local<br> Businesses</h4>
                             </div>
                             <img src="/assets/images/services-images/business7.webp" alt="" class="img-fluid">
                         </div>
@@ -331,7 +355,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Tourism & Hospitality</h4>
+                                <h4>Tourism &<br> Hospitality</h4>
                             </div>
                             <img src="/assets/images/services-images/business8.webp" alt="" class="img-fluid">
                         </div>
@@ -340,7 +364,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Food & Beverage</h4>
+                                <h4>Food &<br> Beverage</h4>
                             </div>
                             <img src="/assets/images/services-images/business9.webp" alt="" class="img-fluid">
                         </div>
@@ -349,7 +373,7 @@
                     <div class="industries-item">
                         <div class="industry-tag d-flex">
                             <div class="title">
-                                <h4>Automotive & Transportation</h4>
+                                <h4>Automotive &<br> Transportation</h4>
                             </div>
                             <img src="/assets/images/services-images/business10.webp" alt="" class="img-fluid">
                         </div>
@@ -1226,7 +1250,7 @@
     <section id="partner-benefits">
         <div class="container">
             <div class="section-title">
-                <h2>Benefits of <ruby>Partnering With Us</ruby></h2>
+                <h2>How Businesses Benefit from <ruby>Email Marketing?</ruby></h2>
                 <p>A mobile app is a powerful tool that upgrades the customer engagement and boosts brand’s visibility in a competitive market. Mobile applications provides businesses a direct platform to customers to connect directly with brand services by providing seamless functionality. By partnering with us, you can get expertly designed mobile apps that are not only meet your business needs but also get desired and long-term success.</p>
             </div>
             <div class="row">
@@ -1254,6 +1278,18 @@
                         <p>We strengthen customer relationships with direct interactions while leveraging data-driven insights for continuous improvement.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="project-bar">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Let’s Create An Amazing <br><ruby>Project Together!</ruby></h2>
+            </div>
+            <div class="img-bg">
+                <img src="/assets/images/services-images/project-img.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>
