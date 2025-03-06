@@ -15,8 +15,8 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/home/">Home</a>
-                        </li>
+                            <a class="nav-link" aria-current="page" href="/home/">Home</a>
+                        </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="/about-us/">About Us</a>
                         </li>
@@ -60,6 +60,24 @@
         </nav>
     </div>
 </header>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Get current page URL
+    let currentUrl = window.location.pathname;
+
+    // Get all nav links
+    let navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+    // Loop through links and add 'active' class to the matching one
+    navLinks.forEach(function (link) {
+        if (link.getAttribute("href") === currentUrl) {
+            link.classList.add("active");
+        } else {
+            link.classList.remove("active");
+        }
+    });
+});
+</script>
 
 
 

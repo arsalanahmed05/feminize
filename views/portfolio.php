@@ -28,19 +28,6 @@
     </section>
 
 
-    <!-- <section id="portfolio-feature">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="text-wrapper">
-                        <h2>Innovating with Strategy in Mind</h2>
-                        <p>With a strategic approach, we blend creativity and planning to deliver impactful solutions that resonate and drive results. Every idea we create is purposeful, ensuring our work stands out while aligning with your goals.</p>
-                    </div>
-                </div>
-                <div class="col-md-7"></div>
-            </div>
-        </div>
-    </section> -->
 
     <section id="rgt-img">
         <div class="container">
@@ -96,9 +83,6 @@
         </div>
 
     </section>
-
-
-
 
 
     <section class="portfolio-section">

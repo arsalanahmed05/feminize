@@ -42,9 +42,6 @@
                             <a href="/testimonials/"><i class="fa-solid fa-chevron-right"></i>Testimonials</a>
                         </li>
                         <li>
-                            <a href="/packages/"><i class="fa-solid fa-chevron-right"></i>Packages</a>
-                        </li>
-                        <li>
                             <a href="/contact-us/"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>
                         </li>
                     </ul>
@@ -408,6 +405,7 @@
         });
     });
 </script>
+
 <script>
     gsap.registerPlugin(ScrollTrigger);
 
@@ -507,8 +505,6 @@
     });
 </script>
 
-
-
 <script>
     $(document).ready(function() {
         $('.brand-slider').slick({
@@ -572,7 +568,6 @@
     });
 </script>
 
-
 <script>
     /*************************
       Cursor
@@ -614,7 +609,6 @@
 
         pos.x += diffX * speed;
         pos.y += diffY * speed;
-
         const angle = getAngle(diffX, diffY);
         const squeeze = getSqueeze(diffX, diffY);
 
@@ -1008,12 +1002,25 @@
     });
 </script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, p, span, li");
 
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("fade-in-up");
+                }
+            });
+        },
+        { threshold: 0.2 } // Trigger when 20% of the element is visible
+    );
 
+    elements.forEach((el) => observer.observe(el));
+});
 
-
-
-
+</script>
 
 <script>
     var TxtType = function(el, toRotate, period) {
@@ -1092,19 +1099,36 @@
 
 
 <script>
-    function openCity(evt, cityName) {
-        // Remove active class from all tab buttons
-        const tablinks = document.querySelectorAll(".tablinks");
-        tablinks.forEach((tab) => tab.classList.remove("active"));
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get all tablinks and tabcontent
+        let tablinks = document.querySelectorAll(".tablinks");
+        let tabcontents = document.querySelectorAll(".tabcontent");
 
-        // Remove active class from all tab contents
-        const tabcontents = document.querySelectorAll(".tabcontent");
-        tabcontents.forEach((content) => content.classList.remove("active"));
+        // Set the first tab and content as active on load
+        if (tablinks.length > 0 && tabcontents.length > 0) {
+            tablinks[0].classList.add("active");
+            tabcontents[0].classList.add("active");
+            tabcontents[0].style.display = "block";
+        }
 
-        // Add active class to the clicked tab button
-        evt.currentTarget.classList.add("active");
+        // Tab switching function
+        window.openCity = function (evt, cityName) {
+            tabcontents.forEach(content => {
+                content.style.display = "none";
+                content.classList.remove("active");
+            });
 
-        // Add active class to the corresponding tab content
-        document.getElementById(cityName).classList.add("active");
-    }
+            tablinks.forEach(link => {
+                link.classList.remove("active");
+            });
+
+            let activeContent = document.getElementById(cityName);
+            if (activeContent) {
+                activeContent.style.display = "block";
+                activeContent.classList.add("active");
+            }
+
+            evt.currentTarget.classList.add("active");
+        };
+    });
 </script>

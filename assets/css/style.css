@@ -3,7 +3,7 @@
 html body {
     color: #000;
     background-color: #fff;
-    overflow-x: hidden !important;
+    
 
 }
 
@@ -959,7 +959,7 @@ ul.dropdown-menu.show {
 }
 
 #web-designing .portfolio-box ul li img {
-    transition: 1s;
+    transition: 10s;
     height: unset;
 }
 
@@ -1947,12 +1947,22 @@ ul.service-list li {
 #email-solutions .email-sol h4 {
     margin: 0;
 }
+#email-creative img:hover {
+    transform: scale(1.05);
+}
+body#GMB .outer-creative img:hover {
+    transform: skewY(5deg);
+}
+body#GMB .outer-creative img {
+    transition: 0.5s;
+}
 
 #email-creative img {
     object-fit: cover;
     height: 350px;
     display: table;
     margin: auto;
+    transition: 0.4s;
 }
 
 #email-solutions .email-sol:hover {
@@ -1997,7 +2007,13 @@ ul.service-list li img {
     border-radius: 50%;
     margin-bottom: 10px;
 }
-
+#CW-creative img {
+    filter: drop-shadow(2px 4px 6px #ccc);
+    transition: 0.5s;
+}
+#CW-creative img:hover {
+    transform: scale(1.05);
+}
 .CW-solutions {
     border: 1px solid #ccc;
     margin: 20px 0px;
@@ -2006,6 +2022,11 @@ ul.service-list li img {
     gap: 20px;
     align-items: center;
     background: #01044b;
+    transition: 0.5s;
+}
+.CW-solutions:hover {
+    background: #1019ca;
+    transform: translateY(-5px);
 }
 
 #cw-benefits .cw-benefits {
@@ -2038,7 +2059,10 @@ ul.service-list li img {
 div#inner-row1 .outer-creative {
     margin-bottom: -140px;
 }
-
+#policy-banner {
+    text-align: center;
+    background: linear-gradient(45deg, #c3c3c3, transparent);
+}
 div#inner-row3 .outer-creative {
     margin-top: -140px;
 }
@@ -2058,9 +2082,6 @@ div#inner-row3 .outer-creative {
     padding: 4px 40px;
     color: #fff;
     font-family: 'Poppins';
-    width: 90%;
-    display: table;
-    margin: auto;
 }
 
 #faqs-updated .accordion-item {
@@ -3053,7 +3074,7 @@ div#loom-companion-mv3 {
 }
 
 #contact a.bton.quote-button:hover {
-    color: #000116 !important;
+    color: #fff !important;
 }
 
 .form-group textarea {
@@ -3065,7 +3086,9 @@ select::placeholder,
 textarea::placeholder {
     font-family: 'Poppins';
 }
-
+#app-development .services-banner img {
+    width: 75%;
+}
 
 /* footer section */
 
@@ -3074,6 +3097,7 @@ footer.footer-section {
     position: relative;
     background: linear-gradient(180deg, #050CD5 -150%, #000116 70%);
     color: #fff;
+    overflow: hidden;
 }
 
 .footer-section .row {
@@ -3185,7 +3209,7 @@ body#video-editing .services-banner img {
     width: 80%;
 }
 body#ORM .services-banner img {
-    margin-bottom: -50px;
+    width: 70%;
 }
 
 .footer-section .footer-menu li a i {
@@ -3293,7 +3317,9 @@ body#ORM .services-banner img {
         transform: translate(0, 0);
     }
 }
-
+#content-writing .services-banner img {
+    width: 75%;
+}
 @keyframes circularMotion {
     0% {
         transform: translate(0, 0) rotate(0deg);
@@ -3315,20 +3341,21 @@ body#ORM .services-banner img {
         transform: translate(0, 0) rotate(360deg);
     }
 }
-
-
-
-
 /* next section */
 
 #solutions #inner-row-top {
     margin-bottom: 40px !important;
 }
 
-.solutions-content-main .icon i {
-    font-size: 70px;
+h1, h2, h3, h4, h5, h6, p, span, li{
+    opacity: 0; /* Initially hidden */
+    transform: translateY(30px); /* Start position (30px lower) */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
-
+.fade-in-up {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
 .solutions-content-main {
     display: flex;
     gap: 30px;
@@ -3342,10 +3369,9 @@ body#ORM .services-banner img {
 div#inner-row {
     margin-top: 60px;
 }
-
 .solutions-content-main .icon i {
     font-size: 30px;
-    background: linear-gradient(180deg, #050CD5 -150%, #000116 70%);
+    background: linear-gradient(180deg, #050CD5 -150%, #000 170%);
     width: 80px;
     height: 80px;
     text-align: center;
@@ -3353,7 +3379,6 @@ div#inner-row {
     border-radius: 50px;
     color: #fff;
 }
-
 .main-about {
     border-radius: 12px;
     border: 2px solid #ffff;

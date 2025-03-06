@@ -1129,9 +1129,6 @@
 
 
 
-
-
-
     <section id="quality-section">
         <div class="container">
             <div class="row">
