@@ -11,14 +11,14 @@
     <section class="services-banner" id="web-desigining">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="text-wrapper">
                         <h1>Web <ruby>Designing</ruby></h1>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/web-design-banner-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

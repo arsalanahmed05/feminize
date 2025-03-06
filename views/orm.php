@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ORM-banner.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/Orm-banner-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

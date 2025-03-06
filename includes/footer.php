@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div id="middle-row" class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <h3>Quick links</h3>
                     <ul class="footer-menu">
                         <li>
@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <h3>Policies</h3>
                     <ul class="footer-menu">
                         <li>
@@ -60,9 +60,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-5">
                     <h3>Services</h3>
-                    <ul class="footer-menu">
+                    <ul class="footer-menu services">
                         <li><a href="/app-development/"><i class="fa-solid fa-chevron-right"></i> App Development</a></li>
                         <li><a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a></li>
                         <li><a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a></li>

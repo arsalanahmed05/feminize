@@ -2,7 +2,7 @@
 <?php include_once("includes/header.php") ?>
 
 
-<body>
+<body id="about-page">
 
     <div id="cursor">
         <div class="cursor__circle"></div>
@@ -53,27 +53,6 @@
         </div>
     </section>
 
-    <!-- <section id="about-banner">
-        <div class="container">
-            <div class="row">
-                <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Welcome Feminize Digital</h6>
-                    <h1>Generation <br><ruby>Digital Agency</ruby></h1>
-                    <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
-                    <div class="quote-link">
-                        <a href="/portfolio/" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>view portfolio</a>
-                    </div>
-                </div>
-                <img id="bn1" src="/assets/images/bn1.webp" alt="" class="img-fluid abs">
-                <img id="bn2" src="/assets/images/bn2.webp" alt="" class="img-fluid abs">
-                <img id="bn3" src="/assets/images/bn3.webp" alt="" class="img-fluid abs">
-                <img id="bn4" src="/assets/images/bn4.webp" alt="" class="img-fluid abs">
-                <img id="bn5" src="/assets/images/bn5.webp" alt="" class="img-fluid abs">
-                <img id="particle1" src="/assets/images/abstract-left.webp" alt="" class="img-fluid abs animate1">
-                <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
-            </div>
-        </div>
-    </section> -->
 
     <section id="about-points">
         <div class="container-fluid">
@@ -104,49 +83,6 @@
     </section>
 
 
-    <!-- <section id="about-us-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="main-about">
-                        <div class="m-v-main">
-                            <div class="m-v-content">
-                                <h3>Our Story</h3>
-                                <p>Our Story is to empower brands by crafting innovative and impactful creative solutions. needs strategic campaigns success.</p>
-                            </div>
-                        </div>
-                        <div class="m-v-main">
-                            <div class="m-v-content">
-                                <h3>Core Values</h3>
-                                <p>Our values is to empower brands by crafting innovative and impactful creative solutions. needs strategic campaigns success.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="img-bg">
-                        <img src="/assets/images/rb_14.webp" alt="" class="img-fluid abs animateee-center">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="main-about">
-                        <div class="m-v-main">
-                            <div class="m-v-content">
-                                <h3>Our Mission</h3>
-                                <p>Our mission is to empower brands by crafting innovative and impactful creative solutions. needs strategic campaigns success.</p>
-                            </div>
-                        </div>
-                        <div class="m-v-main">
-                            <div class="m-v-content">
-                                <h3>Our Vision</h3>
-                                <p>Our vision is to empower brands by crafting innovative and impactful creative solutions. needs strategic campaigns success.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
 
     <section id="chart-worlflow">
@@ -169,7 +105,7 @@
                 </video>
             </div>
             <div class="text-wrapper text-center">
-                <h2>Evulate Your Numbers</h2>
+                <h2>Evulate Your <ruby>Numbers</ruby></h2>
                 <p>Unlock insights, analyze trends, track progress, refine strategies, and let numbers guide success!"<br>
                     Let me know if you need more variations! </p>
             </div>
@@ -200,21 +136,21 @@
                             <div class="feature-list">
                                 <img src="/assets/images/graphic-design.webp" alt="" class="img-fluid">
                                 <div class="feature-text">
-                                    <h4>Custom Designs</h4>
+                                    <h4>Custom <ruby>Designs</ruby></h4>
                                     <p>We create unique, visually captivating websites tailored to your brand’s identity.</p>
                                 </div>
                             </div>
                             <div class="feature-list">
                                 <img src="/assets/images/profil.webp" alt="" class="img-fluid">
                                 <div class="feature-text">
-                                    <h4>Seamless User Experience</h4>
+                                    <h4>Seamless <ruby>User Experience</ruby></h4>
                                     <p>Our designs ensure smooth navigation, making your website intuitive and user-friendly.</p>
                                 </div>
                             </div>
                             <div class="feature-list">
                                 <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
                                 <div class="feature-text">
-                                    <h4>Responsive & Mobile-Ready</h4>
+                                    <h4>Responsive & <ruby>Mobile-Ready</ruby></h4>
                                     <p>Your website will look stunning and function flawlessly across all devices and screen sizes.</p>
                                 </div>
                             </div>
@@ -279,7 +215,7 @@
                 <div id="inner-row-top" class="row">
                     <div class="col-md-6">
                         <div class="solutions-heading">
-                            <h6 class="sub-heading"><span>What we do</span></h6>
+                            <h6 class="sub-heading">What we do</h6>
                             <h2>Check our <ruby>scientific</ruby> <br>Digital <ruby>solutions</ruby></h2>
                         </div>
                     </div>
@@ -412,7 +348,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/about-img-with-text.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/optimize-perform.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

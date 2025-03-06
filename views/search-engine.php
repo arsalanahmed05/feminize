@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/SEO-banner-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

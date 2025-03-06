@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/SM-banner-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -317,7 +317,7 @@
         <div class="container">
             <div class="section-title text-center">
                 <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, Real<br> Estate, education, travel, Professional<br> Services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, Real Estate, education, travel, Professional Services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
