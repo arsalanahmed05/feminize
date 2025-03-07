@@ -207,7 +207,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="outer-creative">
-                            <img src="/assets/images/services-images/GD-crt1.png" alt="" class="img-fluid">
+                            <div class="img-bg">
+                                <img src="/assets/images/services-images/GD-crt1.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -216,13 +218,17 @@
                 <div class="row" id="inner-row2">
                     <div class="col-md-5">
                         <div class="outer-creative">
-                            <img src="/assets/images/services-images/GD-crt2.png" alt="" class="img-fluid">
+                            <div class="img-bg">
+                                <img src="/assets/images/services-images/GD-crt2.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-2"></div>
                     <div class="col-md-5">
                         <div class="outer-creative">
-                            <img src="/assets/images/services-images/GD-crt3.png" alt="" class="img-fluid">
+                            <div class="img-bg">
+                                <img src="/assets/images/services-images/GD-crt3.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -231,7 +237,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="outer-creative">
-                            <img src="/assets/images/services-images/GD-crt4.png" alt="" class="img-fluid">
+                            <div class="img-bg">
+                                <img src="/assets/images/services-images/GD-crt4.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-3">

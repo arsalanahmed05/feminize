@@ -367,44 +367,58 @@
 </script>
 
 
-
 <script>
-    $(function() {
+    $(document).ready(function () {
         var e = "";
 
-        // Filtering functionality
-        $(".fil-cat").click(function() {
+        // ✅ Filtering functionality
+        $(".fil-cat").click(function () {
             $(".portfolio_list ul li").removeClass("active");
             $(this).addClass("active");
 
             e = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(100, 0.1);
+            $("#portfolio").fadeTo(200, 0.1);
 
-            $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
+            $("#portfolio .showing").not("." + e).fadeOut(300).removeClass("scale-anm");
 
-            setTimeout(function() {
-                $("." + e).fadeIn().addClass("scale-anm");
-                $("#portfolio").fadeTo(800, 1);
-            }, 300);
+            setTimeout(function () {
+                $("." + e).fadeIn(300).addClass("scale-anm");
+                $("#portfolio").fadeTo(600, 1);
+            }, 400);
         });
 
-        // Fancybox Initialization
-        Fancybox.bind('[data-fancybox="videoanimation"]', {
-            Toolbar: true, // Show toolbar (Close Button)
+        // ✅ Fancybox Initialization (For Videos & Images)
+        Fancybox.bind("[data-fancybox='videoanimation']", {
+            Toolbar: true, // Show toolbar
             arrows: true, // Enable navigation arrows
-            infinite: true, // Loop through images infinitely
-            keyboard: true, // Enable keyboard navigation (left/right arrow keys)
-            closeButton: "top", // Position of the close button ("top", "inside", "outside", or false)
-            animated: true, // Enable animations for opening/closing
+            infinite: true, // Loop images/videos
+            keyboard: true, // Enable keyboard navigation
+            closeButton: "top", // Close button position
+            animated: true, // Smooth animations
+            transitionDuration: 1500, // Smooth open/close animation
             Image: {
                 zoom: true // Enable zoom on images
             },
             Thumbs: {
-                autoStart: false // Disable thumbnail bar (optional)
+                autoStart: false // Disable thumbnail bar
+            },
+            video: {
+                autoStart: true, // Auto-start videos
+                controls: true // Show video controls
             }
+        });
+
+        // ✅ Force Fancybox Re-initialize after filtering (Fix for disappearing issue)
+        $(".fil-cat").click(function () {
+            setTimeout(function () {
+                Fancybox.unbind("[data-fancybox='videoanimation']");
+                Fancybox.bind("[data-fancybox='videoanimation']");
+            }, 500);
         });
     });
 </script>
+
+
 
 <script>
     gsap.registerPlugin(ScrollTrigger);
@@ -1004,7 +1018,7 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, p, li");
+    const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, p, li, .feature-parent");
 
     const observer = new IntersectionObserver(
         (entries) => {

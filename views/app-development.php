@@ -25,38 +25,7 @@
         </div>
     </section>
 
-    <section id="trusted-sections">
-        <div class="container-fluid">
-            <div class="section-title text-center">
-                <h2>Trusted By</h2>
-            </div>
-            <div class="row">
-                <div class="trusted-slider">
-                    <div class="slide-item">
-                        <img src="/assets/images/wordpress-logo.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/squarespace.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/wix.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/shopify.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/walmart.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/figma.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/social.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include_once("views/trusted-slider.php"); ?>
 
 
     <section id="about-services">
@@ -77,7 +46,7 @@
 
 
     <section id="business-feature">
-        <div class="container">
+        <div class="container-fluid">
             <div class="section-title text-center mb20">
                 <h6 class="sub-heading">Feature</h6>
                 <h2><ruby>Transform</ruby> Your Ideas<br> with Our <ruby>Features</ruby></h2>
@@ -86,22 +55,25 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <span class="feature-num">01</span>
-                            <div class="feature-content">
+                            <div class="feature-content text-end">
                                 <h4>User-Centric<br> Design</h4>
+                                <p>Crafting seamless experiences tailored to users needs and preferences</p>
                             </div>
+                            <img src="/assets/images/services-images/app-development/User-Centric.webp" alt="" class="img-fluid">
                         </div>
                         <div class="feature-parent middle-left">
-                            <span class="feature-num">02</span>
-                            <div class="feature-content">
+                            <div class="feature-content text-end">
                                 <h4>Data<br> Security</h4>
+                                <p>Protecting sensitive information with advanced security measures and encryption</p>
                             </div>
+                            <img src="/assets/images/services-images/app-development/data-security.webp" alt="" class="img-fluid">
                         </div>
-                        <div class="feature-parent">
-                            <span class="feature-num">03</span>
+                        <div class="feature-parent text-end">
                             <div class="feature-content">
                                 <h4>Speed &<br> Performance</h4>
+                                <p>Ensuring fast load times and optimal performance for smooth experiences</p>
                             </div>
+                            <img src="/assets/images/services-images/app-development/performance.webp" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -113,21 +85,24 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <span class="feature-num">04</span>
+                            <img src="/assets/images/services-images/app-development/scalability.webp" alt="" class="img-fluid">
                             <div class="feature-content">
                                 <h4>Scalability<br> Featured</h4>
+                                <p>Building flexible solutions that grow effortlessly with your needs</p>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <span class="feature-num">05</span>
+                            <img src="/assets/images/services-images/app-development/24-7.webp" alt="" class="img-fluid">
                             <div class="feature-content">
                                 <h4>24/7<br> Support</h4>
+                                <p>Providing round-the-clock assistance to ensure seamless customer experience</p>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <span class="feature-num">06</span>
+                            <img src="/assets/images/services-images/app-development/integration-ready.webp" alt="" class="img-fluid">
                             <div class="feature-content">
                                 <h4>Integration<br> Ready</h4>
+                                <p>Easily connects with existing systems for a smooth workflow</p>
                             </div>
                         </div>
                     </div>

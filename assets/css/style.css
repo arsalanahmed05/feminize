@@ -1353,9 +1353,6 @@ ul.dropdown-menu.show {
     margin: 0;
 }
 
-.container-fluid {
-    padding: 0 !important;
-}
 
 #banner-text::before {
     content: "";
@@ -1943,18 +1940,42 @@ ul.service-list li {
     margin: 40px 0px;
     padding-left: 100px;
 }
-body#Graphic-Designing .outer-creative img {
-    width: 60%;
+#Graphic-Designing .outer-creative img {
     display: table;
     margin: auto;
     transition: 0.5s;
+    width: 60%;
+    z-index: 1;
 }
-body#Graphic-Designing .outer-creative img:hover {
-    filter: drop-shadow(2px 4px 6px black);
+div#inner-row3 .outer-creative {
+    margin-top: -70px;
+}
+div#inner-row1 .outer-creative {
+    margin-bottom: -70px;
+}
+#Graphic-Designing .outer-creative .img-bg {
+    position: relative;
+}
+#Graphic-Designing .outer-creative .img-bg::before {
+    content: "";
+    position: absolute;
+    background-image: url(/assets/images/services-images/Polygon-8.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 440px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+#Graphic-Designing .outer-creative img:hover {
+    transform: scale(1.05);
 }
 span.feature-num {
-    font-size: 52px;
-    line-height: 62px;
+    font-size: 82px;
+    line-height: 72px;
     color: transparent;
     font-weight: 800;
     font-family: 'Russo One';
@@ -2079,16 +2100,11 @@ ul.service-list li img {
     padding: 70px 10px 0px;
 }
 
-div#inner-row1 .outer-creative {
-    margin-bottom: -140px;
-}
 #policy-banner {
     text-align: center;
     background: linear-gradient(45deg, #c3c3c3, transparent);
 }
-div#inner-row3 .outer-creative {
-    margin-top: -140px;
-}
+
 
 .GD-sol span {
     font-size: 132px;
@@ -3370,7 +3386,7 @@ body#ORM .services-banner img {
     margin-bottom: 40px !important;
 }
 
-h1, h2, h3, h4, h5, h6, p, li{
+h1, h2, h3, h4, h5, h6, p, li, .feature-parent{
     opacity: 0; /* Initially hidden */
     transform: translateY(30px); /* Start position (30px lower) */
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -4480,7 +4496,7 @@ video#services-video {
 
 #business-feature #center-col {
     border: 2px solid;
-    width: 80%;
+    width: 60%;
     display: table;
     margin: auto;
     border-radius: 190px 0px 0px;
@@ -4489,6 +4505,9 @@ video#services-video {
 #business-feature .feature-parent h4 {
     font-size: 26px !important;
     line-height: 36px !important;
+    color: #fff;
+}
+#business-feature .feature-parent p {
     color: #fff;
 }
 body#web-desigining .services-banner img {
@@ -4506,11 +4525,11 @@ body#web-desigining .services-banner img {
 }
 
 #business-feature .feature-parent.middle-right {
-    transform: translateX(30px);
+    transform: translateX(10px);
 }
 
 #business-feature .feature-parent.middle-left {
-    transform: translateX(-30px);
+    transform: translateX(-10px);
 }
 
 #business-feature .feature-parent img {
@@ -4539,7 +4558,7 @@ body#web-desigining .services-banner img {
     height: 60%;
     border-radius: 190px 0px 0px;
     top: -15px;
-    left: 0px;
+    left: 100px;
     z-index: -1;
 }
 

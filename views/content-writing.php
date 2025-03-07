@@ -89,22 +89,22 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <span class="feature-num">01</span>
                             <div class="feature-content">
                                 <h4>Engaging<br> Storytelling</h4>
                             </div>
+                            <span class="feature-num">01</span>
                         </div>
                         <div class="feature-parent middle-left">
-                            <span class="feature-num">02</span>
                             <div class="feature-content">
                                 <h4>SEO<br> Optimization</h4>
                             </div>
+                            <span class="feature-num">02</span>
                         </div>
                         <div class="feature-parent">
-                            <span class="feature-num">03</span>
                             <div class="feature-content">
                                 <h4>Compelling<br> Copy</h4>
                             </div>
+                            <span class="feature-num">03</span>
                         </div>
                     </div>
                 </div>
