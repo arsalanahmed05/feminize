@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="/assets/images/" alt="" class="img-fluid">
+                    <img src="/assets/images/services-images/IF-section-2-img.webp" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -87,21 +87,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <span class="feature-num">01</span>
                             <div class="feature-content">
-                                <h4>User-Centric<br> Design</h4>
+                                <h4>Authentic<br> Engagement</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <span class="feature-num">02</span>
                             <div class="feature-content">
-                                <h4>Data<br> Security</h4>
+                                <h4>Brand Safety<br> & Compliance</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <span class="feature-num">03</span>
                             <div class="feature-content">
-                                <h4>Speed &<br> Performance</h4>
+                                <h4>High-Impact<br> Campaigns</h4>
                             </div>
                         </div>
                     </div>
@@ -114,21 +114,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <span class="feature-num">04</span>
                             <div class="feature-content">
-                                <h4>Scalability<br> Featured</h4>
+                                <h4>Scalable<br> Strategies</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <span class="feature-num">05</span>
                             <div class="feature-content">
-                                <h4>24/7<br> Support</h4>
+                                <h4>24/7 Campaign<br> Support</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <span class="feature-num">06</span>
                             <div class="feature-content">
-                                <h4>Integration<br> Ready</h4>
+                                <h4>Multi-Platform<br> Integration</h4>
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <h2>Our <ruby>Influencer Marketing</ruby> Solutions</h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -220,57 +220,57 @@
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Custom Website Development</span>
+                            <span>Strategic Campaign Planning</span>
                         </li>
                         <li>
-                            <span>UI/UX Design & Creativity</span>
+                            <span>Authentic Brand Collaborations</span>
                         </li>
                         <li>
-                            <span>Strategic Development Planning</span>
+                            <span>Targeted Influencer Selection</span>
                         </li>
                         <li>
-                            <span>Performance Optimization</span>
+                            <span>Multi-Platform Promotions</span>
                         </li>
                         <li>
-                            <span>Real-Time Website Monitoring</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul class="key-points">
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>Mobile & Responsive Design</span>
-                        </li>
-                        <li>
-                            <span>Regular Updates & Maintenance</span>
-                        </li>
-                        <li>
-                            <span>Comprehensive Reporting</span>
+                            <span>Engaging Content Creation</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Full Website Management</span>
+                            <span>Performance Analytics & Reports</span>
                         </li>
                         <li>
-                            <span>Content Development & Copywriting</span>
+                            <span>Audience Engagement Boost</span>
                         </li>
                         <li>
-                            <span>Competitor Analysis & Market Research</span>
+                            <span>Sponsored Post Management</span>
                         </li>
                         <li>
-                            <span>A/B Testing & Optimization</span>
+                            <span>Brand Reputation Enhancement</span>
                         </li>
                         <li>
-                            <span>Security & Data Protection</span>
+                            <span>ROI-Driven Marketing Approach</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Influencer Relationship Management</span>
+                        </li>
+                        <li>
+                            <span>Competitor Campaign Analysis</span>
+                        </li>
+                        <li>
+                            <span>Competitor Campaign Analysis</span>
+                        </li>
+                        <li>
+                            <span>Seamless Contract Negotiation</span>
+                        </li>
+                        <li>
+                            <span>24/7 Campaign Support</span>
                         </li>
                     </ul>
                 </div>
@@ -283,8 +283,8 @@
     <section id="industries">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Industries We <ruby>Transform with PPC</ruby></h2>
-                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, Real<br> Estate, education, travel, Professional<br> Services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
+                <h2>Industries We Transform with<br> <ruby>Influncer Marketing</ruby></h2>
+                <p><strong>Feminize Digital</strong> empowers industries like e-commerce, healthcare, Real Estate, education, travel, Professional Services etc. Our customized PPC campaigns produce growth and success, by making sure that each industry achieves its goals by connecting with the right audience through strategically designed ads. PPC marketing benefits businesses across various industries, including:</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
@@ -1259,7 +1259,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Benefits of <ruby>Partnering With Us</ruby></h2>
-                <p>A mobile app is a powerful tool that upgrades the customer engagement and boosts brand’s visibility in a competitive market. Mobile applications provides businesses a direct platform to customers to connect directly with brand services by providing seamless functionality. By partnering with us, you can get expertly designed mobile apps that are not only meet your business needs but also get desired and long-term success.</p>
+                <p>Influencer marketing is a powerful strategy that enhances brand engagement and boosts visibility in a competitive market. It provides businesses with a direct channel to connect with their audience through authentic and impactful collaborations. Partnering with us ensures expertly crafted influencer campaigns that not only align with your brand goals but also drive long-term success.</p>
             </div>
             <div class="row">
                 <div class="col-sm-4">
@@ -1267,12 +1267,12 @@
                         <div class="img-bg btm">
                             <img id="top-icon" src="/assets/images/services-images/doble-pin.webp" alt="" class="img-fluid">
                         </div>
-                        <p>We provide optimized apps with fast performance, high security, and intuitive user experience to keep customers engaged.</p>
+                        <p>We create impactful influencer campaigns that drive engagement, build trust, and keep your audience connected.</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div id="lft-cen" class="benefits-item up">
-                        <p>Provide apps that are designed according to your business needs, ensuring future expansions and seamless integration of new features.</p>
+                        <p>Our influencer strategies align with your brand’s goals, ensuring scalability and seamless adaptation to future trends.</p>
                         <div class="img-bg cen">
                             <img id="top-icon" src="/assets/images/services-images/hand-click.webp" alt="" class="img-fluid">
                         </div>
@@ -1283,7 +1283,7 @@
                         <div class="img-bg btm">
                             <img id="top-icon" src="/assets/images/services-images/three-cubes.webp" alt="" class="img-fluid">
                         </div>
-                        <p>We strengthen customer relationships with direct interactions while leveraging data-driven insights for continuous improvement.</p>
+                        <p>We foster authentic relationships between influencers and your audience while using analytics to refine strategies for continuous success.</p>
                     </div>
                 </div>
             </div>

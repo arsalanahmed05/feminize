@@ -89,21 +89,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <span class="feature-num">01</span>
                             <div class="feature-content">
-                                <h4>User-Centric<br> Design</h4>
+                                <h4>Local<br> Visibility</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <span class="feature-num">02</span>
                             <div class="feature-content">
-                                <h4>Data<br> Security</h4>
+                                <h4>Profile<br> Optimization</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <span class="feature-num">03</span>
                             <div class="feature-content">
-                                <h4>Speed &<br> Performance</h4>
+                                <h4>Customer<br> Engagement</h4>
                             </div>
                         </div>
                     </div>
@@ -116,21 +116,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <span class="feature-num">04</span>
                             <div class="feature-content">
-                                <h4>Scalability<br> Featured</h4>
+                                <h4>Review<br> Management</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <span class="feature-num">05</span>
                             <div class="feature-content">
-                                <h4>24/7<br> Support</h4>
+                                <h4>SEO<br> Boost</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <span class="feature-num">06</span>
                             <div class="feature-content">
-                                <h4>Integration<br> Ready</h4>
+                                <h4>Insights<br> Tracking</h4>
                             </div>
                         </div>
                     </div>
@@ -243,57 +243,57 @@
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Custom Website Development</span>
+                            <span>Google Profile Setup</span>
                         </li>
                         <li>
-                            <span>UI/UX Design & Creativity</span>
+                            <span>Business Information Optimization</span>
                         </li>
                         <li>
-                            <span>Strategic Development Planning</span>
+                            <span>Local SEO Enhancement</span>
                         </li>
                         <li>
-                            <span>Performance Optimization</span>
+                            <span>Review Management & Responses</span>
                         </li>
                         <li>
-                            <span>Real-Time Website Monitoring</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul class="key-points">
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>Mobile & Responsive Design</span>
-                        </li>
-                        <li>
-                            <span>Regular Updates & Maintenance</span>
-                        </li>
-                        <li>
-                            <span>Comprehensive Reporting</span>
+                            <span>Engaging Post Creation</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Full Website Management</span>
+                            <span>High-Quality Image Uploads</span>
                         </li>
                         <li>
-                            <span>Content Development & Copywriting</span>
+                            <span>Keyword-Rich Descriptions</span>
                         </li>
                         <li>
-                            <span>Competitor Analysis & Market Research</span>
+                            <span>Performance Analytics Tracking</span>
                         </li>
                         <li>
-                            <span>A/B Testing & Optimization</span>
+                            <span>Google Maps Integration</span>
                         </li>
                         <li>
-                            <span>Security & Data Protection</span>
+                            <span>Customer Query Management</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Competitor Profile Analysis</span>
+                        </li>
+                        <li>
+                            <span>Competitor Profile Analysis</span>
+                        </li>
+                        <li>
+                            <span>Regular Profile Updates</span>
+                        </li>
+                        <li>
+                            <span>Google Ads Integration</span>
+                        </li>
+                        <li>
+                            <span>24/7 Support & Maintenance</span>
                         </li>
                     </ul>
                 </div>

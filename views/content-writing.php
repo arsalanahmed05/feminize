@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/CW-abt.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/content-writing-section-2-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -89,21 +89,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <span class="feature-num">01</span>
                             <div class="feature-content">
-                                <h4>User-Centric<br> Design</h4>
+                                <h4>Engaging<br> Storytelling</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <span class="feature-num">02</span>
                             <div class="feature-content">
-                                <h4>Data<br> Security</h4>
+                                <h4>SEO<br> Optimization</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <span class="feature-num">03</span>
                             <div class="feature-content">
-                                <h4>Speed &<br> Performance</h4>
+                                <h4>Compelling<br> Copy</h4>
                             </div>
                         </div>
                     </div>
@@ -116,21 +116,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <span class="feature-num">04</span>
                             <div class="feature-content">
-                                <h4>Scalability<br> Featured</h4>
+                                <h4>Brand<br> Voice</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <span class="feature-num">05</span>
                             <div class="feature-content">
-                                <h4>24/7<br> Support</h4>
+                                <h4>Audience<br> Connection</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <span class="feature-num">06</span>
                             <div class="feature-content">
-                                <h4>Integration<br> Ready</h4>
+                                <h4>Conversion<br> Focused</h4>
                             </div>
                         </div>
                     </div>
@@ -228,37 +228,6 @@
     </section>
 
 
-    <section id="CW-benefits">
-        <div class="container">
-            <div class="section-title">
-                <h2>Benefits of Getting our <ruby>Content Writing Service</ruby></h2>
-                <p>High-quality content is essential for building brand credibility, engaging audiences, and driving conversions. Our content writing services ensure your brand message is clear, compelling, and optimized for search engines. At Feminize Digitals, we create customized, SEO-friendly content that helps businesses establish authority, attract their target audience, and achieve their marketing goals.</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="cw-benefits d-flex">
-                        <img class="img-fluid" src="/assets/images/services-images/CW-ben1.png" alt="">
-                        <p>We upgrade brand reputation by delivering informative, valuable, & engaging content.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="cw-benefits d-flex">
-                        <img class="img-fluid" src="/assets/images/services-images/CW-ben2.png" alt="">
-                        <p>We save your time by handling content strategy while you focus on growing your business.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="cw-benefits d-flex">
-                        <img class="img-fluid" src="/assets/images/services-images/CW-ben3.png" alt="">
-                        <p>We produce higher search rankings with SEO-optimized content that attracts organic traffic.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
@@ -270,57 +239,57 @@
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Custom Website Development</span>
+                            <span>Engaging Brand Storytelling</span>
                         </li>
                         <li>
-                            <span>UI/UX Design & Creativity</span>
+                            <span>SEO-Optimized Content</span>
                         </li>
                         <li>
-                            <span>Strategic Development Planning</span>
+                            <span>Persuasive Copywriting Strategies</span>
                         </li>
                         <li>
-                            <span>Performance Optimization</span>
+                            <span>Audience-Centric Messaging</span>
                         </li>
                         <li>
-                            <span>Real-Time Website Monitoring</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul class="key-points">
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>Mobile & Responsive Design</span>
-                        </li>
-                        <li>
-                            <span>Regular Updates & Maintenance</span>
-                        </li>
-                        <li>
-                            <span>Comprehensive Reporting</span>
+                            <span>Keyword Research & Planning</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Full Website Management</span>
+                            <span>Multi-Platform Content Creation</span>
                         </li>
                         <li>
-                            <span>Content Development & Copywriting</span>
+                            <span>Consistent Tone & Voice</span>
                         </li>
                         <li>
-                            <span>Competitor Analysis & Market Research</span>
+                            <span>Regular Content Updates</span>
+                        </li>
+                        <li>
+                            <span>Comprehensive Editing</span>
+                        </li>
+                        <li>
+                            <span>Data-Driven Content Strategies</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Plagiarism-Free & Authentic Writing</span>
+                        </li>
+                        <li>
+                            <span>Competitor Content Analysis</span>
+                        </li>
+                        <li>
+                            <span>A/B Testing for Performance</span>
                         </li>
                         <li>
                             <span>A/B Testing & Optimization</span>
                         </li>
                         <li>
-                            <span>Security & Data Protection</span>
+                            <span>Content Performance Tracking</span>
                         </li>
                     </ul>
                 </div>
@@ -1300,7 +1269,34 @@
 
     </section>
 
-
+    <section id="CW-benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Benefits of Getting our <ruby>Content Writing Service</ruby></h2>
+                <p>High-quality content is essential for building brand credibility, engaging audiences, and driving conversions. Our content writing services ensure your brand message is clear, compelling, and optimized for search engines. At Feminize Digitals, we create customized, SEO-friendly content that helps businesses establish authority, attract their target audience, and achieve their marketing goals.</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="cw-benefits d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-ben1.png" alt="">
+                        <p>We upgrade brand reputation by delivering informative, valuable, & engaging content.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="cw-benefits d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-ben2.png" alt="">
+                        <p>We save your time by handling content strategy while you focus on growing your business.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="cw-benefits d-flex">
+                        <img class="img-fluid" src="/assets/images/services-images/CW-ben3.png" alt="">
+                        <p>We produce higher search rankings with SEO-optimized content that attracts organic traffic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="project-bar">
         <div class="container">
@@ -1312,6 +1308,9 @@
             </div>
         </div>
     </section>
+
+
+    
 
     <section id="category-plan">
         <div class="container">

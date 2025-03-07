@@ -148,7 +148,7 @@
                                 </div>
                             </div>
                             <div class="feature-list">
-                                <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                                <span class="feature-num">01</span>
                                 <div class="feature-text">
                                     <h4>Responsive & <ruby>Mobile-Ready</ruby></h4>
                                     <p>Your website will look stunning and function flawlessly across all devices and screen sizes.</p>

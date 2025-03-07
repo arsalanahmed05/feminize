@@ -64,7 +64,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/email-abt.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/email-marketing-section-2-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -88,21 +88,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <span class="feature-num">01</span>
                             <div class="feature-content">
-                                <h4>User-Centric<br> Design</h4>
+                                <h4>Targeted<br> Campaigns</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <span class="feature-num">02</span>
                             <div class="feature-content">
-                                <h4>Data<br> Security</h4>
+                                <h4>Personalized<br> Content</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <span class="feature-num">03</span>
                             <div class="feature-content">
-                                <h4>Speed &<br> Performance</h4>
+                                <h4>Automation<br> Efficiency</h4>
                             </div>
                         </div>
                     </div>
@@ -115,21 +115,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <span class="feature-num">04</span>
                             <div class="feature-content">
-                                <h4>Scalability<br> Featured</h4>
+                                <h4>High<br> Conversions</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <span class="feature-num">05</span>
                             <div class="feature-content">
-                                <h4>24/7<br> Support</h4>
+                                <h4>Engagement<br> Boost</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <span class="feature-num">06</span>
                             <div class="feature-content">
-                                <h4>Integration<br> Ready</h4>
+                                <h4>Performance<br> Tracking</h4>
                             </div>
                         </div>
                     </div>
@@ -217,57 +217,57 @@
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Custom Website Development</span>
+                            <span>Targeted Campaign Strategy</span>
                         </li>
                         <li>
-                            <span>UI/UX Design & Creativity</span>
+                            <span>Personalized Email Content</span>
                         </li>
                         <li>
-                            <span>Strategic Development Planning</span>
+                            <span>Automated Email Sequences</span>
                         </li>
                         <li>
-                            <span>Performance Optimization</span>
+                            <span>High-Conversion Copywriting</span>
                         </li>
                         <li>
-                            <span>Real-Time Website Monitoring</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul class="key-points">
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>Mobile & Responsive Design</span>
-                        </li>
-                        <li>
-                            <span>Regular Updates & Maintenance</span>
-                        </li>
-                        <li>
-                            <span>Comprehensive Reporting</span>
+                            <span>Audience Segmentation</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Full Website Management</span>
-                        </li>
-                        <li>
-                            <span>Content Development & Copywriting</span>
-                        </li>
-                        <li>
-                            <span>Competitor Analysis & Market Research</span>
+                            <span>Responsive Email Designs</span>
                         </li>
                         <li>
                             <span>A/B Testing & Optimization</span>
                         </li>
                         <li>
-                            <span>Security & Data Protection</span>
+                            <span>Drip Campaign Management</span>
+                        </li>
+                        <li>
+                            <span>Lead Nurturing & Engagement</span>
+                        </li>
+                        <li>
+                            <span>Performance Analytics & Reports</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Compliance & Deliverability</span>
+                        </li>
+                        <li>
+                            <span>Re-engagement Campaigns</span>
+                        </li>
+                        <li>
+                            <span>Ecommerce Email Automation</span>
+                        </li>
+                        <li>
+                            <span>Behavior-Based Email Triggers</span>
+                        </li>
+                        <li>
+                            <span>Ongoing Optimization & Support</span>
                         </li>
                     </ul>
                 </div>

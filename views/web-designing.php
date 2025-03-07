@@ -88,21 +88,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <span class="feature-num">01</span>
                             <div class="feature-content">
-                                <h4>User-Centric<br> Design</h4>
+                                <h4>Responsive<br> Layouts</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <span class="feature-num">02</span>
                             <div class="feature-content">
-                                <h4>Data<br> Security</h4>
+                                <h4>User<br> Experience</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <span class="feature-num">03</span>
                             <div class="feature-content">
-                                <h4>Speed &<br> Performance</h4>
+                                <h4>Creative<br> Aesthetics</h4>
                             </div>
                         </div>
                     </div>
@@ -115,21 +115,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <span class="feature-num">04</span>
                             <div class="feature-content">
-                                <h4>Scalability<br> Featured</h4>
+                                <h4>Optimized<br> Structure</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <span class="feature-num">05</span>
                             <div class="feature-content">
-                                <h4>24/7<br> Support</h4>
+                                <h4>UI/UX<br> Design</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <span class="feature-num">06</span>
                             <div class="feature-content">
-                                <h4>Integration<br> Ready</h4>
+                                <h4>Interactive<br> Elements</h4>
                             </div>
                         </div>
                     </div>

@@ -89,21 +89,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <span class="feature-num">01</span>
                             <div class="feature-content">
-                                <h4>User-Centric<br> Design</h4>
+                                <h4>Creative<br> Concepts</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <span class="feature-num">02</span>
                             <div class="feature-content">
-                                <h4>Data<br> Security</h4>
+                                <h4>Visual<br> Identity</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <span class="feature-num">03</span>
                             <div class="feature-content">
-                                <h4>Speed &<br> Performance</h4>
+                                <h4>Brand<br> Aesthetics</h4>
                             </div>
                         </div>
                     </div>
@@ -116,21 +116,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <span class="feature-num">04</span>
                             <div class="feature-content">
-                                <h4>Scalability<br> Featured</h4>
+                                <h4>Engaging<br> Designs</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <span class="feature-num">05</span>
                             <div class="feature-content">
-                                <h4>24/7<br> Support</h4>
+                                <h4>High-Quality<br> Graphics</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <span class="feature-num">06</span>
                             <div class="feature-content">
-                                <h4>Integration<br> Ready</h4>
+                                <h4>User-Centric<br> Approach</h4>
                             </div>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>Web Development</ruby> Solutions</h2>
+                <h2>Our Comprehensive <ruby>Graphic Designing</ruby> Solutions</h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -254,57 +254,57 @@
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Custom Website Development</span>
+                            <span>Creative Visual Concepts</span>
                         </li>
                         <li>
-                            <span>UI/UX Design & Creativity</span>
+                            <span>Brand Identity Design</span>
                         </li>
                         <li>
-                            <span>Strategic Development Planning</span>
+                            <span>Custom Logo Creation</span>
                         </li>
                         <li>
-                            <span>Performance Optimization</span>
+                            <span>Custom Logo Creation</span>
                         </li>
                         <li>
-                            <span>Real-Time Website Monitoring</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul class="key-points">
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>Mobile & Responsive Design</span>
-                        </li>
-                        <li>
-                            <span>Regular Updates & Maintenance</span>
-                        </li>
-                        <li>
-                            <span>Comprehensive Reporting</span>
+                            <span>Social Media Graphics</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Full Website Management</span>
+                            <span>Social Media Graphics</span>
                         </li>
                         <li>
-                            <span>Content Development & Copywriting</span>
+                            <span>Print & Digital Designs</span>
                         </li>
                         <li>
-                            <span>Competitor Analysis & Market Research</span>
+                            <span>Infographic Development</span>
                         </li>
                         <li>
-                            <span>A/B Testing & Optimization</span>
+                            <span>UI/UX Design Elements</span>
                         </li>
                         <li>
-                            <span>Security & Data Protection</span>
+                            <span>Typography & Color Harmony</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>Product Packaging Design</span>
+                        </li>
+                        <li>
+                            <span>Motion Graphics & Animation</span>
+                        </li>
+                        <li>
+                            <span>A/B Testing for Designs</span>
+                        </li>
+                        <li>
+                            <span>Brand Consistency Maintenance</span>
+                        </li>
+                        <li>
+                            <span>24/7 Design Support</span>
                         </li>
                     </ul>
                 </div>
@@ -317,7 +317,7 @@
     <section id="industries">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Industries We Empower with <ruby>Graphic Design</ruby></h2>
+                <h2>Industries We Empower with <br><ruby>Graphic Design</ruby></h2>
                 <p>We collaborate with businesses of all types and sizes, delivering custom graphic design solutions that help them achieve new levels of success.</p>
             </div>
             <div class="row">

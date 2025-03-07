@@ -87,21 +87,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row left">
                         <div class="feature-parent">
-                            <img src="/assets/images/responsive.webp" alt="" class="img-fluid">
+                            <span class="feature-num">01</span>
                             <div class="feature-content">
-                                <h4>User-Centric<br> Design</h4>
+                                <h4>Brand<br> Monitoring</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-left">
-                            <img src="/assets/images/flexible.webp" alt="" class="img-fluid">
+                            <span class="feature-num">02</span>
                             <div class="feature-content">
-                                <h4>Data<br> Security</h4>
+                                <h4>Review<br> Management</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/gear.webp" alt="" class="img-fluid">
+                            <span class="feature-num">03</span>
                             <div class="feature-content">
-                                <h4>Speed &<br> Performance</h4>
+                                <h4>Crisis<br> Response</h4>
                             </div>
                         </div>
                     </div>
@@ -114,21 +114,21 @@
                 <div class="col-sm-4">
                     <div class="feature-row right">
                         <div class="feature-parent">
-                            <img src="/assets/images/ecommerce.webp" alt="" class="img-fluid">
+                            <span class="feature-num">04</span>
                             <div class="feature-content">
-                                <h4>Scalability<br> Featured</h4>
+                                <h4>Positive<br> Visibility</h4>
                             </div>
                         </div>
                         <div class="feature-parent middle-right">
-                            <img src="/assets/images/target -ser.webp" alt="" class="img-fluid">
+                            <span class="feature-num">05</span>
                             <div class="feature-content">
-                                <h4>24/7<br> Support</h4>
+                                <h4>Trust<br> Building</h4>
                             </div>
                         </div>
                         <div class="feature-parent">
-                            <img src="/assets/images/fast-processing.webp" alt="" class="img-fluid">
+                            <span class="feature-num">06</span>
                             <div class="feature-content">
-                                <h4>Integration<br> Ready</h4>
+                                <h4>Reputation<br> Enhancement</h4>
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>ORM</ruby> Solutions</h2>
+                <h2>Our Comprehensive <ruby>ORM Solutions</ruby></h2>
                 <p>
                     Our goal is to make your business stand out online. We handle everything from building a stunning website to ensuring it reaches the right audience.</p>
             </div>
@@ -205,57 +205,57 @@
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Custom Website Development</span>
+                            <span>Brand Image Protection</span>
                         </li>
                         <li>
-                            <span>UI/UX Design & Creativity</span>
+                            <span>Negative Review Handling</span>
                         </li>
                         <li>
-                            <span>Strategic Development Planning</span>
+                            <span>Negative Review Handling</span>
                         </li>
                         <li>
-                            <span>Performance Optimization</span>
+                            <span>Positive Reputation Building</span>
                         </li>
                         <li>
-                            <span>Real-Time Website Monitoring</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <ul class="key-points">
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>SEO & Analytics Integration</span>
-                        </li>
-                        <li>
-                            <span>Mobile & Responsive Design</span>
-                        </li>
-                        <li>
-                            <span>Regular Updates & Maintenance</span>
-                        </li>
-                        <li>
-                            <span>Comprehensive Reporting</span>
+                            <span>Search Result Optimization</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
                     <ul class="key-points">
                         <li>
-                            <span>Full Website Management</span>
+                            <span>Social Media Monitoring</span>
                         </li>
                         <li>
-                            <span>Content Development & Copywriting</span>
+                            <span>Competitor Reputation Analysis</span>
                         </li>
                         <li>
-                            <span>Competitor Analysis & Market Research</span>
+                            <span>Customer Feedback Management</span>
                         </li>
                         <li>
-                            <span>A/B Testing & Optimization</span>
+                            <span>Customer Feedback Management</span>
                         </li>
                         <li>
-                            <span>Security & Data Protection</span>
+                            <span>Personalized Reputation Strategy</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="key-points">
+                        <li>
+                            <span>A/B Testing for Engagement</span>
+                        </li>
+                        <li>
+                            <span>High-Authority Link Building</span>
+                        </li>
+                        <li>
+                            <span>High-Authority Link Building</span>
+                        </li>
+                        <li>
+                            <span>Trust & Credibility Boost</span>
+                        </li>
+                        <li>
+                            <span>24/7 Reputation Monitoring</span>
                         </li>
                     </ul>
                 </div>

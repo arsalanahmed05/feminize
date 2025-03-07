@@ -1943,12 +1943,35 @@ ul.service-list li {
     margin: 40px 0px;
     padding-left: 100px;
 }
-
+body#Graphic-Designing .outer-creative img {
+    width: 60%;
+    display: table;
+    margin: auto;
+    transition: 0.5s;
+}
+body#Graphic-Designing .outer-creative img:hover {
+    filter: drop-shadow(2px 4px 6px black);
+}
+span.feature-num {
+    font-size: 52px;
+    line-height: 62px;
+    color: transparent;
+    font-weight: 800;
+    font-family: 'Russo One';
+    -webkit-text-stroke: 1px #fff;
+}
 #email-solutions .email-sol h4 {
     margin: 0;
 }
 #email-creative img:hover {
     transform: scale(1.05);
+}
+#email-marketing #email-about img {
+    width: 70%;
+}
+#intro-influencer img {
+    width: 80%;
+    float: right;
 }
 body#GMB .outer-creative img:hover {
     transform: skewY(5deg);
