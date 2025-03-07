@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h1>Apps Development</h1>
+                        <h1>App Development</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
