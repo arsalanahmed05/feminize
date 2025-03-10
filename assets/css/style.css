@@ -3142,11 +3142,14 @@ footer.footer-section {
 .footer-section .row {
     align-items: baseline !important;
 }
-
 .footer-section #bottom-row {
     padding: 20px 0 10px;
+    border-top: 1px solid #ffff;
 }
-
+section#testimonials p.fade-in-up {
+    transform: unset;
+    opacity: unset;
+}
 .footer-section #bottom-row a {
     color: #fff;
     text-decoration: none !important;
@@ -3214,7 +3217,7 @@ footer.footer-section img {
 footer.footer-section #top-row {
     align-items: center !important;
     padding: 0px 0px 20px;
-    border-bottom: 1px solid #ffffff46;
+    border-bottom: 2px solid #fff;
 }
 
 footer.footer-section #middle-row {
@@ -3384,6 +3387,19 @@ body#ORM .services-banner img {
 
 #solutions #inner-row-top {
     margin-bottom: 40px !important;
+}
+section#testimonials h1, 
+section#testimonials h2, 
+section#testimonials h3, 
+section#testimonials h4, 
+section#testimonials h5, 
+section#testimonials h6, 
+section#testimonials p, 
+section#testimonials li, 
+section#testimonials .feature-parent {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition: none !important;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, .feature-parent{

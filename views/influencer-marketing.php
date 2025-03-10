@@ -1,4 +1,7 @@
-<?php include_once("includes/head.php") ?>
+<?php 
+$pageTitle = "Influencer Marketing | Feminize Digitals"; // 
+include_once("includes/head.php"); 
+?>
 <?php include_once("includes/header.php") ?>
 
 
@@ -13,12 +16,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h1>Influencer <ruby>Marketing</ruby></h1>
+                        <h1>Influencer<br> <ruby>Marketing</ruby></h1>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/ppc-ban-img.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/services-images/IF-banner-img.webp" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>

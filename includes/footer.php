@@ -63,12 +63,12 @@
                         <li><a href="/app-development/"><i class="fa-solid fa-chevron-right"></i> App Development</a></li>
                         <li><a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a></li>
                         <li><a href="/email-marketing/"><i class="fa-solid fa-chevron-right"></i> Email Marketing</a></li>
-                        <li><a href="/google-business/"><i class="fa-solid fa-chevron-right"></i> GMB</a></li>
+                        <li><a href="/google-business/"><i class="fa-solid fa-chevron-right"></i> Google My Business</a></li>
                         <li><a href="/graphic-designing/"><i class="fa-solid fa-chevron-right"></i> Graphic Designing</a></li>
                         <li><a href="/influencer-marketing/"><i class="fa-solid fa-chevron-right"></i> Influencer Marketing</a></li>
-                        <li><a href="/orm/"><i class="fa-solid fa-chevron-right"></i> ORM</a></li>
+                        <li><a href="/orm/"><i class="fa-solid fa-chevron-right"></i> Online reputation management</a></li>
                         <li><a class="dropdown-item" href="/pay-per-click/"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a></li>
-                        <li><a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i> SEO</a></li>
+                        <li><a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i> Search engine optimization</a></li>
                         <li><a href="/social-media/"><i class="fa-solid fa-chevron-right"></i> Social Media Marketing</a></li>
                         <li><a href="/video-editing/"><i class="fa-solid fa-chevron-right"></i> Video Editing</a></li>
                         <li><a href="/web-designing/"><i class="fa-solid fa-chevron-right"></i> Web Designing</a></li>
@@ -1017,13 +1017,14 @@
 </script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
     const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, p, li, .feature-parent");
 
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {
-                if (entry.isIntersecting) {
+                // Check if the element is inside #testimonials
+                if (entry.isIntersecting && !entry.target.closest("#testimonials")) {
                     entry.target.classList.add("fade-in-up");
                 }
             });
@@ -1033,6 +1034,7 @@
 
     elements.forEach((el) => observer.observe(el));
 });
+
 
 </script>
 

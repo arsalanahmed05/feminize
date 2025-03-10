@@ -15,7 +15,7 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="/about-us/">About Us</a>
@@ -29,12 +29,12 @@
                                 <li><a class="dropdown-item" href="/app-development/">App Development</a></li>
                                 <li><a class="dropdown-item" href="/content-writing/">Content Writing</a></li>
                                 <li><a class="dropdown-item" href="/email-marketing/">Email Marketing</a></li>
-                                <li><a class="dropdown-item" href="/google-business/">GMB</a></li>
+                                <li><a class="dropdown-item" href="/google-business/">Google my business</a></li>
                                 <li><a class="dropdown-item" href="/graphic-designing/">Graphic Designing</a></li>
                                 <li><a class="dropdown-item" href="/influencer-marketing/">Influencer Marketing</a></li>
-                                <li><a class="dropdown-item" href="/orm/">ORM</a></li>
+                                <li><a class="dropdown-item" href="/orm/">Online reputation management </a></li>
                                 <li><a class="dropdown-item" href="/pay-per-click/">PPC Marketing</a></li>
-                                <li><a class="dropdown-item" href="/search-engine/">SEO</a></li>
+                                <li><a class="dropdown-item" href="/search-engine/">Search engine optimization</a></li>
                                 <li><a class="dropdown-item" href="/social-media/">Social Media Marketing</a></li>
                                 <li><a class="dropdown-item" href="/video-editing/">Video Editing</a></li>
                                 <li><a class="dropdown-item" href="/web-designing/">Web Designing</a></li>

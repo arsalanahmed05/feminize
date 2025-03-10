@@ -1,4 +1,7 @@
-<?php include_once("includes/head.php") ?>
+<?php 
+$pageTitle = "Web Designing | Feminize Digitals"; // 
+include_once("includes/head.php"); 
+?>
 <?php include_once("includes/header.php") ?>
 
 
@@ -13,7 +16,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="text-wrapper">
-                        <h1>Web <ruby>Designing</ruby></h1>
+                        <h1>Web <br><ruby>Designing</ruby></h1>
                     </div>
                 </div>
                 <div class="col-md-7">

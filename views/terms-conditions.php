@@ -1,4 +1,7 @@
-<?php include_once("includes/head.php") ?>
+<?php 
+$pageTitle = "Terms & Conditions | Feminize Digitals"; // 
+include_once("includes/head.php"); 
+?>
 <?php include_once("includes/header.php") ?>
 
 

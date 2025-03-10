@@ -1,4 +1,7 @@
-<?php include_once("includes/head.php") ?>
+<?php 
+$pageTitle = "Google My Business | Feminize Digitals"; // 
+include_once("includes/head.php"); 
+?>
 <?php include_once("includes/header.php") ?>
 
 
@@ -13,7 +16,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h1>Google My <ruby>Business</ruby></h1>
+                        <h1>Google My <br><ruby>Business</ruby></h1>
                     </div>
                 </div>
                 <div class="col-md-6">

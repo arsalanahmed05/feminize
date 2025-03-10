@@ -1,4 +1,7 @@
-<?php include_once("includes/head.php") ?>
+<?php 
+$pageTitle = "Social Media Marketing | Feminize Digitals"; // 
+include_once("includes/head.php"); 
+?>
 <?php include_once("includes/header.php") ?>
 
 
@@ -13,7 +16,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h1>Social Media <ruby>Marketing</ruby></h1>
+                        <h1>Social Media <br><ruby>Marketing</ruby></h1>
                     </div>
                 </div>
                 <div class="col-md-6">
