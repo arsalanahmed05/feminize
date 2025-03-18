@@ -12,7 +12,12 @@ header#top {
     position: relative;
 }
 
-
+.services-banner h1 {
+    color: #fff !important;
+}
+.services-banner h1 ruby {
+    -webkit-text-stroke: 1px #fff;
+}
 header#top nav {
     position: relative;
     background: #fff !important;
@@ -310,6 +315,9 @@ ruby,
         bottom: 0;
         z-index: 1020
     }
+}
+#trusted-sections .section-title {
+    margin-bottom: 0;
 }
 
 .scroll-container {
@@ -2333,7 +2341,7 @@ ul.service-list li img {
 }
 
 .services-banner {
-    background: url(/assets/images/services-images/service-banner-back.webp);
+    background: url(/assets/images/services-images/service-page-banner-with-fem.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -3236,11 +3244,7 @@ footer.footer-section .footer-left-menu li a i {
     text-align: center;
 
 }
-#trusted-sections .section-title {
-    margin-bottom: 40px;
-}
 #trusted-sections h2 {
-    color: #fff;
     font-size: 40px !important;
     line-height: 50px !important;
 }
@@ -4488,15 +4492,10 @@ video#services-video {
 
 #trusted-sections {
     padding: 60px 0;
-    background: linear-gradient(45deg, #050cd6, #01044b);
-}
-
-#trusted-sections h2 {
-    color: #fff;
+    background: #f7f7f7;
 }
 
 #trusted-sections img {
-    filter: invert(1);
     width: 30%;
     display: table;
     margin: auto;
@@ -5005,6 +5004,7 @@ body#web-desigining .services-banner img {
     .services-banner h1 {
         font-size: 52px !important;
         line-height: 62px !important;
+        color: #fff !important;
     }
 
     #business-feature {
@@ -6534,7 +6534,9 @@ body#web-desigining .services-banner img {
 
     #business-feature .img-bg::before {
         display: none;
+        animation: ArriveLeft 5s ease;
     }
+
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -6545,3 +6547,4 @@ body#web-desigining .services-banner img {
 
 /*-----------------------------------------------------------------------------------------------------*/
 @media (max-width: 360px) {}
+

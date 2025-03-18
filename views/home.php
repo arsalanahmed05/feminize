@@ -116,10 +116,6 @@
                             guidance, or simply being there when you need us, we're here to make your journey
                             exceptional.</p>
                     </div>
-                    <!-- <div class="link-btns d-flex">
-                        <a href="#"><button class="quote-btn bton"><i class="fa-brands fa-rocketchat"></i>get a
-                                quote</button></a>
-                    </div> -->
 
                     <div id="inner-row-bottom" class="row">
                         <div class="col-sm-6">
@@ -149,6 +145,23 @@
             </div>
         </div>
     </section>
+
+
+    <!-- <section id="abt-upt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="text-wrapper">
+                        <h6 class="subheading">About Us</h6>
+                        <h2>Transform Your Brand with Expert<br> Web & Design Solutions</h2>
+                    </div>
+                    <div class="img-bg">
+                        <img src="" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
 
     <section id="banner-text">
@@ -1301,6 +1314,8 @@
             </div>
         </div>
     </section>
+
+
 
     <?php include_once("views/testimonials-section.php"); ?>
 

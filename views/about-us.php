@@ -1,6 +1,6 @@
-<?php 
+<?php
 $pageTitle = "About Us | Feminize Digitals"; // 
-include_once("includes/head.php"); 
+include_once("includes/head.php");
 ?>
 <?php include_once("includes/header.php") ?>
 
@@ -86,6 +86,17 @@ include_once("includes/head.php");
     </section>
 
 
+    <a href="">
+        <div class="sub-collection">
+            <div class="img-bg">
+                <img src="" alt="">
+            </div>
+            <div class="col-title">
+                <h3>The Queen Collection</h3>
+            </div>
+        </div>
+    </a>
+
 
 
     <section id="chart-worlflow">
@@ -93,10 +104,10 @@ include_once("includes/head.php");
             <div class="wrapper">
                 <div class="marquee">
                     <p>
-                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing 
+                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
                     </p>
                     <p>
-                    Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
+                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
                     </p>
                 </div>
             </div>

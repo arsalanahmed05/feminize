@@ -1,12 +1,12 @@
 <section id="trusted-sections">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-2">
                 <div class="section-title">
-                    <h2>Trusted By</h2>
+                    <h2><ruby>Trusted By</ruby></h2>
                 </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-10">
                 <div class="trusted-slider">
                     <div class="slide-item">
                         <img src="/assets/images/wordpress-logo.webp" alt="" class="img-fluid">
