@@ -1,9 +1,9 @@
 <footer class="footer-section">
-    <div class="container ">
+    <div class="container-fluid ">
         <div id="main-row" class="row">
             <div id="top-row" class="row">
                 <div class="col-sm-4">
-                    <a href="#"><img src="/assets/images/Feminize-digital.webp" alt=""></a>
+                    <a href="/"><img src="/assets/images/Feminize-digital.webp" alt=""></a>
                 </div>
                 <!-- <div class="col-sm-4">
                     
@@ -16,9 +16,9 @@
                         <li class="socials-items">
                             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                         </li>
-                        <li class="socials-items">
+                        <!-- <li class="socials-items">
                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        </li>
+                        </li> -->
                         <li class="socials-items">
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         </li>
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-5">
-                    <h3>Services</h3>
+                    <h3>Services We Provide</h3>
                     <ul class="footer-menu services">
                         <li><a href="/app-development/"><i class="fa-solid fa-chevron-right"></i> App Development</a></li>
                         <li><a href="/content-writing/"><i class="fa-solid fa-chevron-right"></i> Content Writing</a></li>
@@ -67,7 +67,7 @@
                         <li><a href="/graphic-designing/"><i class="fa-solid fa-chevron-right"></i> Graphic Designing</a></li>
                         <li><a href="/influencer-marketing/"><i class="fa-solid fa-chevron-right"></i> Influencer Marketing</a></li>
                         <li><a href="/orm/"><i class="fa-solid fa-chevron-right"></i> Online reputation management</a></li>
-                        <li><a class="dropdown-item" href="/pay-per-click/"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a></li>
+                        <li><a href="/pay-per-click/"><i class="fa-solid fa-chevron-right"></i> PPC Marketing</a></li>
                         <li><a href="/search-engine/"><i class="fa-solid fa-chevron-right"></i> Search engine optimization</a></li>
                         <li><a href="/social-media/"><i class="fa-solid fa-chevron-right"></i> Social Media Marketing</a></li>
                         <li><a href="/video-editing/"><i class="fa-solid fa-chevron-right"></i> Video Editing</a></li>
@@ -85,11 +85,11 @@
                                 Rd</a>
                         </li>
                         <li class="contact-item">
-                            <a href="#"><i class="fa-solid fa-headset"></i>+ 123 456
+                            <a href="tel:+1234567890"><i class="fa-solid fa-headset"></i>+ 123 456
                                 7890</a>
                         </li>
                         <li class="contact-item">
-                            <a href="#"><i class="fa-solid fa-envelope-open-text"></i>info@feminizedigitals.com</a>
+                            <a href="mailto:info@feminizedigitals.com"><i class="fa-solid fa-envelope-open-text"></i>info@feminizedigitals.com</a>
                         </li>
                     </ul>
                 </div>
@@ -136,7 +136,7 @@
                 <div class="col-md-6 popup-left">
                     <div class="form">
                         <div class="text-warpper">
-                            <h2>Book an <span>Appointment</span></h2>
+                            <h3>Book an <span>Appointment</span></h3>
                             <p>We’re here to help! If you have any questions or would like to discuss how our SEO and digital marketing services can benefit your business,</p>
                         </div>
                         <form>
@@ -221,15 +221,6 @@
         separateDialCode: true
     });
 </script>
-
-
-
-
-
-
-
-
-
 
 <script>
     // Register GSAP plugin
@@ -555,7 +546,7 @@
     $(document).ready(function() {
         $('.about-trust-slider').slick({
             infinite: true,
-            slidesToShow: 5,
+            slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 1000,
@@ -563,7 +554,7 @@
             responsive: [{
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: true
@@ -847,7 +838,7 @@
 <script>
     $(document).ready(function() {
         $('.trusted-slider').slick({
-            slidesToShow: 6, // Show 3 slides on desktop
+            slidesToShow: 4, // Show 3 slides on desktop
             slidesToScroll: 1,
             dots: false,
             infinite: true, // Enable infinite loop
@@ -1018,7 +1009,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, p, li, .feature-parent");
+    const elements = document.querySelectorAll("h1, h2, h3, h4, h5, h6, .feature-parent");
 
     const observer = new IntersectionObserver(
         (entries) => {

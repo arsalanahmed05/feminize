@@ -28,38 +28,7 @@ include_once("includes/head.php");
         </div>
     </section>
 
-    <section id="trusted-sections">
-        <div class="container-fluid">
-            <div class="section-title text-center">
-                <h2>Trusted By</h2>
-            </div>
-            <div class="row">
-                <div class="trusted-slider">
-                    <div class="slide-item">
-                        <img src="/assets/images/wordpress-logo.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/squarespace.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/wix.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/shopify.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/walmart.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/figma.webp" alt="" class="img-fluid">
-                    </div>
-                    <div class="slide-item">
-                        <img src="/assets/images/social.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include_once("views/trusted-slider.php"); ?>
 
 
     <section id="PPC-about">
@@ -1521,8 +1490,7 @@ include_once("includes/head.php");
 
 
 
-    <?php include_once("views/contact-section.php"); ?>
-
+ 
 
 
     <?php include_once("includes/footer.php") ?>

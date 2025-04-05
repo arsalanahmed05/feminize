@@ -13,7 +13,7 @@
                     <h1>Generation <br><ruby>Digital Agency</ruby></h1>
                     <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
                     <div class="quote-link">
-        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+         <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
     </div>
                 </div>
                 <img id="bn1" src="/assets/images/bn1.webp" alt="" class="img-fluid abs">

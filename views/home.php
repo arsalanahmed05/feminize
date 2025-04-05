@@ -8,43 +8,35 @@
         <div class="cursor__circle"></div>
     </div>
 
-
-    <section id="services-banner">
+    <section id="hero-banner-about">
         <video autoplay loop muted playsinline id="services-video">
-            <source src="/assets/images/service-banner-bg.mp4" type="video/mp4">
+            <source src="/assets/images/about-banner-video-gb.mp4" type="video/mp4">
         </video>
-        <div class="container">
+        <div class="container-fluid">
+            <div id="main-row" class="row">
+                <div id="inner-row" class="row">
+                    <div class="col-md-7">
+                        <div class="text-wrapper">
 
-            <div id="slide-item-row" class="row">
-                <div class="col-lg-6">
-                    <div class="text-wrapper">
-                        <h6 class="sub-heading">Redefine Success</h6>
-                        <h1>Ecommerce That <br><ruby>Converts States</ruby></h1>
-                        <p>Seamless technology solutions that enhance and empower your brand for lasting
-                            success and growth.</p>
-                        <div class="quote-link">
-                            <a id="lft" href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
-                            <a id="ryt" href="tel:+123456789"><button class="quote-btn bton"><i
-                                        class="fa-solid fa-phone"></i>+(123)-456-7890</button></a>
+                            <h1>Empowering Business <br>Through <ruby><a href="" class="typewrite" data-period="2000"
+                                        data-type='[ "Website.", "Graphic..", "Insights..." ]'><span
+                                            class="wrap"></span></a></ruby></h1>
+                            <p>Building impactful brands, designing engaging websites, and creating powerful<br>
+                                marketing campaigns that drive growth, visibility, and success.</p>
                         </div>
-
+                        <div class="quote-links light">
+                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                            <a href="tel:+123456789" class="bton quote-button"><i class="fa-solid fa-phone"></i>123 456 789</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="img-bg">
+                            <img src="/assets/images/mascot.webp" alt="" class="img-fluid">
+                            <!-- <img id="analytics1" src="/assets/images/rb_136.png" alt="" class="img-fluid let"> -->
+                            <!-- <img id="analytics2" src="/assets/images/hero-analytics1.png" alt="" class="img-fluid let"> -->
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/banner-idea1.webp" alt="" class="img-fluid">
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="motion-img">
-                <img src="/assets/images/logoalphabets/1.webp" alt="" class="img-fluid bn1">
-                <img src="/assets/images/logoalphabets/2.webp" alt="" class="img-fluid bn2">
-                <img src="/assets/images/logoalphabets/3.webp" alt="" class="img-fluid bn3">
-                <img src="/assets/images/logoalphabets/4.webp" alt="" class="img-fluid bn4">
-                <img src="/assets/images/logoalphabets/5.webp" alt="" class="img-fluid bn5">
-                <img src="/assets/images/logoalphabets/6.webp" alt="" class="img-fluid bn6">
             </div>
         </div>
     </section>
@@ -52,7 +44,7 @@
 
     <section class=" howwedoit">
         <div class="container">
-            <h2 style="text-align:center;">How We <ruby>Do It</ruby></h2>
+            <h2 class="text-center">How We <ruby>Do It</ruby></h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="item-hwdi hwdi-odd">
@@ -104,7 +96,7 @@
             <div id="main-row" class="row">
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h5><span data-aos="fade-up">About us</span></h5>
+                        <h5>About us</h5>
                         <h2>Your <ruby>experience</ruby><br> is <ruby>everything</ruby></h2>
                         <p>We are committed to ensuring every interaction leaves a lasting impression. From start to
                             finish, our focus is on delivering excellence tailored to your needs, making every moment
@@ -115,27 +107,11 @@
                         <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing
                             guidance, or simply being there when you need us, we're here to make your journey
                             exceptional.</p>
-                    </div>
-
-                    <div id="inner-row-bottom" class="row">
-                        <div class="col-sm-6">
-                            <div class="milestone">
-                                <ruby>
-                                    <div class="count" data-count="+240"><span>+</span>0</div>
-                                </ruby>
-                                <h4>Project<br> Completed</h4>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="milestone">
-                                <ruby>
-                                    <div class="count" data-count="+650"><span>+</span>0</div>
-                                </ruby>
-                                <h4>Client <br>Satisfaction</h4>
-                            </div>
+                            <div class="quote-links light">
+                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                            <a href="tel:+123456789" class="bton quote-button"><i class="fa-solid fa-phone"></i>123 456 789</a>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-md-6">
                     <div class="img-bg right-img">
@@ -143,25 +119,39 @@
                     </div>
                 </div>
             </div>
+            <div id="inner-row-bottom" class="row">
+                        <div class="col-sm-6">
+                            <div class="milestone">
+                                <ruby>
+                                    <div class="count" data-count="+240"><span>+</span>0</div>
+                                </ruby>
+                                <h5>Project<br> Completed</h5>
+                            </div>
+                            <div class="milestone">
+                                <ruby>
+                                    <div class="count" data-count="+650"><span>+</span>0</div>
+                                </ruby>
+                                <h5>Client <br>Satisfaction</h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="milestone">
+                                <ruby>
+                                    <div class="count" data-count="+220"><span>+</span>0</div>
+                                </ruby>
+                                <h5>Client <br>Satisfaction</h5>
+                            </div>
+                            <div class="milestone">
+                                <ruby>
+                                    <div class="count" data-count="+100"><span>+</span>0</div>
+                                </ruby>
+                                <h5>Client <br>Satisfaction</h5>
+                            </div>
+                        </div>
+                    </div>
+            
         </div>
     </section>
-
-
-    <!-- <section id="abt-upt">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="text-wrapper">
-                        <h6 class="subheading">About Us</h6>
-                        <h2>Transform Your Brand with Expert<br> Web & Design Solutions</h2>
-                    </div>
-                    <div class="img-bg">
-                        <img src="" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
 
     <section id="banner-text">
@@ -184,11 +174,13 @@
                 <div class="col-md-5 left-section">
                     <div class="left-sec-content-wrapper">
                         <h5><span>Our Steps</span></h5>
-                        <h2>Unlock <ruby>Growth</ruby> with<br> Expert <ruby>Digital Solutions</ruby>
+                        <h2>Unlock <ruby>Growth</ruby> with Expert <ruby>Digital Solutions</ruby>
                         </h2>
-                        <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and improve customer engagement.</p>
-                        <div class="quote-link">
-                            <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                        <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and
+                            improve customer engagement.</p>
+                            <div class="quote-links light">
+                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                            <a href="/portfolio/" class="bton "><i class="fa-solid fa-address-card"></i>view Portfolio</a>
                         </div>
                     </div>
 
@@ -200,7 +192,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps1.webp" alt="">
                                     <h3><ruby>content </ruby><br>writing</h3>
-                                    <p>Crafting compelling content that resonates with your audience, boosts engagement, and drives results for your brand’s success.</p>
+                                    <p>Crafting compelling content that resonates with your audience, boosts engagement,
+                                        and drives results for your brand’s success.</p>
                                     <a href="/content-writing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps1.webp" alt="">
                                 </div>
@@ -209,7 +202,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps2.webp" alt="">
                                     <h3><ruby>Email </ruby><br>Marketing</h3>
-                                    <p>Unlock the power of email marketing with tailored campaigns that build relationships and drive conversions straight to your inbox.</p>
+                                    <p>Unlock the power of email marketing with tailored campaigns that build
+                                        relationships and drive conversions straight to your inbox.</p>
                                     <a href="/email-marketing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps2.webp" alt="">
                                 </div>
@@ -218,7 +212,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps3.webp" alt="">
                                     <h3><ruby>Graphic </ruby><br>Designing</h3>
-                                    <p>Bringing your vision to life with innovative graphic designs that capture attention and communicate your brand’s unique story.</p>
+                                    <p>Bringing your vision to life with innovative graphic designs that capture
+                                        attention and communicate your brand’s unique story.</p>
                                     <a href="/graphic-designing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps3.webp" alt="">
                                 </div>
@@ -227,7 +222,9 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps4.webp" alt="">
                                     <h3><ruby>PPC </ruby><br>Marketing</h3>
-                                    <p>Maximize your ROI (Return On Investment) with targeted Pay-Per-Click marketing campaigns that drive instant traffic and deliver measurable results for your business.</p>
+                                    <p>Maximize your ROI (Return On Investment) with targeted Pay-Per-Click marketing
+                                        campaigns that drive instant traffic and deliver measurable results for your
+                                        business.</p>
                                     <a href="/pay-per-click/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps4.webp" alt="">
                                 </div>
@@ -238,7 +235,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps5.webp" alt="">
                                     <h3><ruby>Search Engine </ruby><br>Optimization</h3>
-                                    <p>Boost your online presence with strategic SEO, driving organic traffic and improving your website’s visibility on search engines.</p>
+                                    <p>Boost your online presence with strategic SEO, driving organic traffic and
+                                        improving your website’s visibility on search engines.</p>
                                     <a href="/search-engine/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps5.webp" alt="">
                                 </div>
@@ -247,7 +245,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps6.webp" alt="">
                                     <h3><ruby>Social Media </ruby><br>Marketing</h3>
-                                    <p>Elevate your brand with targeted social media marketing that engages your audience and builds lasting connections across platforms.</p>
+                                    <p>Elevate your brand with targeted social media marketing that engages your
+                                        audience and builds lasting connections across platforms.</p>
                                     <a href="/social-media/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps6.webp" alt="">
                                 </div>
@@ -256,7 +255,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps7.webp" alt="">
                                     <h3><ruby>Web </ruby><br>Designing</h3>
-                                    <p>Create a seamless online experience with stunning web design that reflects your brand and captivates visitors from the start.</p>
+                                    <p>Create a seamless online experience with stunning web design that reflects your
+                                        brand and captivates visitors from the start.</p>
                                     <a href="/web-designing/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps7.webp" alt="">
                                 </div>
@@ -265,7 +265,8 @@
                                 <div class="process-item">
                                     <img class="img-fluid top" src="/assets/images/ps8.webp" alt="">
                                     <h3><ruby>Web </ruby><br>Development</h3>
-                                    <p>Transform your ideas into stunning websites with our expert web development services, designed to engage and convert visitors.</p>
+                                    <p>Transform your ideas into stunning websites with our expert web development
+                                        services, designed to engage and convert visitors.</p>
                                     <a href="/web-development/"><i class="fa-solid fa-arrow-right"></i></a>
                                     <img class="img-fluid bottom" src="/assets/images/ps8.webp" alt="">
                                 </div>
@@ -277,870 +278,7 @@
         </div>
     </section>
 
-
-
-
-    <section class="portfolio-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="headingstyle1 text-center">
-                        <h6 class="sub-heading"><span>our portfolio</span></h6>
-                        <h2>Take a look at <ruby>our portfolio</ruby> to have<br> a taste of <ruby>true
-                                creativity</ruby></h2>
-                    </div>
-                    <div class="tab">
-                        <button class="tablinks active" onclick="openCity(event, 'logo-design')">Logo
-                            Design</button>
-                        <button class="tablinks" onclick="openCity(event, 'web-designing')">Web Designing</button>
-                        <button class="tablinks" onclick="openCity(event, 'branding')">Branding</button>
-                        <button class="tablinks" onclick="openCity(event, 'animation')">Animation</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Tab content -->
-        <div id="logo-design" class="tabcontent active">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="portfolio-box">
-                        <ul class="portfolio-slider">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
-                                        <img src="/assets/images/logos/pl1.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
-                                        <img src="/assets/images/logos/pl2.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl3.webp">
-                                        <img src="/assets/images/logos/pl3.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl3.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
-                                        <img src="/assets/images/logos/pl4.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl5.webp">
-                                        <img src="/assets/images/logos/pl5.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl5.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
-                                        <img src="/assets/images/logos/pl6.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
-                                        <img src="/assets/images/logos/pl7.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
-                                        <img src="/assets/images/logos/pl8.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
-                                        <img src="/assets/images/logos/pl9.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
-                                        <img src="/assets/images/logos/pl10.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl11.webp">
-                                        <img src="/assets/images/logos/pl11.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl11.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="portfolio-slider-reverse">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
-                                        <img src="/assets/images/logos/pl12.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl13.webp">
-                                        <img src="/assets/images/logos/pl13.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl13.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl14.webp">
-                                        <img src="/assets/images/logos/pl14.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl14.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl15.webp">
-                                        <img src="/assets/images/logos/pl15.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl15.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl16.webp">
-                                        <img src="/assets/images/logos/pl16.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl16.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl17.webp">
-                                        <img src="/assets/images/logos/pl17.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl17.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl18.webp">
-                                        <img src="/assets/images/logos/pl18.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl18.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl19.webp">
-                                        <img src="/assets/images/logos/pl19.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl19.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl20.webp">
-                                        <img src="/assets/images/logos/pl20.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl20.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl21.webp">
-                                        <img src="/assets/images/logos/pl21.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl21.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl22.webp">
-                                        <img src="/assets/images/logos/pl22.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl22.webp">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="web-designing" class="tabcontent">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="portfolio-box">
-                        <ul class="portfolio-slider">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd1.webp">
-                                        <img src="/assets/images/webdesigns/wd1.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd1.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd2.webp">
-                                        <img src="/assets/images/webdesigns/wd2.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd2.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd3.webp">
-                                        <img src="/assets/images/webdesigns/wd3.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd3.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd4.webp">
-                                        <img src="/assets/images/webdesigns/wd4.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd4.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd5.webp">
-                                        <img src="/assets/images/webdesigns/wd5.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd5.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd6.webp">
-                                        <img src="/assets/images/webdesigns/wd6.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd6.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
-                                        <img src="/assets/images/logos/pl7.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl7.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
-                                        <img src="/assets/images/logos/pl8.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl8.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li> -->
-                        </ul>
-                        <ul class="portfolio-slider-reverse">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd7.webp">
-                                        <img src="/assets/images/webdesigns/wd7.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd7.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd8.webp">
-                                        <img src="/assets/images/webdesigns/wd8.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd8.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd9.webp">
-                                        <img src="/assets/images/webdesigns/wd9.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd9.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd10.webp">
-                                        <img src="/assets/images/webdesigns/wd10.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd10.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd11.webp">
-                                        <img src="/assets/images/webdesigns/wd11.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd11.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd12.webp">
-                                        <img src="/assets/images/webdesigns/wd12.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/webdesigns/wd12.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
-                                        <img src="/assets/images/logos/pl1.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
-                                        <img src="/assets/images/logos/pl2.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl2.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
-                                        <img src="/assets/images/logos/pl4.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl4.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
-                                        <img src="/assets/images/logos/pl6.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl6.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
-                                        <img src="/assets/images/logos/pl9.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl9.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
-                                        <img src="/assets/images/logos/pl10.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl10.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
-                                        <img src="/assets/images/logos/pl12.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl12.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
-                                        <img src="/assets/images/logos/pl1.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/logos/pl1.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li> -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div id="branding" class="tabcontent">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="portfolio-box">
-                        <ul class="portfolio-slider">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp1.webp">
-                                        <img src="/assets/images/branding/bp1.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp1.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp2.webp">
-                                        <img src="/assets/images/branding/bp2.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp2.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp3.webp">
-                                        <img src="/assets/images/branding/bp3.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp3.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp4.webp">
-                                        <img src="/assets/images/branding/bp4.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp4.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp5.webp">
-                                        <img src="/assets/images/branding/bp5.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp5.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp6.webp">
-                                        <img src="/assets/images/branding/bp6.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp6.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="portfolio-slider-reverse">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp7.webp">
-                                        <img src="/assets/images/branding/bp7.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp7.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp8.webp">
-                                        <img src="/assets/images/branding/bp8.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp8.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp9.webp">
-                                        <img src="/assets/images/branding/bp9.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp9.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp10.webp">
-                                        <img src="/assets/images/branding/bp10.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp10.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp11.webp">
-                                        <img src="/assets/images/branding/bp11.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp11.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/branding/bp12.webp">
-                                        <img src="/assets/images/branding/bp12.webp">
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/branding/bp12.webp">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="animation" class="tabcontent">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="portfolio-box">
-                        <ul class="portfolio-slider">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap1.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap1.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap2.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap2.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap3.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap3.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap4.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap4.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="portfolio-slider-reverse">
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap6.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap6.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap7.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap7.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap8.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap8.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap9.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap9.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="portfolio-item">
-                                    <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-                                        <video autoplay="" muted="" loop="" src="/assets/images/animation/ap5.mp4"></video>
-                                    </a>
-                                    <div class="hover-effect">
-                                        <a data-fancybox="videoanimation" href="/assets/images/animation/ap5.mp4">
-
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
+    <?php include_once("views/portfolio-section.php"); ?>
 
     <section id="quality-section">
         <div class="container">
@@ -1224,7 +362,7 @@
                 <div class="col-md-6">
                     <div class="section-title">
                         <h5><span>FAQs</span></h5>
-                        <h2>Navigate Digital Growth<br> with Answers</h2>
+                        <h2>Navigate Digital Growth with Answers</h2>
                     </div>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
@@ -1315,14 +453,8 @@
         </div>
     </section>
 
-
-
     <?php include_once("views/testimonials-section.php"); ?>
-
-    <?php include_once("views/contact-section.php"); ?>
-
     <?php include_once("includes/footer.php") ?>
-
 
     <div class="floatbutton">
         <div class="btns_wrap">
@@ -1340,18 +472,17 @@
             </path>
         </svg>
     </div>
+
     <!-- JAVASCRIPT -->
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <script>
-        $(function() {
+        $(function () {
             var e = "";
 
             // Filtering functionality
-            $(".fil-cat").click(function() {
+            $(".fil-cat").click(function () {
                 $(".portfolio_list ul li").removeClass("active");
                 $(this).addClass("active");
 
@@ -1360,7 +491,7 @@
 
                 $("#portfolio .showing").not("." + e).fadeOut().removeClass("scale-anm");
 
-                setTimeout(function() {
+                setTimeout(function () {
                     $("." + e).fadeIn().addClass("scale-anm");
                     $("#portfolio").fadeTo(800, 1);
                 }, 300);
@@ -1384,14 +515,5 @@
         });
     </script>
 
-
-
-
-
-
-
-
-
 </body>
-
 </html>

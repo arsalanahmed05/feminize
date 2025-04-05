@@ -16,126 +16,113 @@ include_once("includes/head.php");
         <video autoplay loop muted playsinline id="services-video">
             <source src="/assets/images/about-banner-video-gb.mp4" type="video/mp4">
         </video>
-        <div class="container">
+        <div class="container-fluid">
             <div id="main-row" class="row">
                 <div id="inner-row" class="row">
                     <div class="col-md-7">
                         <div class="text-wrapper">
-                            <h1>Empowering Business <br>Through <ruby><a href="" class="typewrite" data-period="2000" data-type="[ &quot;Website.&quot;, &quot;Graphic..&quot;, &quot;Insights...&quot; ]"><span class="wrap"></span></a></ruby></h1>
-                            <p>Building impactful brands, designing engaging websites, and creating powerful<br> marketing campaigns that drive growth, visibility, and success.</p>
+
+                            <!-- <h1>Empowering Business <br>Through <ruby><a href="" class="typewrite" data-period="2000"
+                                        data-type='[ "Website.", "Graphic..", "Insights..." ]'><span
+                                            class="wrap"></span></a></ruby></h1> -->
+                                            <h1>About Us</h1>
+                            <p>Building impactful brands, designing engaging websites, and creating powerful<br>
+                                marketing campaigns that drive growth, visibility, and success.</p>
                         </div>
-                        <div class="quote-links">
-                            <a id="lft" href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
+                        <div class="quote-links light">
+                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                             <a href="/portfolio/" class="bton "><i class="fa-solid fa-address-card"></i>view Portfolio</a>
                         </div>
                     </div>
                     <div class="col-md-5">
                         <div class="img-bg">
-                            <img src="/assets/images/hero-banner-img-about.webp" alt="" class="img-fluid">
-                            <img id="analytics1" src="/assets/images/rb_136.png" alt="" class="img-fluid let">
-                            <img id="analytics2" src="/assets/images/hero-analytics1.png" alt="" class="img-fluid let">
+                            <img src="/assets/images/aboutmascot.webp" alt="" class="img-fluid">
+                            <!-- <img id="analytics1" src="/assets/images/rb_136.png" alt="" class="img-fluid let"> -->
+                            <!-- <img id="analytics2" src="/assets/images/hero-analytics1.png" alt="" class="img-fluid let"> -->
                         </div>
                     </div>
                 </div>
-                <div class="slider-parent">
-                    <h3 class="text-center">Trusted Brands</h3>
-                    <div class="about-trust-slider">
-                        <img src="/assets/images/client-logo/Client-logo_Bloom-energy-2.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_Imperva-II.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_Integrify-1-1.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_Labelbox-II.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_Model-N-1.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_PackageX-1.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_Provigil-II.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_TDengine.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_Tint.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_ToolWatch-II.webp" alt="" class="img-fluid">
-                        <img src="/assets/images/client-logo/Client-logo_Top-Echelon-II.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-
-    <section id="about-points">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="key-points-parent">
-                        <img src="/assets/images/jigsaw.webp" alt="Image 1" class="img-fluid aks">
-                        <h3>Creative <br><ruby>Solutions</ruby></h3>
-                        <p>We deliver innovative and tailored strategies that bring your digital vision to life, ensuring your brand stands out online.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="key-points-parent">
-                        <img src="/assets/images/gear.webp" alt="Image 2" class="img-fluid aks">
-                        <h3>Expert <br><ruby>Execution</ruby></h3>
-                        <p>Our team combines industry expertise with cutting-edge tools to provide seamless and impactful results.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="key-points-parent">
-                        <img src="/assets/images/target.webp" alt="Image 3" class="img-fluid aks">
-                        <h3>Client <br><ruby>Focused</ruby></h3>
-                        <p>Your goals are our priority. We work closely with you to create solutions that align with your unique needs.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <a href="">
-        <div class="sub-collection">
-            <div class="img-bg">
-                <img src="" alt="">
-            </div>
-            <div class="col-title">
-                <h3>The Queen Collection</h3>
-            </div>
-        </div>
-    </a>
-
-
-
-    <section id="chart-worlflow">
-        <div class="container-fliud">
-            <div class="wrapper">
-                <div class="marquee">
-                    <p>
-                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
-                    </p>
-                    <p>
-                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
-                    </p>
-                </div>
-            </div>
-        </div>
+    
+    <section id="img-with-text">
         <div class="container">
-            <div class="img-bg">
-                <video autoplay loop muted playsinline>
-                    <source src="/assets/images/573271_Business_Stock_1920x1080.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="text-wrapper text-center">
-                <h2>Evulate Your <ruby>Numbers</ruby></h2>
-                <p>Unlock insights, analyze trends, track progress, refine strategies, and let numbers guide success!"<br>
-                    Let me know if you need more variations! </p>
-            </div>
-            <div class="alphab">
-                <img id="tat1" src="/assets/images/1.webp" alt="" class="img-fluid posi">
-                <img id="tat2" src="/assets/images/2.webp" alt="" class="img-fluid posi">
-                <img id="tat3" src="/assets/images/2e.webp" alt="" class="img-fluid posi">
-                <img id="tat4" src="/assets/images/3.webp" alt="" class="img-fluid posi">
-                <img id="tat5" src="/assets/images/4.webp" alt="" class="img-fluid posi">
-                <img id="tat6" src="/assets/images/4i.webp" alt="" class="img-fluid posi">
-                <img id="tat7" src="/assets/images/5.webp" alt="" class="img-fluid posi">
-                <img id="tat8" src="/assets/images/6.webp" alt="" class="img-fluid posi">
+            <div class="row">
+            <div class="col-md-6">
+                    <div class="img-bg">
+                        <img src="/assets/images/abt23.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-wrapper">
+                    <h5 class="subheading">Empowerment</h5>
+                        <h2><ruby>Optimize</ruby> Performance & <br><ruby>Drive</ruby> Traffic</h2>
+                        <p>At Feminize Digitals, we empower businesses to thrive in the digital landscape with innovative and result-driven solutions. As a full-service digital agency, we specialize in web development, SEO, content creation, social media management, and everything in between.</p>
+                        <p>Our mission is to craft impactful digital experiences that help brands stand out, grow, and connect with their audiences meaningfully. We believe in blending creativity, strategy, and technology to transform ideas into reality.</p>
+                    </div>
+                    <!-- <div class="quote-link">
+                         <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                    </div> -->
+
+                </div>
+                
             </div>
         </div>
     </section>
 
+
+    <section id="process-steps-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h5 class="subheading">Process</h5>
+                <h2>Streamlined <ruby>Workflow</ruby></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/idea.webp" alt="" class="img-fluid">
+                        </div>
+                        <span>01</span>
+                        <h4>Discover Needs</h4>
+                        <p>Understanding your vision to craft a strategy for success.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/design-thinking.webp" alt="" class="img-fluid">
+                        </div>
+                        <span>02</span>
+                        <h4>Craft Vision</h4>
+                        <p>Designing with purpose to turn concepts into stunning realities.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/product-development.webp" alt="" class="img-fluid">
+                        </div>
+                        <span>03</span>
+                        <h4>Build Wonders</h4>
+                        <p>Transforming designs into seamless, high-performing digital experiences.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="process-steps">
+                        <div class="icon-bg">
+                            <img src="/assets/images/developing.webp" alt="" class="img-fluid">
+                        </div>
+                        <span>04</span>
+                        <h4>Deliver Success</h4>
+                        <p>Launching brilliance that drives success and lasting impressions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="about-features">
         <div class="container">
@@ -162,7 +149,7 @@ include_once("includes/head.php");
                                 </div>
                             </div>
                             <div class="feature-list">
-                                <span class="feature-num">01</span>
+                            <img src="/assets/images/responsive.png" alt="" class="img-fluid">
                                 <div class="feature-text">
                                     <h4>Responsive & <ruby>Mobile-Ready</ruby></h4>
                                     <p>Your website will look stunning and function flawlessly across all devices and screen sizes.</p>
@@ -205,20 +192,51 @@ include_once("includes/head.php");
             </div>
         </div>
     </section>
-
-    <section id="about-parallex">
-        <div class="container">
+    <!-- <section id="about-points">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7">
-                    <div class="text-wrapper">
-                        <h2>Your Digital Growth Partner in Web Design & Development</h2>
+                <div class="col-sm-4">
+                    <div class="key-points-parent">
+                        <img src="/assets/images/jigsaw.webp" alt="Image 1" class="img-fluid aks">
+                        <h3>Creative <br><ruby>Solutions</ruby></h3>
+                        <p>We deliver innovative and tailored strategies that bring your digital vision to life, ensuring your brand stands out online.</p>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <div class="img-bg">
-                        <img src="/assets/images/hero-analytics1.png" alt="" class="img-fluid">
+                <div class="col-sm-4">
+                    <div class="key-points-parent">
+                        <img src="/assets/images/gear.webp" alt="Image 2" class="img-fluid aks">
+                        <h3>Expert <br><ruby>Execution</ruby></h3>
+                        <p>Our team combines industry expertise with cutting-edge tools to provide seamless and impactful results.</p>
                     </div>
                 </div>
+                <div class="col-sm-4">
+                    <div class="key-points-parent">
+                        <img src="/assets/images/target.webp" alt="Image 3" class="img-fluid aks">
+                        <h3>Client <br><ruby>Focused</ruby></h3>
+                        <p>Your goals are our priority. We work closely with you to create solutions that align with your unique needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <section id="chart-worlflow">
+        <div class="container-fliud">
+            <div class="wrapper">
+                <div class="marquee">
+                    <p>
+                        Feminize Digitals 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img-bg">
+                <video autoplay loop muted playsinline>
+                    <source src="/assets/images/573271_Business_Stock_1920x1080.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </section>
@@ -229,7 +247,7 @@ include_once("includes/head.php");
                 <div id="inner-row-top" class="row">
                     <div class="col-md-6">
                         <div class="solutions-heading">
-                            <h6 class="sub-heading">What we do</h6>
+                            <h5 class="sub-heading">What we do</h5>
                             <h2>Check our <ruby>scientific</ruby> <br>Digital <ruby>solutions</ruby></h2>
                         </div>
                     </div>
@@ -237,9 +255,9 @@ include_once("includes/head.php");
                         <div class="melancholy-content">
                             <p>Everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression. ladies she basket season age her uneasy saw. Discourse unwilling am no described.</p>
                         </div>
-                        <div class="quote-link">
-                            <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
-                        </div>
+                        <!-- <div class="quote-link">
+                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                        </div> -->
                     </div>
                 </div>
                 <div class="row" id="inner-row">
@@ -290,104 +308,29 @@ include_once("includes/head.php");
         </div>
     </section>
 
+    
 
-
-
-    <section id="process-steps-section">
-        <div class="container">
-            <div class="section-title text-center">
-                <h6 class="subheading">Process</h6>
-                <h2>Streamlined <ruby>Workflow</ruby></h2>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="process-steps">
-                        <div class="icon-bg">
-                            <img src="/assets/images/idea.webp" alt="" class="img-fluid">
-                        </div>
-                        <span>01</span>
-                        <h4>Discover Needs</h4>
-                        <p>Understanding your vision to craft a strategy for success.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="process-steps">
-                        <div class="icon-bg">
-                            <img src="/assets/images/design-thinking.webp" alt="" class="img-fluid">
-                        </div>
-                        <span>02</span>
-                        <h4>Craft Vision</h4>
-                        <p>Designing with purpose to turn concepts into stunning realities.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="process-steps">
-                        <div class="icon-bg">
-                            <img src="/assets/images/product-development.webp" alt="" class="img-fluid">
-                        </div>
-                        <span>03</span>
-                        <h4>Build Wonders</h4>
-                        <p>Transforming designs into seamless, high-performing digital experiences.</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="process-steps">
-                        <div class="icon-bg">
-                            <img src="/assets/images/developing.webp" alt="" class="img-fluid">
-                        </div>
-                        <span>04</span>
-                        <h4>Deliver Success</h4>
-                        <p>Launching brilliance that drives success and lasting impressions.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="img-with-text">
+    <section id="about-parallex">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="text-wrapper">
-                        <h6 class="sub-heading">about</h6>
-                        <h2><ruby>Optimize</ruby> Performance <br>& <ruby>Drive</ruby> Traffic</h2>
-                        <p>At Feminize Digitals, we empower businesses to thrive in the digital landscape with innovative and result-driven solutions. As a full-service digital agency, we specialize in web development, SEO, content creation, social media management, and everything in between.</p>
-                        <p>Our mission is to craft impactful digital experiences that help brands stand out, grow, and connect with their audiences meaningfully. We believe in blending creativity, strategy, and technology to transform ideas into reality.</p>
+                        <h2>Your Digital Growth Partner in Web Design & Development</h2>
+                        <div class="quote-links light">
+                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                            <a href="tel:+123456789" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>123 456 789</a>
+                        </div>
                     </div>
-                    <div class="quote-link">
-                        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
-                    </div>
-
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="img-bg">
-                        <img src="/assets/images/services-images/optimize-perform.webp" alt="" class="img-fluid">
+                        <img src="/assets/images/hero-analytics1.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
 
     <?php include_once("views/testimonials-section.php"); ?>
-
-
-
-
-
-
-    <?php include_once("views/contact-section.php"); ?>
-
-
-
-
-
-
-
-
     <?php include_once("includes/footer.php") ?>
 </body>

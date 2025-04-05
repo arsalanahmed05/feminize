@@ -6,10 +6,10 @@ include_once("includes/head.php");
 
 
 <body id="app-development">
+    
     <div id="cursor">
         <div class="cursor__circle"></div>
     </div>
-
 
     <section class="services-banner" id="app-development">
         <div class="container">
@@ -1466,8 +1466,7 @@ include_once("includes/head.php");
 
 
 
-    <?php include_once("views/contact-section.php"); ?>
-
+ 
 
 
     <?php include_once("includes/footer.php") ?>
