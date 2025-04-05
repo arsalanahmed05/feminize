@@ -754,6 +754,10 @@ section#about-us::Before {
 #about-us #inner-row-bottom .milestone {
     float: left;
     width: 50%;
+    display: flex
+;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .milestone ruby {
