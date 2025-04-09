@@ -37,16 +37,18 @@ include_once("includes/head.php");
 <div class="section-title">
 <div class="row">
 <div class="col-sm-4">
-<a href="#">
+<a href="mailto:info@feminizedigitals.com">
 <div class="contact-itemm">
 <img src="/assets/images/envelope.png" alt="" class="img-fluid">
+<p class="text-center">Info@feminizedigitals.com</p>
 </div>
 </a>
 </div>
 <div class="col-sm-4">
-<a href="#">
+<a href="tel:+123456789">
 <div class="contact-itemm">
 <img src="/assets/images/follow-up.png" alt="" class="img-fluid">
+<p class="text-center">(123)-456-7890</p>
 </div>
 </a>
 </div>
@@ -54,6 +56,7 @@ include_once("includes/head.php");
 <a href="#">
 <div class="contact-itemm">
 <img src="/assets/images/map.png" alt="" class="img-fluid">
+<p class="text-center">United States</p>
 </div>
 </a>
 </div>
