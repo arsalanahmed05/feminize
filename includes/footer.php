@@ -244,6 +244,32 @@
     });
 </script>
 
+<!-- <script>
+ const banner = document.getElementById("process-section");
+
+window.addEventListener("scroll", () => {
+  const scrollPos = window.scrollY;
+  const hue = scrollPos % 160;
+
+  banner.style.background = `
+    radial-gradient(circle at center, 
+    hsl(${hue}, 100%, 75%), 
+    hsl(${(hue + 60) % 360}, 100%, 60%))`;
+});
+</script>
+
+<script>
+    window.addEventListener("scroll", () => {
+  const scrollPos = window.scrollY;
+  const xPos = 50 + (scrollPos % 100) * 0.5; // Adjust multiplier as needed
+  const yPos = 50 + (scrollPos % 100) * 0.5;
+
+  banner.style.background = `
+    radial-gradient(circle at ${xPos}% ${yPos}%, 
+    #000DFF, #fff)`;
+});
+</script> -->
+
 <script>
     // Register GSAP plugin
     gsap.registerPlugin(ScrollTrigger);

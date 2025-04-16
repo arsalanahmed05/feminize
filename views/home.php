@@ -54,7 +54,6 @@
         </div>
     </section>
 
-
     <section class=" howwedoit">
         <div class="container">
             <h2 class="text-center">How We <ruby>Do It</ruby></h2>
@@ -103,7 +102,6 @@
         </div>
     </section>
 
-
     <section id="about-us">
         <div class="container">
             <div id="main-row" class="row">
@@ -135,39 +133,25 @@
                 </div>
             </div>
             <div id="inner-row-bottom" class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="milestone">
                         <ruby>
                             <div class="count" data-count="+240"><span>+</span>0</div>
                         </ruby>
-                        <h5>Project<br> Completed</h5>
+                        <h5>Projects<br> Completed</h5>
                     </div>
                     <div class="milestone">
                         <ruby>
-                            <div class="count" data-count="+650"><span>+</span>0</div>
+                            <div class="count" data-count="+6500"><span>+</span>0</div>
                         </ruby>
-                        <h5>Client <br>Satisfaction</h5>
+                        <h5>Satisfied<br> Clients </h5>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="milestone">
-                        <ruby>
-                            <div class="count" data-count="+220"><span>+</span>0</div>
-                        </ruby>
-                        <h5>Client <br>Satisfaction</h5>
-                    </div>
-                    <div class="milestone">
-                        <ruby>
-                            <div class="count" data-count="+100"><span>+</span>0</div>
-                        </ruby>
-                        <h5>Client <br>Satisfaction</h5>
-                    </div>
-                </div>
+                
             </div>
 
         </div>
     </section>
-
 
     <section id="banner-text">
         <div class="container-fluid">

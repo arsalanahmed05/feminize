@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-html,body {
+body {
     overflow-x: hidden !important;
 }
 p {
@@ -743,8 +743,10 @@ section#about-us::Before {
     width: 50%;
     display: flex
 ;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .milestone ruby {
@@ -1330,6 +1332,8 @@ section#about-us::Before {
 #process-section {
     padding: 120px 0;
     position: relative;
+  /* background: radial-gradient(circle at center, #000DFF, #fff); */
+  /* transition: background 0.3s ease; */
 }
 #process-section #inner-row-right-col {
     padding-top: 40px;
