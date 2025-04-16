@@ -7,9 +7,7 @@ include_once("includes/head.php");
 
 <body id="about-page">
 
-    <div id="cursor">
-        <div class="cursor__circle"></div>
-    </div>
+     
 
 
     <section id="hero-banner-about">
@@ -330,6 +328,8 @@ include_once("includes/head.php");
             </div>
         </div>
     </section>
+
+     
 
     <?php include_once("views/testimonials-section.php"); ?>
     <?php include_once("includes/footer.php") ?>

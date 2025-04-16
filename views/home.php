@@ -1,12 +1,11 @@
 <?php include_once("includes/head.php") ?>
 <?php include_once("includes/header.php") ?>
 
+<html>
 
 <body>
 
-    <div id="cursor">
-        <div class="cursor__circle"></div>
-    </div>
+     
 
     <section id="hero-banner-about">
         <video autoplay loop muted playsinline id="services-video">
@@ -18,22 +17,36 @@
                     <div class="col-md-7">
                         <div class="text-wrapper">
 
-                            <h1>Empowering Business <br>Through <ruby><a href="" class="typewrite" data-period="2000"
-                                        data-type='[ "Website.", "Graphic..", "Insights..." ]'><span
+                            <h1>Empowering Business <br>Through <ruby><a href="" class="typewrite" data-period="400"
+                                        data-type='[ "Websites.", "Graphics..", "Insights..." ]'><span
                                             class="wrap"></span></a></ruby></h1>
                             <p>Building impactful brands, designing engaging websites, and creating powerful<br>
                                 marketing campaigns that drive growth, visibility, and success.</p>
                         </div>
                         <div class="quote-links light">
-                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
-                            <a href="tel:+123456789" class="bton quote-button"><i class="fa-solid fa-phone"></i>123 456 789</a>
+                            <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a
+                                Quote</a>
+                            <a href="tel:+123456789" class="bton quote-button"><i class="fa-solid fa-phone"></i>123 456
+                                789</a>
                         </div>
                     </div>
                     <div class="col-md-5">
-                        <div class="img-bg">
-                            <img src="/assets/images/mascot.webp" alt="" class="img-fluid">
-                            <!-- <img id="analytics1" src="/assets/images/rb_136.png" alt="" class="img-fluid let"> -->
-                            <!-- <img id="analytics2" src="/assets/images/hero-analytics1.png" alt="" class="img-fluid let"> -->
+                        <div class="home-banner-img-slider">
+                            <div class="banner-slide">
+                                <div class="img-bg-slide">
+                                    <img src="/assets/images/website.png" alt="" class="img-fluid fade-in">
+                                </div>
+                            </div>
+                            <div class="banner-slide">
+                                <div class="img-bg-slide">
+                                    <img src="/assets/images/graphic.png" alt="" class="img-fluid fade-in">
+                                </div>
+                            </div>
+                            <div class="banner-slide">
+                                <div class="img-bg-slide">
+                                    <img src="/assets/images/insights.png" alt="" class="img-fluid fade-in">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -48,7 +61,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="item-hwdi hwdi-odd">
-                        <img src="/assets/images/planning.webp">
+                        <img src="/assets/images/planning.png">
                         <div class="arrow-bg-clip">
                             <h4>Planning</h4>
                         </div>
@@ -107,9 +120,11 @@
                         <p>Your satisfaction drives everything we do. Whether it's addressing your questions, providing
                             guidance, or simply being there when you need us, we're here to make your journey
                             exceptional.</p>
-                            <div class="quote-links light">
-                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
-                            <a href="tel:+123456789" class="bton quote-button"><i class="fa-solid fa-phone"></i>123 456 789</a>
+                        <div class="quote-links light">
+                            <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a
+                                Quote</a>
+                            <a href="tel:+123456789" class="bton quote-button"><i class="fa-solid fa-phone"></i>123 456
+                                789</a>
                         </div>
                     </div>
                 </div>
@@ -120,36 +135,36 @@
                 </div>
             </div>
             <div id="inner-row-bottom" class="row">
-                        <div class="col-sm-6">
-                            <div class="milestone">
-                                <ruby>
-                                    <div class="count" data-count="+240"><span>+</span>0</div>
-                                </ruby>
-                                <h5>Project<br> Completed</h5>
-                            </div>
-                            <div class="milestone">
-                                <ruby>
-                                    <div class="count" data-count="+650"><span>+</span>0</div>
-                                </ruby>
-                                <h5>Client <br>Satisfaction</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="milestone">
-                                <ruby>
-                                    <div class="count" data-count="+220"><span>+</span>0</div>
-                                </ruby>
-                                <h5>Client <br>Satisfaction</h5>
-                            </div>
-                            <div class="milestone">
-                                <ruby>
-                                    <div class="count" data-count="+100"><span>+</span>0</div>
-                                </ruby>
-                                <h5>Client <br>Satisfaction</h5>
-                            </div>
-                        </div>
+                <div class="col-sm-6">
+                    <div class="milestone">
+                        <ruby>
+                            <div class="count" data-count="+240"><span>+</span>0</div>
+                        </ruby>
+                        <h5>Project<br> Completed</h5>
                     </div>
-            
+                    <div class="milestone">
+                        <ruby>
+                            <div class="count" data-count="+650"><span>+</span>0</div>
+                        </ruby>
+                        <h5>Client <br>Satisfaction</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="milestone">
+                        <ruby>
+                            <div class="count" data-count="+220"><span>+</span>0</div>
+                        </ruby>
+                        <h5>Client <br>Satisfaction</h5>
+                    </div>
+                    <div class="milestone">
+                        <ruby>
+                            <div class="count" data-count="+100"><span>+</span>0</div>
+                        </ruby>
+                        <h5>Client <br>Satisfaction</h5>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -178,9 +193,11 @@
                         </h2>
                         <p>Elevate your brand’s potential through expert digital strategies that accelerate growth and
                             improve customer engagement.</p>
-                            <div class="quote-links light">
-                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
-                            <a href="/portfolio/" class="bton "><i class="fa-solid fa-address-card"></i>view Portfolio</a>
+                        <div class="quote-links light">
+                            <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a
+                                Quote</a>
+                            <a href="/portfolio/" class="bton "><i class="fa-solid fa-address-card"></i>view
+                                Portfolio</a>
                         </div>
                     </div>
 
@@ -294,31 +311,31 @@
                         </div>
                         <div class="brand-slider">
                             <div class="brand-item">
-                                <img src="/assets/images/Partners-2.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/Partners-2.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-3.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-3.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
                                 <img src="/assets/images/Partner-4.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partners-2.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-5.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
                                 <img src="/assets/images/Partner-6.webp" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-7.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-7.jpg  " alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-8.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-8.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-10.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-10.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="brand-item">
-                                <img src="/assets/images/Partner-11.webp" alt="" class="img-fluid">
+                                <img src="/assets/images/Partner-11.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -355,6 +372,11 @@
         </div>
     </section>
 
+    <?php include_once("views/project-bar.php"); ?>
+
+    <?php include_once("views/packages.php"); ?>
+
+    <?php include_once("views/testimonials-section.php"); ?>
 
     <section id="faqs">
         <div class="container-fluid">
@@ -453,25 +475,10 @@
         </div>
     </section>
 
-    <?php include_once("views/testimonials-section.php"); ?>
     <?php include_once("includes/footer.php") ?>
 
-    <div class="floatbutton">
-        <div class="btns_wrap">
-            <a href="javascript:;" class="chat_wrap chat"><i class="fa-brands fa-rocketchat"></i><span>Chat With
-                    Us</span></a>
-            <a href="tel:+11234568790" class="call_wrap"><i class="fa-solid fa-phone"></i><span>+1
-                    (234)-456-7890</span></a>
-        </div>
-    </div>
+    
 
-    <div class="back-to-top">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
-            </path>
-        </svg>
-    </div>
 
     <!-- JAVASCRIPT -->
 
@@ -516,4 +523,5 @@
     </script>
 
 </body>
+
 </html>

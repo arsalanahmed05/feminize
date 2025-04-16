@@ -167,6 +167,28 @@
         </div>
     </div>
 </div>
+<!-- float-button -->
+<div class="floatbutton">
+        <div class="btns_wrap">
+            <a href="javascript:;" class="chat_wrap chat"><i class="fa-brands fa-rocketchat"></i><span>Chat With
+                    Us</span></a>
+            <a href="tel:+11234568790" class="call_wrap"><i class="fa-solid fa-phone"></i><span>+1
+                    (234)-456-7890</span></a>
+        </div>
+    </div>
+    <!-- float-button -->
+<div class="back-to-top">
+  <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+      style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+    </path>
+  </svg>
+  <div class="arrow-up"><i class="fa-solid fa-chevron-up"></i></div> <!-- Up arrow icon -->
+</div>
+
+<div id="cursor">
+        <div class="cursor__circle"></div>
+    </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -287,6 +309,77 @@
                     $this.text((isPlus ? '+' : '') + cleanNumber.toLocaleString());
                 },
             });
+        });
+    });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const backToTopBtn = document.querySelector(".back-to-top");
+    const progressPath = document.querySelector(".progress-circle path");
+    const pathLength = progressPath.getTotalLength();
+
+    // Initial setup
+    progressPath.style.strokeDasharray = pathLength;
+    progressPath.style.strokeDashoffset = pathLength;
+
+    const offsetToShow = 100; // when to show the button
+
+    const updateProgress = () => {
+      const scroll = window.scrollY;
+      const height = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = pathLength - (scroll * pathLength / height);
+      progressPath.style.strokeDashoffset = progress;
+
+      if (scroll > offsetToShow) {
+        backToTopBtn.classList.add("active");
+      } else {
+        backToTopBtn.classList.remove("active");
+      }
+    };
+
+    updateProgress(); // init
+    window.addEventListener("scroll", updateProgress);
+
+    backToTopBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  });
+</script>
+
+
+
+<script>
+    $(document).ready(function() {
+        $('.home-banner-img-slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,  
+            speed: 1500,
+            responsive: [{
+                    breakpoint: 1025,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // Add more breakpoints and settings as needed
+            ]
         });
     });
 </script>
@@ -880,6 +973,83 @@
         });
     });
 </script>
+
+<script>
+    $(document).ready(function () {
+        // Filtering functionality (no fade animation)
+        $(".fil-cat").click(function () {
+            $(".portfolio_list ul li").removeClass("active");
+            $(this).addClass("active");
+
+            var category = $(this).attr("data-rel");
+            $("#portfolio").css("opacity", 0.1);
+
+            $("#portfolio .showing").not("." + category).hide().removeClass("scale-anm");
+
+            setTimeout(function () {
+                $("." + category).show().addClass("scale-anm");
+                $("#portfolio").css("opacity", 1);
+            }, 0);
+        });
+
+        // Fancybox Initialization with animation disabled
+        Fancybox.bind('[data-fancybox="videoanimation"]', {
+            Toolbar: true,
+            animated: false, // Disable Fancybox animation
+            closeButton: "top",
+            Image: {
+                zoom: false // Disable zoom
+            },
+            Thumbs: {
+                autoStart: false
+            }
+        });
+    });
+</script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var tabButtons = document.querySelectorAll(".tablinkss");
+        var tabContents = document.querySelectorAll(".tab-content");
+
+        // Add click event listener to each tab button
+        tabButtons.forEach(function (button) {
+            button.addEventListener("click", function () {
+                var packageName = this.getAttribute("data-tab");
+
+                // Remove 'active' class from all tab buttons
+                tabButtons.forEach(function (btn) {
+                    btn.classList.remove("active");
+                });
+
+                // Hide all tab contents
+                tabContents.forEach(function (content) {
+                    content.style.display = "none";
+                });
+
+                // Add 'active' class to the clicked button
+                this.classList.add("active");
+
+                // Show the corresponding tab content
+                var targetContent = document.getElementById(packageName);
+                if (targetContent) {
+                    targetContent.style.display = "block";
+                }
+            });
+        });
+
+        // Trigger default tab if not already shown
+        var defaultActive = document.querySelector(".tablinkss.active");
+        if (defaultActive) {
+            defaultActive.click();
+        } else if (tabButtons.length) {
+            tabButtons[0].click();
+        }
+    });
+</script>
+
+
 
 
 <script>

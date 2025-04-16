@@ -6,9 +6,7 @@ include_once("includes/head.php");
 
 
 <body>
-    <div id="cursor">
-        <div class="cursor__circle"></div>
-    </div>
+     
 
     <section id="policy-banner">
         <div class="container">

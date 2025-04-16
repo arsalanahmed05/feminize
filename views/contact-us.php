@@ -63,7 +63,16 @@ include_once("includes/head.php");
 </div>
 </div>
 </section>
-   
+   <!-- float-button -->
+   <div class="floatbutton">
+        <div class="btns_wrap">
+            <a href="javascript:;" class="chat_wrap chat"><i class="fa-brands fa-rocketchat"></i><span>Chat With
+                    Us</span></a>
+            <a href="tel:+11234568790" class="call_wrap"><i class="fa-solid fa-phone"></i><span>+1
+                    (234)-456-7890</span></a>
+        </div>
+    </div>
+    <!-- float-button -->
     <?php include_once("views/contact-section.php"); ?>
 
      <?php include_once("includes/footer.php") ?>

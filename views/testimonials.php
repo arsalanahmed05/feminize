@@ -7,9 +7,7 @@ include_once("includes/head.php");
 
 <body id="testimonials">
 
-<div id="cursor">
-        <div class="cursor__circle"></div>
-    </div>
+ 
 
     <section id="hero-banner-about">
         <video autoplay loop muted playsinline id="services-video">
@@ -45,7 +43,6 @@ include_once("includes/head.php");
         </div>
     </section>
 
-
     <section id="about-points">
         <div class="container-fluid">
             <div class="row">
@@ -74,12 +71,8 @@ include_once("includes/head.php");
         </div>
     </section>
 
+     
 
     <?php include_once("views/testimonials-section.php"); ?>
-
-
-
-
-
     <?php include_once("includes/footer.php") ?>
 </body>

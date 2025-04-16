@@ -5,9 +5,7 @@ include_once("includes/head.php");
 <?php include_once("includes/header.php") ?>
 
 <body>
-    <div id="cursor">
-        <div class="cursor__circle"></div>
-    </div>
+     
 
 
     <section id="hero-banner-about">
@@ -43,70 +41,12 @@ include_once("includes/head.php");
         </div>
     </section>
 
-
-
-    <!-- <section id="rgt-img">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-wrapper">
-                        <h2>Creative Website <br><ruby>Design</ruby></h2>
-                        <p>Our web design services focus on crafting visually stunning and user-centric layouts that captivate your audience. From intuitive navigation to striking visuals, we ensure your website leaves a lasting impression. Whether you’re looking to refresh your current site or build a new one, our designs are tailored to reflect your brand's unique identity and values.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/contact-us-img.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <section id="lft-img">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/desinger-work.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-wrapper">
-                        <h2>Performance-Driven <br><ruby>Design</ruby></h2>
-                        <p>Our web designs are crafted not just to look good but to perform exceptionally. We focus on speed, responsiveness, and usability, ensuring every design element contributes to your business goals. Transform your website into a powerful tool for growth and engagement.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- <section id="portfolio-herobanner">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <div class="text-wrapper">
-                        <h2>Elevating Brands with Expert Web Solutions</ruby></h2>
-                        <p>We craft innovative web solutions, combining stunning design and seamless functionality to help brands thrive in the digital landscape.</p>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="img-bg">
-                        <img src="/assets/images/web-hero-ban.webp" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
-
-
     <?php include_once("views/portfolio-section.php"); ?>
-
-
 
     <?php include_once("includes/footer.php") ?>
 
+     
+     
     <div class="back-to-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
