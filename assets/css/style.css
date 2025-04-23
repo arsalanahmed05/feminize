@@ -2043,6 +2043,10 @@ ul.service-list li img {
 #policy-banner {
     text-align: center;
     background: linear-gradient(45deg, #c3c3c3, transparent);
+    height: 70vh;
+    display: flex
+;
+    align-items: center;
 }
 
 
