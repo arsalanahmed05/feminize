@@ -86,18 +86,6 @@ include_once("includes/head.php");
     </section>
 
 
-    <a href="">
-        <div class="sub-collection">
-            <div class="img-bg">
-                <img src="" alt="">
-            </div>
-            <div class="col-title">
-                <h3>The Queen Collection</h3>
-            </div>
-        </div>
-    </a>
-
-
 
     <section id="chart-worlflow">
         <div class="container-fliud">
