@@ -44,8 +44,55 @@ include_once("includes/head.php");
         </div>
     </section>
 
+<<<<<<< HEAD
+
+    <section id="about-points">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="key-points-parent">
+                        <img src="/assets/images/jigsaw.webp" alt="Image 1" class="img-fluid aks">
+                        <h3>Creative <br><ruby>Solutions</ruby></h3>
+                        <p>We deliver innovative and tailored strategies that bring your digital vision to life, ensuring your brand stands out online.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="key-points-parent">
+                        <img src="/assets/images/gear.webp" alt="Image 2" class="img-fluid aks">
+                        <h3>Expert <br><ruby>Execution</ruby></h3>
+                        <p>Our team combines industry expertise with cutting-edge tools to provide seamless and impactful results.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="key-points-parent">
+                        <img src="/assets/images/target.webp" alt="Image 3" class="img-fluid aks">
+                        <h3>Client <br><ruby>Focused</ruby></h3>
+                        <p>Your goals are our priority. We work closely with you to create solutions that align with your unique needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="chart-worlflow">
+        <div class="container-fliud">
+            <div class="wrapper">
+                <div class="marquee">
+                    <p>
+                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
+                    </p>
+                    <p>
+                        Web Development Content Writing Web Designing SEO Social Media Marketing Email Marketing PPC Marketing
+                    </p>
+                </div>
+            </div>
+        </div>
+=======
     
     <section id="img-with-text">
+>>>>>>> 9e3d942effdabf25fe3b1253df49ca0f1ea96d3b
         <div class="container">
             <div class="row">
             <div class="col-md-6">
