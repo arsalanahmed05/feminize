@@ -1,5 +1,5 @@
 <header id="top">
-    <div class="container-fluid">
+    <div class="container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
 
             <a class="navbar-brand" href="/"><img src="/assets/images/Feminize-digital.webp" alt="" class="img-fluid"></a>

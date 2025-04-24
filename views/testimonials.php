@@ -7,32 +7,41 @@ include_once("includes/head.php");
 
 <body id="testimonials">
 
-<div id="cursor">
-        <div class="cursor__circle"></div>
-    </div>
+ 
 
-    <section id="about-banner">
-        <div class="container">
-            <div class="row">
-                <div class="text-wrapper text-center">
-                    <h6 class="sub-heading">Welcome Feminize Digital</h6>
-                    <h1>Generation <br><ruby>Digital Agency</ruby></h1>
-                    <p>We believe that great design should not be out of reach, so <br> our services are less than half the price of a full-time designer.</p>
-                    <div class="quote-link">
-        <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i>get a quote</a>
-    </div>
+    <section id="hero-banner-about">
+        <video autoplay loop muted playsinline id="services-video">
+            <source src="/assets/images/about-banner-video-gb.mp4" type="video/mp4">
+        </video>
+        <div class="container-fluid">
+            <div id="main-row" class="row">
+                <div id="inner-row" class="row">
+                    <div class="col-md-7">
+                        <div class="text-wrapper">
+
+                            <!-- <h1>Empowering Business <br>Through <ruby><a href="" class="typewrite" data-period="2000"
+                                        data-type='[ "Website.", "Graphic..", "Insights..." ]'><span
+                                            class="wrap"></span></a></ruby></h1> -->
+                                            <h1>Client Reviews</h1>
+                            <p>Building impactful brands, designing engaging websites, and creating powerful<br>
+                                marketing campaigns that drive growth, visibility, and success.</p>
+                        </div>
+                        <div class="quote-links light">
+                             <a href="#" class="bton quote-button"><i class="fa-brands fa-rocketchat"></i> Get a Quote</a>
+                             <a href="/portfolio/" class="bton "><i class="fa-solid fa-address-card"></i>view Portfolio</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="img-bg">
+                            <img src="/assets/images/testimonialmascot.webp" alt="" class="img-fluid">
+                            <!-- <img id="analytics1" src="/assets/images/rb_136.png" alt="" class="img-fluid let"> -->
+                            <!-- <img id="analytics2" src="/assets/images/hero-analytics1.png" alt="" class="img-fluid let"> -->
+                        </div>
+                    </div>
                 </div>
-                <img id="bn1" src="/assets/images/bn1.webp" alt="" class="img-fluid abs">
-                <img id="bn2" src="/assets/images/bn2.webp" alt="" class="img-fluid abs">
-                <img id="bn3" src="/assets/images/bn3.webp" alt="" class="img-fluid abs">
-                <img id="bn4" src="/assets/images/bn4.webp" alt="" class="img-fluid abs">
-                <img id="bn5" src="/assets/images/bn5.webp" alt="" class="img-fluid abs">
-                <img id="particle1" src="/assets/images/abstract-left.webp" alt="" class="img-fluid abs animate1">
-                <img id="particle2" src="/assets/images/abstract-right.webp" alt="" class="img-fluid abs animate2">
             </div>
         </div>
     </section>
-
 
     <section id="about-points">
         <div class="container-fluid">
@@ -62,12 +71,8 @@ include_once("includes/head.php");
         </div>
     </section>
 
+     
 
     <?php include_once("views/testimonials-section.php"); ?>
-
-
-
-
-
     <?php include_once("includes/footer.php") ?>
 </body>

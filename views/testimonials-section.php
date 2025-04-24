@@ -7,7 +7,7 @@
             </div>
             <div class="testimonials-slider">
                 <div class="slide-item">
-                    <img src="/assets/images/client1.webp" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client1.jpg" alt="" class="img-fluid client-img">
                     <ul class="star-list">
                         <li>
                             <i class="fa-solid fa-star"></i>
@@ -33,7 +33,7 @@
                     <h5>Director</h5>
                 </div>
                 <div class="slide-item">
-                    <img src="/assets/images/client2.webp" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client6.jpg" alt="" class="img-fluid client-img">
                     <ul class="star-list">
                         <li>
                             <i class="fa-solid fa-star"></i>
@@ -110,7 +110,7 @@
                     <h5>Director</h5>
                 </div>
                 <div class="slide-item">
-                    <img src="/assets/images/client5.webp" alt="" class="img-fluid client-img">
+                    <img src="/assets/images/client3.webp" alt="" class="img-fluid client-img">
                     <ul class="star-list">
                         <li>
                             <i class="fa-solid fa-star"></i>
