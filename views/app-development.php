@@ -126,7 +126,7 @@ include_once("includes/head.php");
     <section id="service-offers">
         <div class="container">
             <div class="section-title text-center">
-                <h2>What We Offer in <ruby><br>App Development</ruby></h2>
+                <h2>What We Offer in <ruby>App Development</ruby></h2>
                 <p>At <strong>Feminize Digital</strong>, we provide a wide range of mobile app development services to
                     make your business stand out in the competitive market. From ideas to creation we provide end-to-end
                     solutions to create a seamless high-performing applications.
@@ -209,9 +209,9 @@ include_once("includes/head.php");
     <section id="service-points">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Our Comprehensive <ruby>App<br> Development</ruby> Solutions</h2>
+                <h2>Our Comprehensive <br><ruby>App Development</ruby> Solutions</h2>
                 <p>
-                    Our goal is to make your business stand out online. We handle everything from building a stunning
+                    Our goal is to make your business stand out online. We handle everything from building a stunning<br>
                     website to ensuring it reaches the right audience.</p>
             </div>
             <div class="row">
