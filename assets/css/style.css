@@ -6924,10 +6924,6 @@ body#web-desigining .services-banner img {
         display: table;
     }
 
-    a.navbar-brand img {
-        width: 56%;
-    }
-
     #process-section {
         padding: 0px 0 60px;
     }
@@ -7226,8 +7222,7 @@ body#web-desigining .services-banner img {
     }
     #business-feature .feature-parent h4 br {
         display: none;
-    }
-    
+    } 
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -7241,7 +7236,129 @@ body#web-desigining .services-banner img {
         text-align: center;
         margin-bottom: 20px;
     }
-
+    #process-section #inner-row-right-col .col-lg-6 {
+        width: 100% !important;
+    }
+    #hero-banner-about h1 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    #hero-banner-about .img-bg-slide img {
+        height: 0;
+    }
+    #hero-banner-about {
+        padding: 220px 0px 0px !important;
+    }
+    #process-section .col-md-6 {
+        transform: unset;
+        padding: 0 !important; 
+    }
+    #faqs .col-md-6 {
+        padding: 0 !important;
+    }
+    #faqs .accordion-body p {
+        text-align: left !important;
+    }
+    a.navbar-brand img {
+        width: 100% !important;
+    }
+    section.howwedoit .col-lg-3 {
+        width: 100%;
+        text-align: center;
+    }
+    #banner-text::before {
+        width: 200px !important;
+        height: 200px !important;
+    }
+    section#banner-text {
+        padding: 60px 0px 0px 0px !important;
+    }
+    #banner-text h1 a span {
+        font-size: 40px !important;
+    }
+    .portfolio-section {
+        padding: 20px 0px 20px !important;
+    }
+    .portfolio-box ul li.slick-slide {
+        width: 2% !important;
+    }
+    .portfolio-section .headingstyle1 {
+        margin-bottom: 20px !important;
+    }
+    footer.footer-section #middle-row .col-sm-3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer.footer-section .socials-menu li a i {
+        margin: 0 !important;
+    }
+    footer.footer-section .socials-menu {
+        float: unset IM !important;
+        display: table;
+        margin: 20px auto;
+    }
+    footer.footer-section #top-row img {
+        display: table;
+        margin: auto;
+        width: 22% !important;
+    }
+    .howwedoit .arrow-bg-clip {
+        height: 9.208vw;
+        display: table;
+        margin: auto;
+        width: 60%;
+    }
+    .item-hwdi p {
+        padding: 10px 40px 0px;
+    }
+    #process-section #inner-row-right-col .col-lg-6 {
+        width: 100%;
+    }
+    div#inner-row-right-col .process-item {
+        margin: 20px 0px !important;
+        text-align: center;
+    }
+    .process-item a {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .brand-goal p {
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+    #category-plan {
+        padding: 40px 0 0px !important;  
+    }
+    #testimonials .slide-item {
+        padding: 40px 20px;
+    }
+    #testimonials {
+        padding: 20px 0px 0px !important;
+    }
+    #faqs .row {
+        padding: 40px 10px !important;
+        margin: 0px 0px !important;
+    }   
+    .accordion-button::before {
+        top: 8px;
+        width: 30px;
+        height: 30px;
+        right: 5px;
+    }
+    .brand-slider img {
+        display: table;
+        margin: auto;
+    }
+    h2 {
+        font-size: 26px !important;
+        line-height: 36px !important;
+    }
+    .brand-goal {
+        gap: 10px;
+    }
+    .sliding-text-one__animate-text {
+        margin-top: 0px !important;
+    }
     .process-item p {
         font-size: 24px;
         line-height: 34px;
@@ -7251,61 +7368,81 @@ body#web-desigining .services-banner img {
     }
     #process-section #inner-row-right-col .col-lg-6 {
         width: 100% !important;
+        padding: 0 !important;
     }
-
     .process-item img.top {
-        margin-bottom: 40px;
-        width: 14%;
+        margin-bottom: 0px !important;
+        width: 30% !important;
     }
-
+    .stack {
+        margin-top: 0 !important;
+    }
+    .brand-goal {
+        margin: 20px 10px !important;
+    }
+    .portfolio-section .tab button.tablinks {
+        margin: 5px 30px !important;
+    }
     .process-item h3 br {
         display: none;
     }
     .process-item img.top {
         width: 20%;
     }
+    .sliding-text-one__animate-text h1 {
+        margin: 0 !important;
+    }
+    h1 {
+        font-size: 42px !important;
+        line-height: 52px !important;
+    }
+    #process-section {
+        padding: 0px 0 20px !important;
+    }
     .process-item h3 {
-        font-size: 40px !important;
-        line-height: 50px !important;
+        font-size: 26px !important;
+        line-height: 36px !important;
     }
-    
     .process-item i {
-        width: 90px;
-        height: 90px;
-        line-height: 90px;
-        font-size: 46px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 22px;
     }
-
+    #hero-banner-about h1 a span {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
     .section-note {
         text-align: center;
     }
-
     footer.footer-section img {
         width: 20%;
         margin: -210px auto 0;
     }
-
-    footer.footer-section {
-        padding: 90px 0 10px;
+    .quote-links.light a.bton, a.bton {
+        padding: 10px 12px 10px 12px !important;
+        font-size: 14px !important;
     }
-
+    .quote-links.light a.bton i {
+        margin-right: 8px !important;
+    }
+    footer.footer-section {
+        padding: 40px 0 10px;
+    }
     footer.footer-section .col-sm-3 {
         width: 100%;
     }
-
     footer.footer-section .col-sm-3 {
         width: 100%;
         margin-bottom: 10px;
     }
-
     #business-feature .feature-parent.middle-left {
         transform: unset;
     }
-
     #business-feature #center-col {
         width: 60%;
     }
-
     #business-feature .feature-parent.middle-right {
         transform: unset;
     }
@@ -7322,6 +7459,39 @@ body#web-desigining .services-banner img {
         display: none;
         animation: ArriveLeft 5s ease;
     }
+    #hero-banner-about h1 {
+        font-size: 22px !important;
+        line-height: 32px !important;
+    }
+    #hero-banner-about p {
+        color: #fff;
+        font-size: 12px !important;
+        line-height: 22px !important;
+        margin: 10px 0px 30px !important; 
+    }
+    #hero-banner-about h1 a span {
+        font-size: 24px !important;
+        line-height: 34px !important;
+    }
+    section {
+        padding: 20px 0 !important;
+    }
+    .quote-links.light {
+        display: grid !important;
+        justify-content: center; 
+    }
+    #about-us #inner-row-bottom .milestone {
+        float: unset !important;
+        width: 100% !important;
+    }
+    #about-us #inner-row-bottom {
+        margin-top: 10px !important;
+    }
+    #process-section .col-md-5 {
+        position: relative !important;
+        top: unset !important;
+        margin-bottom: 80px !important;
+    }
 
 }
 
@@ -7334,5 +7504,7 @@ body#web-desigining .services-banner img {
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    
+}
 
